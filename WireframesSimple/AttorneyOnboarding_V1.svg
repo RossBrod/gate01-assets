@@ -1,0 +1,81 @@
+<svg width="800" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="700" fill="#f5f5f5"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="80" fill="#2563eb"/>
+  <text x="40" y="50" font-family="Arial" font-size="24" fill="white" font-weight="bold">GateO1 - Attorney Portal</text>
+  
+  <!-- Main Container -->
+  <rect x="150" y="120" width="500" height="520" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header -->
+  <rect x="150" y="120" width="500" height="60" fill="#22c55e" rx="8 8 0 0"/>
+  <text x="400" y="155" fill="white" font-size="18" font-weight="bold" text-anchor="middle">Attorney Invitation</text>
+  
+  <!-- Content -->
+  <g transform="translate(180, 200)">
+    <!-- Welcome Section -->
+    <text x="220" y="25" font-size="16" font-weight="bold" text-anchor="middle" fill="#343a40">Welcome to GateO1!</text>
+    <text x="220" y="50" font-size="14" text-anchor="middle" fill="#6c757d">You've been invited to join our platform by:</text>
+    
+    <!-- Client Info -->
+    <rect x="60" y="65" width="320" height="60" fill="#f8fafc" stroke="#e2e8f0" rx="6"/>
+    <text x="220" y="85" font-size="14" font-weight="bold" text-anchor="middle" fill="#343a40">John Doe (john.doe@example.com)</text>
+    <text x="220" y="105" font-size="12" text-anchor="middle" fill="#6c757d">O-1A Visa Application - Borderline Case (67% score)</text>
+    
+    <!-- Form Fields -->
+    <g transform="translate(0, 145)">
+      <!-- Attorney Name -->
+      <text x="0" y="20" font-size="14" font-weight="bold" fill="#343a40">Full Name *</text>
+      <rect x="0" y="25" width="440" height="35" fill="white" stroke="#ccc" rx="4"/>
+      <text x="10" y="45" font-size="12" fill="#666">Enter your full name</text>
+      
+      <!-- Bar Number -->
+      <text x="0" y="80" font-size="14" font-weight="bold" fill="#343a40">Bar Number *</text>
+      <rect x="0" y="85" width="210" height="35" fill="white" stroke="#ccc" rx="4"/>
+      <text x="10" y="105" font-size="12" fill="#666">e.g. 123456</text>
+      
+      <!-- Jurisdiction -->
+      <text x="230" y="80" font-size="14" font-weight="bold" fill="#343a40">Jurisdiction *</text>
+      <rect x="230" y="85" width="210" height="35" fill="white" stroke="#ccc" rx="4"/>
+      <text x="240" y="105" font-size="12" fill="#666">e.g. California</text>
+      
+      <!-- Languages -->
+      <text x="0" y="140" font-size="14" font-weight="bold" fill="#343a40">Languages Spoken *</text>
+      <rect x="0" y="145" width="440" height="35" fill="white" stroke="#ccc" rx="4"/>
+      <text x="10" y="165" font-size="12" fill="#666">English, Spanish, Chinese, etc.</text>
+      
+      <!-- Calendly URL -->
+      <text x="0" y="200" font-size="14" font-weight="bold" fill="#343a40">Calendly URL *</text>
+      <rect x="0" y="205" width="440" height="35" fill="white" stroke="#ccc" rx="4"/>
+      <text x="10" y="225" font-size="12" fill="#666">https://calendly.com/your-name/consultation</text>
+      
+      <!-- Important Notice -->
+      <rect x="0" y="255" width="440" height="80" fill="#fef3c7" stroke="#f59e0b" stroke-width="1" rx="6"/>
+      <text x="10" y="275" font-size="12" font-weight="bold" fill="#92400e">⚠️ Important Setup Requirements:</text>
+      <text x="10" y="295" font-size="11" fill="#92400e">• Your Calendly must have payment collection configured</text>
+      <text x="10" y="310" font-size="11" fill="#92400e">• Minimum $35 consultation fee required (NO FREE consultations)</text>
+      <text x="10" y="325" font-size="11" fill="#92400e">• You control your pricing ($35 - $3500+)</text>
+      
+      <!-- Confirmation Checkbox -->
+      <g transform="translate(0, 350)">
+        <rect x="0" y="0" width="15" height="15" fill="white" stroke="#ccc" rx="2"/>
+        <text x="25" y="12" font-size="12" fill="#343a40">I confirm that I have configured my Calendly with appropriate pricing and payment collection</text>
+      </g>
+      
+      <!-- Action Buttons -->
+      <rect x="0" y="385" width="150" height="40" fill="#22c55e" rx="6"/>
+      <text x="75" y="410" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Accept Invitation</text>
+      
+      <rect x="170" y="385" width="120" height="40" fill="#ef4444" rx="6"/>
+      <text x="230" y="410" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Decline</text>
+      
+      <rect x="310" y="385" width="130" height="40" fill="#e5e7eb" rx="6"/>
+      <text x="375" y="410" font-size="14" font-weight="bold" text-anchor="middle" fill="#6c757d">View Case First</text>
+    </g>
+  </g>
+  
+  <!-- Footer Note -->
+  <text x="400" y="660" font-size="12" text-anchor="middle" fill="#9ca3af">This invitation expires in 7 days. Need help? Contact support@gateo1.com</text>
+</svg>

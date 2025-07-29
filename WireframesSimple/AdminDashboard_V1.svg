@@ -1,0 +1,169 @@
+<svg width="1000" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#f5f5f5"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1000" height="70" fill="#1f2937"/>
+  <text x="30" y="45" font-family="Arial" font-size="20" fill="white" font-weight="bold">GateO1 Admin Panel</text>
+  <text x="920" y="30" font-family="Arial" font-size="12" fill="white" text-anchor="end">Admin User</text>
+  <text x="920" y="50" font-family="Arial" font-size="11" fill="#9ca3af" text-anchor="end">Settings | Logout</text>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="70" width="200" height="630" fill="#374151"/>
+  <g transform="translate(20, 90)">
+    <!-- Navigation Menu -->
+    <rect x="0" y="0" width="160" height="35" fill="#2563eb" rx="4"/>
+    <text x="10" y="25" font-family="Arial" font-size="12" fill="white" font-weight="bold">📊 Dashboard</text>
+    
+    <rect x="0" y="45" width="160" height="35" fill="transparent" rx="4"/>
+    <text x="10" y="70" font-family="Arial" font-size="12" fill="#d1d5db">👤 Users</text>
+    
+    <rect x="0" y="90" width="160" height="35" fill="transparent" rx="4"/>
+    <text x="10" y="115" font-family="Arial" font-size="12" fill="#d1d5db">👩‍⚖️ Attorneys</text>
+    
+    <rect x="0" y="135" width="160" height="35" fill="transparent" rx="4"/>
+    <text x="10" y="160" font-family="Arial" font-size="12" fill="#d1d5db">📋 Applications</text>
+    
+    <rect x="0" y="180" width="160" height="35" fill="transparent" rx="4"/>
+    <text x="10" y="205" font-family="Arial" font-size="12" fill="#d1d5db">⚙️ System</text>
+    
+    <rect x="0" y="225" width="160" height="35" fill="transparent" rx="4"/>
+    <text x="10" y="250" font-family="Arial" font-size="12" fill="#d1d5db">💰 Financial</text>
+    
+    <!-- Quick Stats -->
+    <text x="0" y="300" font-family="Arial" font-size="11" fill="#9ca3af" font-weight="bold">QUICK STATS</text>
+    <text x="0" y="320" font-family="Arial" font-size="10" fill="#d1d5db">Active Users: 1,247</text>
+    <text x="0" y="335" font-family="Arial" font-size="10" fill="#d1d5db">Pending Apps: 89</text>
+    <text x="0" y="350" font-family="Arial" font-size="10" fill="#d1d5db">Active Attorneys: 24</text>
+  </g>
+  
+  <!-- Main Content -->
+  <g transform="translate(220, 90)">
+    <!-- Page Header -->
+    <text x="0" y="25" font-family="Arial" font-size="24" fill="#1f2937" font-weight="bold">Analytics Dashboard</text>
+    <text x="650" y="25" font-family="Arial" font-size="12" fill="#6b7280" text-anchor="end">Last updated: 5 minutes ago | Auto-refresh: ON</text>
+    
+    <!-- KPI Cards Row 1 -->
+    <g transform="translate(0, 50)">
+      <!-- Total Users -->
+      <rect x="0" y="0" width="180" height="100" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <text x="15" y="25" font-family="Arial" font-size="12" fill="#6b7280">Total Users</text>
+      <text x="15" y="50" font-family="Arial" font-size="28" fill="#1f2937" font-weight="bold">1,247</text>
+      <text x="15" y="75" font-family="Arial" font-size="11" fill="#22c55e">↗ +12% this month</text>
+      <circle cx="150" cy="30" r="15" fill="#2563eb"/>
+      <text x="150" y="37" font-family="Arial" font-size="16" text-anchor="middle" fill="white">👤</text>
+      
+      <!-- Active Applications -->
+      <rect x="200" y="0" width="180" height="100" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <text x="215" y="25" font-family="Arial" font-size="12" fill="#6b7280">Active Applications</text>
+      <text x="215" y="50" font-family="Arial" font-size="28" fill="#1f2937" font-weight="bold">89</text>
+      <text x="215" y="75" font-family="Arial" font-size="11" fill="#f59e0b">↗ +5 today</text>
+      <circle cx="350" cy="30" r="15" fill="#f59e0b"/>
+      <text x="350" y="37" font-family="Arial" font-size="16" text-anchor="middle" fill="white">📋</text>
+      
+      <!-- Attorneys Online -->
+      <rect x="400" y="0" width="180" height="100" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <text x="415" y="25" font-family="Arial" font-size="12" fill="#6b7280">Attorneys Active</text>
+      <text x="415" y="50" font-family="Arial" font-size="28" fill="#1f2937" font-weight="bold">18/24</text>
+      <text x="415" y="75" font-family="Arial" font-size="11" fill="#22c55e">75% online</text>
+      <circle cx="550" cy="30" r="15" fill="#22c55e"/>
+      <text x="550" y="37" font-family="Arial" font-size="16" text-anchor="middle" fill="white">👩‍⚖️</text>
+      
+      <!-- Revenue Today -->
+      <rect x="600" y="0" width="180" height="100" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <text x="615" y="25" font-family="Arial" font-size="12" fill="#6b7280">Revenue (Today)</text>
+      <text x="615" y="50" font-family="Arial" font-size="28" fill="#1f2937" font-weight="bold">$2,450</text>
+      <text x="615" y="75" font-family="Arial" font-size="11" fill="#22c55e">12 consultations</text>
+      <circle cx="750" cy="30" r="15" fill="#10b981"/>
+      <text x="750" y="37" font-family="Arial" font-size="16" text-anchor="middle" fill="white">💰</text>
+    </g>
+    
+    <!-- Charts Row -->
+    <g transform="translate(0, 170)">
+      <!-- Application Trends Chart -->
+      <rect x="0" y="0" width="390" height="200" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <text x="15" y="25" font-family="Arial" font-size="14" fill="#1f2937" font-weight="bold">Application Submissions (30 days)</text>
+      
+      <!-- Simple chart representation -->
+      <g transform="translate(30, 50)">
+        <line x1="0" y1="120" x2="340" y2="120" stroke="#e5e7eb" stroke-width="1"/>
+        <line x1="0" y1="0" x2="0" y2="120" stroke="#e5e7eb" stroke-width="1"/>
+        
+        <!-- Chart bars -->
+        <rect x="10" y="80" width="15" height="40" fill="#2563eb"/>
+        <rect x="35" y="70" width="15" height="50" fill="#2563eb"/>
+        <rect x="60" y="60" width="15" height="60" fill="#2563eb"/>
+        <rect x="85" y="40" width="15" height="80" fill="#2563eb"/>
+        <rect x="110" y="50" width="15" height="70" fill="#2563eb"/>
+        <rect x="135" y="30" width="15" height="90" fill="#2563eb"/>
+        <rect x="160" y="35" width="15" height="85" fill="#2563eb"/>
+        
+        <text x="170" y="140" font-family="Arial" font-size="10" fill="#6b7280">Last 7 days</text>
+      </g>
+      
+      <!-- System Health -->
+      <rect x="410" y="0" width="370" height="200" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <text x="425" y="25" font-family="Arial" font-size="14" fill="#1f2937" font-weight="bold">System Health</text>
+      
+      <g transform="translate(425, 45)">
+        <!-- API Response Time -->
+        <text x="0" y="20" font-family="Arial" font-size="12" fill="#6b7280">API Response Time</text>
+        <rect x="0" y="25" width="200" height="8" fill="#e5e7eb" rx="4"/>
+        <rect x="0" y="25" width="160" height="8" fill="#22c55e" rx="4"/>
+        <text x="210" y="32" font-family="Arial" font-size="11" fill="#22c55e">142ms (Good)</text>
+        
+        <!-- Database Performance -->
+        <text x="0" y="55" font-family="Arial" font-size="12" fill="#6b7280">DB Performance</text>
+        <rect x="0" y="60" width="200" height="8" fill="#e5e7eb" rx="4"/>
+        <rect x="0" y="60" width="180" height="8" fill="#22c55e" rx="4"/>
+        <text x="210" y="67" font-family="Arial" font-size="11" fill="#22c55e">98% (Excellent)</text>
+        
+        <!-- AI Processing -->
+        <text x="0" y="90" font-family="Arial" font-size="12" fill="#6b7280">AI Processing</text>
+        <rect x="0" y="95" width="200" height="8" fill="#e5e7eb" rx="4"/>
+        <rect x="0" y="95" width="140" height="8" fill="#f59e0b" rx="4"/>
+        <text x="210" y="102" font-family="Arial" font-size="11" fill="#f59e0b">Queue: 23 docs</text>
+        
+        <!-- Storage Usage -->
+        <text x="0" y="125" font-family="Arial" font-size="12" fill="#6b7280">Storage Usage</text>
+        <rect x="0" y="130" width="200" height="8" fill="#e5e7eb" rx="4"/>
+        <rect x="0" y="130" width="120" height="8" fill="#22c55e" rx="4"/>
+        <text x="210" y="137" font-family="Arial" font-size="11" fill="#22c55e">2.1TB / 5TB</text>
+      </g>
+    </g>
+    
+    <!-- Activity Feed -->
+    <g transform="translate(0, 390)">
+      <rect x="0" y="0" width="780" height="190" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <text x="15" y="25" font-family="Arial" font-size="14" fill="#1f2937" font-weight="bold">Recent Activity</text>
+      <text x="750" y="25" font-family="Arial" font-size="12" fill="#2563eb" text-anchor="end">View All →</text>
+      
+      <g transform="translate(15, 45)">
+        <!-- Activity Items -->
+        <circle cx="8" cy="8" r="4" fill="#22c55e"/>
+        <text x="25" y="12" font-family="Arial" font-size="11" fill="#1f2937">New user registration: john.doe@email.com</text>
+        <text x="650" y="12" font-family="Arial" font-size="10" fill="#6b7280">2 minutes ago</text>
+        
+        <circle cx="8" cy="30" r="4" fill="#2563eb"/>
+        <text x="25" y="34" font-family="Arial" font-size="11" fill="#1f2937">Attorney Lisa Smith completed consultation with User #1234</text>
+        <text x="650" y="34" font-family="Arial" font-size="10" fill="#6b7280">8 minutes ago</text>
+        
+        <circle cx="8" cy="52" r="4" fill="#f59e0b"/>
+        <text x="25" y="56" font-family="Arial" font-size="11" fill="#1f2937">AI processing queue reached 25 documents</text>
+        <text x="650" y="56" font-family="Arial" font-size="10" fill="#6b7280">15 minutes ago</text>
+        
+        <circle cx="8" cy="74" r="4" fill="#10b981"/>
+        <text x="25" y="78" font-family="Arial" font-size="11" fill="#1f2937">Application O1A-2024-001235 submitted by jane.smith@email.com</text>
+        <text x="650" y="78" font-family="Arial" font-size="10" fill="#6b7280">23 minutes ago</text>
+        
+        <circle cx="8" cy="96" r="4" fill="#ef4444"/>
+        <text x="25" y="100" font-family="Arial" font-size="11" fill="#1f2937">Failed login attempt detected for admin account</text>
+        <text x="650" y="100" font-family="Arial" font-size="10" fill="#6b7280">1 hour ago</text>
+        
+        <circle cx="8" cy="118" r="4" fill="#2563eb"/>
+        <text x="25" y="122" font-family="Arial" font-size="11" fill="#1f2937">Attorney onboarding: Michael Johnson accepted invitation</text>
+        <text x="650" y="122" font-family="Arial" font-size="10" fill="#6b7280">2 hours ago</text>
+      </g>
+    </g>
+  </g>
+</svg>

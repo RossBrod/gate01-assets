@@ -1,0 +1,53 @@
+<svg width="800" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="700" fill="#f5f5f5"/>
+  <!-- Main Container -->
+  <rect x="50" y="50" width="700" height="600" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="700" height="60" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="70" y="85" fill="white" font-size="18" font-weight="bold">Case Summary</text>
+  
+  <!-- Content Area -->
+  <g transform="translate(70, 130)">
+    <!-- Status Info -->
+    <text x="0" y="20" font-size="14">Last updated: March 15, 2024 at 2:30 PM</text>
+    <text x="0" y="45" font-size="14">Status: ⚠️ Changes detected</text>
+    
+    <!-- Regenerate Button -->
+    <rect x="0" y="60" width="160" height="40" fill="#2563eb" rx="6"/>
+    <text x="60" y="85" fill="white" font-size="14">🔄 Regenerate Summary</text>
+    
+    <!-- Current Summary -->
+    <text x="0" y="130" font-size="16" font-weight="bold">Current Summary:</text>
+    
+    <rect x="0" y="140" width="660" height="300" fill="#f9fafb" stroke="#e5e7eb" rx="6"/>
+    <g transform="translate(20, 160)">
+      <text x="0" y="20" font-size="14" font-weight="bold">Case Strength: Borderline (65%)</text>
+      
+      <text x="0" y="60" font-size="14" font-weight="bold">Strong Areas:</text>
+      <text x="0" y="85" font-size="13">• Publications (3 peer-reviewed)</text>
+      <text x="0" y="105" font-size="13">• Critical Employment</text>
+      
+      <text x="0" y="140" font-size="14" font-weight="bold">Areas Needing Improvement:</text>
+      <text x="0" y="165" font-size="13">• Awards evidence incomplete</text>
+      <text x="0" y="185" font-size="13">• Membership documentation</text>
+      
+      <text x="0" y="220" font-size="14" font-weight="bold">Recommendations:</text>
+      <text x="0" y="245" font-size="13">• Provide award certificate with selection criteria</text>
+      <text x="0" y="265" font-size="13">• Add professional membership certificates</text>
+    </g>
+    
+    <!-- Action Buttons -->
+    <g transform="translate(0, 460)">
+      <rect x="0" y="0" width="80" height="35" fill="#10b981" rx="6"/>
+      <text x="25" y="22" fill="white" font-size="14">💾 Save</text>
+      
+      <rect x="100" y="0" width="80" height="35" fill="#3b82f6" rx="6"/>
+      <text x="125" y="22" fill="white" font-size="14">📤 Export</text>
+      
+      <rect x="200" y="0" width="80" height="35" fill="#6366f1" rx="6"/>
+      <text x="225" y="22" fill="white" font-size="14">📨 Share</text>
+    </g>
+  </g>
+</svg>

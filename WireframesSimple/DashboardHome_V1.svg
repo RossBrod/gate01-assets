@@ -1,0 +1,101 @@
+<svg width="800" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="700" fill="#f5f5f5"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="80" fill="#2563eb"/>
+  <text x="40" y="50" font-family="Arial" font-size="24" fill="white" font-weight="bold">GateO1 - Immigration Platform</text>
+  <text x="720" y="30" font-family="Arial" font-size="14" fill="white" text-anchor="end">John Doe</text>
+  <text x="720" y="50" font-family="Arial" font-size="12" fill="#9ca3af" text-anchor="end">Profile | Settings | Logout</text>
+  
+  <!-- Welcome Section -->
+  <rect x="50" y="100" width="700" height="100" fill="white" stroke="#ddd" stroke-width="1" rx="8"/>
+  <text x="70" y="130" font-family="Arial" font-size="20" fill="#343a40" font-weight="bold">Welcome back, John!</text>
+  <text x="70" y="155" font-family="Arial" font-size="14" fill="#6c757d">Your O-1A visa application is in progress. Complete your questionnaire to get your eligibility assessment.</text>
+  
+  <!-- Progress Bar -->
+  <rect x="70" y="170" width="300" height="8" fill="#e5e7eb" rx="4"/>
+  <rect x="70" y="170" width="180" height="8" fill="#22c55e" rx="4"/>
+  <text x="380" y="178" font-family="Arial" font-size="12" fill="#6c757d">60% Complete</text>
+  
+  <!-- Main Dashboard Grid -->
+  <g transform="translate(50, 220)">
+    <!-- Current Application Status -->
+    <rect x="0" y="0" width="330" height="200" fill="white" stroke="#ddd" stroke-width="1" rx="8"/>
+    <rect x="0" y="0" width="330" height="40" fill="#f8fafc" rx="8 8 0 0"/>
+    <text x="15" y="27" font-family="Arial" font-size="16" fill="#343a40" font-weight="bold">Current Application</text>
+    
+    <text x="15" y="65" font-family="Arial" font-size="14" fill="#343a40" font-weight="bold">O-1A: Extraordinary Ability</text>
+    <text x="15" y="85" font-family="Arial" font-size="12" fill="#6c757d">Started: March 15, 2024</text>
+    <text x="15" y="105" font-family="Arial" font-size="12" fill="#6c757d">Last updated: 2 hours ago</text>
+    
+    <!-- Score -->
+    <circle cx="280" cy="90" r="25" fill="#f59e0b"/>
+    <text x="280" y="97" font-family="Arial" font-size="14" text-anchor="middle" fill="white" font-weight="bold">67%</text>
+    <text x="280" y="125" font-family="Arial" font-size="11" text-anchor="middle" fill="#6c757d">Borderline</text>
+    
+    <!-- Action Buttons -->
+    <rect x="15" y="145" width="120" height="35" fill="#2563eb" rx="4"/>
+    <text x="75" y="168" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">Resume Application</text>
+    
+    <rect x="145" y="145" width="100" height="35" fill="#e5e7eb" rx="4"/>
+    <text x="195" y="168" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">View Summary</text>
+    
+    <!-- Quick Stats -->
+    <rect x="370" y="0" width="330" height="200" fill="white" stroke="#ddd" stroke-width="1" rx="8"/>
+    <rect x="370" y="0" width="330" height="40" fill="#f8fafc" rx="8 8 0 0"/>
+    <text x="385" y="27" font-family="Arial" font-size="16" fill="#343a40" font-weight="bold">Quick Stats</text>
+    
+    <!-- Stats Grid -->
+    <g transform="translate(385, 60)">
+      <text x="0" y="20" font-family="Arial" font-size="12" fill="#6c757d">Sections Completed:</text>
+      <text x="200" y="20" font-family="Arial" font-size="12" fill="#343a40" font-weight="bold">6 of 10</text>
+      
+      <text x="0" y="45" font-family="Arial" font-size="12" fill="#6c757d">Documents Uploaded:</text>
+      <text x="200" y="45" font-family="Arial" font-size="12" fill="#343a40" font-weight="bold">8 files</text>
+      
+      <text x="0" y="70" font-family="Arial" font-size="12" fill="#6c757d">Links Provided:</text>
+      <text x="200" y="70" font-family="Arial" font-size="12" fill="#343a40" font-weight="bold">5 links</text>
+      
+      <text x="0" y="95" font-family="Arial" font-size="12" fill="#6c757d">Attorney Assigned:</text>
+      <text x="200" y="95" font-family="Arial" font-size="12" fill="#22c55e" font-weight="bold">Yes</text>
+      
+      <text x="0" y="120" font-family="Arial" font-size="12" fill="#6c757d">Consultation Scheduled:</text>
+      <text x="200" y="120" font-family="Arial" font-size="12" fill="#f59e0b" font-weight="bold">Pending</text>
+    </g>
+    
+    <!-- Recent Activity -->
+    <rect x="0" y="230" width="700" height="180" fill="white" stroke="#ddd" stroke-width="1" rx="8"/>
+    <rect x="0" y="230" width="700" height="40" fill="#f8fafc" rx="8 8 0 0"/>
+    <text x="15" y="257" font-family="Arial" font-size="16" fill="#343a40" font-weight="bold">Recent Activity</text>
+    
+    <g transform="translate(15, 285)">
+      <!-- Activity Items -->
+      <circle cx="8" cy="8" r="4" fill="#22c55e"/>
+      <text x="25" y="12" font-family="Arial" font-size="12" fill="#343a40">Uploaded "Award Certificate.pdf" to Awards section</text>
+      <text x="600" y="12" font-family="Arial" font-size="11" fill="#9ca3af">2 hours ago</text>
+      
+      <circle cx="8" cy="35" r="4" fill="#2563eb"/>
+      <text x="25" y="39" font-family="Arial" font-size="12" fill="#343a40">Completed "Major Contributions" section</text>
+      <text x="600" y="39" font-family="Arial" font-size="11" fill="#9ca3af">1 day ago</text>
+      
+      <circle cx="8" cy="62" r="4" fill="#f59e0b"/>
+      <text x="25" y="66" font-family="Arial" font-size="12" fill="#343a40">AI analysis updated - score increased to 67%</text>
+      <text x="600" y="66" font-family="Arial" font-size="11" fill="#9ca3af">2 days ago</text>
+      
+      <circle cx="8" cy="89" r="4" fill="#2563eb"/>
+      <text x="25" y="93" font-family="Arial" font-size="12" fill="#343a40">Attorney Lisa Smith assigned to your case</text>
+      <text x="600" y="93" font-family="Arial" font-size="11" fill="#9ca3af">3 days ago</text>
+      
+      <!-- View All Link -->
+      <text x="25" y="125" font-family="Arial" font-size="12" fill="#2563eb">View all activity →</text>
+    </g>
+  </g>
+  
+  <!-- Quick Actions Footer -->
+  <rect x="50" y="640" width="700" height="50" fill="white" stroke="#ddd" stroke-width="1" rx="8"/>
+  <text x="70" y="665" font-family="Arial" font-size="14" fill="#343a40" font-weight="bold">Quick Actions:</text>
+  <text x="200" y="665" font-family="Arial" font-size="14" fill="#2563eb">Upload Document</text>
+  <text x="330" y="665" font-family="Arial" font-size="14" fill="#2563eb">Schedule Consultation</text>
+  <text x="500" y="665" font-family="Arial" font-size="14" fill="#2563eb">Contact Attorney</text>
+</svg>

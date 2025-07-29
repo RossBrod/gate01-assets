@@ -1,0 +1,225 @@
+<svg width="1600" height="1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1600" height="1000" fill="#ffffff"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1600" height="100" fill="linear-gradient(135deg, #007bff, #0056b3)"/>
+  <text x="60" y="60" font-family="Arial" font-size="28" fill="white" font-weight="bold">GateO1 Attorney Portal</text>
+  <text x="60" y="80" font-family="Arial" font-size="12" fill="rgba(255,255,255,0.8)">Professional case review and analysis</text>
+  
+  <!-- Attorney Profile -->
+  <circle cx="1450" cy="50" r="25" fill="rgba(255,255,255,0.2)"/>
+  <text x="1450" y="57" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">SJ</text>
+  <text x="1350" y="45" font-family="Arial" font-size="14" text-anchor="end" fill="white">Sarah Johnson, Esq.</text>
+  <text x="1350" y="65" font-family="Arial" font-size="10" text-anchor="end" fill="rgba(255,255,255,0.8)">Immigration Attorney</text>
+  
+  <!-- Case Header Bar -->
+  <rect x="0" y="100" width="1600" height="80" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0 0 1 0"/>
+  
+  <!-- Client Info -->
+  <circle cx="80" cy="140" r="20" fill="#007bff"/>
+  <text x="80" y="147" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">JD</text>
+  <text x="120" y="135" font-family="Arial" font-size="18" fill="#343a40" font-weight="bold">John Doe - O-1 Application Review</text>
+  <text x="120" y="155" font-family="Arial" font-size="12" fill="#6c757d">john.doe@email.com • Case ID: GTO1-2024-0315 • Submitted: March 15, 2024</text>
+  
+  <!-- Case Status -->
+  <rect x="1200" y="115" width="150" height="25" fill="#28a745" rx="12"/>
+  <text x="1275" y="132" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">Under Review</text>
+  
+  <text x="1200" y="155" font-family="Arial" font-size="14" fill="#343a40" font-weight="bold">Score: 67% (Likely Qualifies)</text>
+  
+  <!-- Priority Badge -->
+  <rect x="1370" y="115" width="100" height="25" fill="#ffc107" rx="12"/>
+  <text x="1420" y="132" font-family="Arial" font-size="11" text-anchor="middle" fill="white" font-weight="bold">High Priority</text>
+  
+  <!-- Tab Navigation -->
+  <rect x="60" y="200" width="120" height="40" fill="#007bff" rx="6"/>
+  <text x="120" y="225" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">Overview</text>
+  
+  <rect x="190" y="200" width="120" height="40" fill="white" stroke="#dee2e6" stroke-width="1" rx="6"/>
+  <text x="250" y="225" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">Criteria Detail</text>
+  
+  <rect x="320" y="200" width="120" height="40" fill="white" stroke="#dee2e6" stroke-width="1" rx="6"/>
+  <text x="380" y="225" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">Documents</text>
+  
+  <rect x="450" y="200" width="120" height="40" fill="white" stroke="#dee2e6" stroke-width="1" rx="6"/>
+  <text x="510" y="225" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">AI Analysis</text>
+  
+  <rect x="580" y="200" width="120" height="40" fill="white" stroke="#dee2e6" stroke-width="1" rx="6"/>
+  <text x="640" y="225" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">Notes &amp; Comments</text>
+  
+  <!-- Main Content Grid -->
+  
+  <!-- Left Column - Key Metrics -->
+  <rect x="60" y="260" width="350" height="700" fill="white" stroke="#e9ecef" stroke-width="1" rx="12"/>
+  
+  <!-- Assessment Score Circle -->
+  <circle cx="235" cy="340" r="60" fill="none" stroke="#e9ecef" stroke-width="8"/>
+  <circle cx="235" cy="340" r="60" fill="none" stroke="#007bff" stroke-width="8" stroke-dasharray="251 126" stroke-linecap="round" transform="rotate(-90 235 340)"/>
+  <text x="235" y="350" font-family="Arial" font-size="32" text-anchor="middle" fill="#007bff" font-weight="bold">67%</text>
+  <text x="235" y="370" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">Assessment Score</text>
+  
+  <!-- Qualification Status -->
+  <rect x="80" y="420" width="310" height="60" fill="linear-gradient(135deg, #28a745, #20c997)" rx="8"/>
+  <text x="235" y="445" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-weight="bold">LIKELY QUALIFIES</text>
+  <text x="235" y="465" font-family="Arial" font-size="12" text-anchor="middle" fill="rgba(255,255,255,0.8)">Strong evidence in 3+ criteria</text>
+  
+  <!-- Criteria Breakdown -->
+  <text x="80" y="510" font-family="Arial" font-size="16" fill="#343a40" font-weight="bold">📊 Criteria Breakdown</text>
+  
+  <!-- Strong Evidence -->
+  <rect x="80" y="530" width="310" height="40" fill="#d4edda" stroke="#c3e6cb" stroke-width="1" rx="6"/>
+  <text x="100" y="545" font-family="Arial" font-size="12" fill="#155724" font-weight="bold">Strong Evidence</text>
+  <text x="100" y="560" font-family="Arial" font-size="10" fill="#155724">Awards (85%) • Memberships (78%) • Published (72%)</text>
+  <rect x="350" y="540" width="30" height="20" fill="#155724" rx="10"/>
+  <text x="365" y="554" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">3</text>
+  
+  <!-- Moderate Evidence -->
+  <rect x="80" y="580" width="310" height="40" fill="#fff3cd" stroke="#ffeaa7" stroke-width="1" rx="6"/>
+  <text x="100" y="595" font-family="Arial" font-size="12" fill="#856404" font-weight="bold">Needs Work</text>
+  <text x="100" y="610" font-family="Arial" font-size="10" fill="#856404">Major Contributions (45%)</text>
+  <rect x="350" y="590" width="30" height="20" fill="#856404" rx="10"/>
+  <text x="365" y="604" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">1</text>
+  
+  <!-- No Evidence -->
+  <rect x="80" y="630" width="310" height="40" fill="#f8d7da" stroke="#f5c6cb" stroke-width="1" rx="6"/>
+  <text x="100" y="645" font-family="Arial" font-size="12" fill="#721c24" font-weight="bold">Not Started</text>
+  <text x="100" y="660" font-family="Arial" font-size="10" fill="#721c24">Judging • Authored • Critical • Salary • Other</text>
+  <rect x="350" y="640" width="30" height="20" fill="#721c24" rx="10"/>
+  <text x="365" y="654" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">5</text>
+  
+  <!-- Case Timeline -->
+  <text x="80" y="700" font-family="Arial" font-size="16" fill="#343a40" font-weight="bold">📅 Case Timeline</text>
+  
+  <circle cx="100" cy="720" r="4" fill="#28a745"/>
+  <text x="120" y="725" font-family="Arial" font-size="10" fill="#6c757d">Case opened - March 15, 2024</text>
+  
+  <circle cx="100" cy="740" r="4" fill="#007bff"/>
+  <text x="120" y="745" font-family="Arial" font-size="10" fill="#6c757d">First review - March 16, 2024</text>
+  
+  <circle cx="100" cy="760" r="4" fill="#ffc107"/>
+  <text x="120" y="765" font-family="Arial" font-size="10" fill="#6c757d">Client updates - March 18, 2024</text>
+  
+  <!-- Attorney Actions -->
+  <text x="80" y="800" font-family="Arial" font-size="16" fill="#343a40" font-weight="bold">⚡ Quick Actions</text>
+  
+  <rect x="80" y="820" width="150" height="35" fill="#007bff" stroke="#007bff" stroke-width="1" rx="6"/>
+  <text x="155" y="842" font-family="Arial" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Request Changes</text>
+  
+  <rect x="240" y="820" width="150" height="35" fill="#28a745" stroke="#28a745" stroke-width="1" rx="6"/>
+  <text x="315" y="842" font-family="Arial" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Approve Case</text>
+  
+  <rect x="80" y="865" width="150" height="35" fill="#6c757d" stroke="#6c757d" stroke-width="1" rx="6"/>
+  <text x="155" y="887" font-family="Arial" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Schedule Call</text>
+  
+  <rect x="240" y="865" width="150" height="35" fill="#ffc107" stroke="#ffc107" stroke-width="1" rx="6"/>
+  <text x="315" y="887" font-family="Arial" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Generate Report</text>
+  
+  <!-- Middle Column - Detailed Analysis -->
+  <rect x="430" y="260" width="800" height="700" fill="white" stroke="#e9ecef" stroke-width="1" rx="12"/>
+  
+  <text x="460" y="290" font-family="Arial" font-size="20" fill="#343a40" font-weight="bold">📋 Detailed Case Analysis</text>
+  
+  <!-- Strong Criteria Section -->
+  <text x="460" y="325" font-family="Arial" font-size="16" fill="#28a745" font-weight="bold">✅ QUALIFYING CRITERIA (3)</text>
+  
+  <!-- Awards & Recognition -->
+  <rect x="460" y="340" width="740" height="80" fill="#d4edda" stroke="#c3e6cb" stroke-width="1" rx="8"/>
+  <text x="480" y="365" font-family="Arial" font-size="14" fill="#155724" font-weight="bold">🏆 Awards &amp; Recognition (85%)</text>
+  <text x="480" y="385" font-family="Arial" font-size="11" fill="#155724">• National Innovation Award 2023 (Top 10 nationwide from 500+ applicants)</text>
+  <text x="480" y="400" font-family="Arial" font-size="11" fill="#155724">• IEEE Excellence Award 2022 (Competitive selection by industry peers)</text>
+  <text x="480" y="415" font-family="Arial" font-size="10" fill="#155724">Supporting docs: Award certificates, press coverage, selection criteria documentation</text>
+  
+  <!-- Memberships -->
+  <rect x="460" y="430" width="740" height="80" fill="#d4edda" stroke="#c3e6cb" stroke-width="1" rx="8"/>
+  <text x="480" y="455" font-family="Arial" font-size="14" fill="#155724" font-weight="bold">🎓 Professional Memberships (78%)</text>
+  <text x="480" y="475" font-family="Arial" font-size="11" fill="#155724">• IEEE Senior Member (Less than 5% of IEEE members qualify)</text>
+  <text x="480" y="490" font-family="Arial" font-size="11" fill="#155724">• ACM Distinguished Scientist (Highly selective recognition program)</text>
+  <text x="480" y="505" font-family="Arial" font-size="10" fill="#155724">Supporting docs: Membership certificates, invitation letters, eligibility criteria</text>
+  
+  <!-- Published Materials -->
+  <rect x="460" y="520" width="740" height="80" fill="#d4edda" stroke="#c3e6cb" stroke-width="1" rx="8"/>
+  <text x="480" y="545" font-family="Arial" font-size="14" fill="#155724" font-weight="bold">📰 Published Materials (72%)</text>
+  <text x="480" y="565" font-family="Arial" font-size="11" fill="#155724">• Featured article in TechCrunch about AI breakthrough (Major tech publication)</text>
+  <text x="480" y="580" font-family="Arial" font-size="11" fill="#155724">• IEEE Spectrum cover story on innovation (Industry-leading publication)</text>
+  <text x="480" y="595" font-family="Arial" font-size="10" fill="#155724">Supporting docs: Article PDFs, publication metrics, editorial coverage</text>
+  
+  <!-- Needs Improvement Section -->
+  <text x="460" y="635" font-family="Arial" font-size="16" fill="#ffc107" font-weight="bold">⚠️ NEEDS IMPROVEMENT (1)</text>
+  
+  <rect x="460" y="650" width="740" height="80" fill="#fff3cd" stroke="#ffeaa7" stroke-width="1" rx="8"/>
+  <text x="480" y="675" font-family="Arial" font-size="14" fill="#856404" font-weight="bold">🔬 Major Contributions (45%)</text>
+  <text x="480" y="695" font-family="Arial" font-size="11" fill="#856404">• Patent applications filed but need more detail on commercial impact</text>
+  <text x="480" y="710" font-family="Arial" font-size="11" fill="#856404">• Research work lacks quantified significance metrics</text>
+  <text x="480" y="725" font-family="Arial" font-size="10" fill="#856404">Recommendation: Add licensing agreements, adoption metrics, industry references</text>
+  
+  <!-- AI Recommendations -->
+  <text x="460" y="765" font-family="Arial" font-size="16" fill="#007bff" font-weight="bold">🤖 AI RECOMMENDATIONS</text>
+  
+  <rect x="460" y="780" width="740" height="100" fill="#e7f3ff" stroke="#b3d9ff" stroke-width="1" rx="8"/>
+  <text x="480" y="805" font-family="Arial" font-size="12" fill="#0056b3" font-weight="bold">Immediate Actions:</text>
+  <text x="480" y="820" font-family="Arial" font-size="10" fill="#0056b3">1. Request detailed impact metrics for patent applications (commercial adoption, licensing revenue)</text>
+  <text x="480" y="835" font-family="Arial" font-size="10" fill="#0056b3">2. Add evidence of judging others' work (conference panels, peer review activities)</text>
+  <text x="480" y="850" font-family="Arial" font-size="10" fill="#0056b3">3. Consider adding authored publications or critical employment role documentation</text>
+  
+  <text x="480" y="870" font-family="Arial" font-size="12" fill="#28a745" font-weight="bold">Case Strengths to Highlight:</text>
+  <text x="480" y="885" font-family="Arial" font-size="10" fill="#28a745">• Exceptional competitive selection for awards • Rare membership qualifications • Major media coverage</text>
+  
+  <!-- Right Column - Documents & Notes -->
+  <rect x="1250" y="260" width="330" height="700" fill="white" stroke="#e9ecef" stroke-width="1" rx="12"/>
+  
+  <!-- Document Library -->
+  <text x="1270" y="290" font-family="Arial" font-size="16" fill="#343a40" font-weight="bold">📁 Document Library (12)</text>
+  
+  <!-- Document Categories -->
+  <text x="1270" y="320" font-family="Arial" font-size="12" fill="#28a745" font-weight="bold">Awards Evidence (4)</text>
+  <text x="1280" y="340" font-family="Arial" font-size="10" fill="#6c757d">📄 Innovation_Award_2023.pdf</text>
+  <text x="1280" y="355" font-family="Arial" font-size="10" fill="#6c757d">📄 IEEE_Excellence_Certificate.pdf</text>
+  <text x="1280" y="370" font-family="Arial" font-size="10" fill="#6c757d">📄 Award_Press_Coverage.pdf</text>
+  <text x="1280" y="385" font-family="Arial" font-size="10" fill="#007bff" text-decoration="underline">+ 1 more</text>
+  
+  <text x="1270" y="410" font-family="Arial" font-size="12" fill="#28a745" font-weight="bold">Memberships (3)</text>
+  <text x="1280" y="430" font-family="Arial" font-size="10" fill="#6c757d">📄 IEEE_Senior_Member.pdf</text>
+  <text x="1280" y="445" font-family="Arial" font-size="10" fill="#6c757d">📄 ACM_Distinguished_Scientist.pdf</text>
+  <text x="1280" y="460" font-family="Arial" font-size="10" fill="#007bff" text-decoration="underline">+ 1 more</text>
+  
+  <text x="1270" y="485" font-family="Arial" font-size="12" fill="#ffc107" font-weight="bold">Published Materials (3)</text>
+  <text x="1280" y="505" font-family="Arial" font-size="10" fill="#6c757d">📄 TechCrunch_Feature.pdf</text>
+  <text x="1280" y="520" font-family="Arial" font-size="10" fill="#6c757d">📄 IEEE_Spectrum_Cover.pdf</text>
+  <text x="1280" y="535" font-family="Arial" font-size="10" fill="#007bff" text-decoration="underline">+ 1 more</text>
+  
+  <text x="1270" y="560" font-family="Arial" font-size="12" fill="#ffc107" font-weight="bold">Other Evidence (2)</text>
+  <text x="1280" y="580" font-family="Arial" font-size="10" fill="#6c757d">📄 Patent_Applications.pdf</text>
+  <text x="1280" y="595" font-family="Arial" font-size="10" fill="#6c757d">📄 Research_Summary.pdf</text>
+  
+  <!-- Attorney Notes -->
+  <text x="1270" y="630" font-family="Arial" font-size="16" fill="#343a40" font-weight="bold">📝 Private Notes</text>
+  
+  <rect x="1270" y="650" width="290" height="120" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1" rx="6"/>
+  <text x="1280" y="670" font-family="Arial" font-size="10" fill="#6c757d">Client has exceptionally strong foundation in awards and memberships. The competitive nature of IEEE Senior membership should be emphasized.</text>
+  
+  <text x="1280" y="700" font-family="Arial" font-size="10" fill="#6c757d">Major contributions weakness can be addressed with better documentation of patent commercial impact.</text>
+  
+  <text x="1280" y="730" font-family="Arial" font-size="10" fill="#6c757d">Consider suggesting judging opportunities at upcoming conferences.</text>
+  
+  <rect x="1280" y="745" width="270" height="20" fill="white" stroke="#ced4da" stroke-width="1" rx="4"/>
+  <text x="1290" y="759" font-family="Arial" font-size="9" fill="#adb5bd">Add note...</text>
+  
+  <!-- Client Communication -->
+  <text x="1270" y="790" font-family="Arial" font-size="16" fill="#343a40" font-weight="bold">💬 Client Messages</text>
+  
+  <rect x="1270" y="810" width="290" height="40" fill="#e7f3ff" stroke="#b3d9ff" stroke-width="1" rx="4"/>
+  <text x="1280" y="825" font-family="Arial" font-size="9" fill="#0056b3" font-weight="bold">John Doe:</text>
+  <text x="1280" y="840" font-family="Arial" font-size="9" fill="#0056b3">"Added new patent licensing agreement. Shows $2M in revenue."</text>
+  
+  <rect x="1270" y="860" width="290" height="40" fill="#d4edda" stroke="#c3e6cb" stroke-width="1" rx="4"/>
+  <text x="1280" y="875" font-family="Arial" font-size="9" fill="#155724" font-weight="bold">You:</text>
+  <text x="1280" y="890" font-family="Arial" font-size="9" fill="#155724">"Excellent! This significantly strengthens your Major Contributions."</text>
+  
+  <!-- Message Input -->
+  <rect x="1270" y="910" width="230" height="30" fill="white" stroke="#ced4da" stroke-width="1" rx="4"/>
+  <text x="1280" y="929" font-family="Arial" font-size="10" fill="#adb5bd">Type your message...</text>
+  
+  <rect x="1510" y="910" width="50" height="30" fill="#007bff" stroke="#007bff" stroke-width="1" rx="4"/>
+  <text x="1535" y="929" font-family="Arial" font-size="10" text-anchor="middle" fill="white" font-weight="bold">Send</text>
+</svg>

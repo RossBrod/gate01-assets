@@ -1,0 +1,42 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Overlay -->
+  <rect width="800" height="600" fill="black" fill-opacity="0.3"/>
+  
+  <!-- Modal Container -->
+  <rect x="150" y="100" width="500" height="400" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Modal Header -->
+  <rect x="150" y="100" width="500" height="60" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="170" y="135" fill="white" font-size="18" font-weight="bold">⚖️ Confidentiality Agreement</text>
+  
+  <!-- Modal Content -->
+  <g transform="translate(170, 180)">
+    <text x="0" y="20" font-size="14" font-weight="bold">Before uploading documents, please acknowledge:</text>
+    
+    <!-- Legal Points -->
+    <g transform="translate(0, 40)">
+      <text x="0" y="20" font-size="13">• Documents are subject to attorney-client</text>
+      <text x="10" y="40" font-size="13">privilege expectations</text>
+      
+      <text x="0" y="70" font-size="13">• Files will be securely stored</text>
+      
+      <text x="0" y="100" font-size="13">• Documents will be purged after 90 days</text>
+      <text x="10" y="120" font-size="13">if consultation not scheduled</text>
+    </g>
+    
+    <!-- Checkbox -->
+    <g transform="translate(0, 180)">
+      <rect x="0" y="0" width="15" height="15" fill="white" stroke="#ccc" rx="2"/>
+      <text x="25" y="12" font-size="13">I understand and acknowledge these terms</text>
+    </g>
+    
+    <!-- Buttons -->
+    <g transform="translate(0, 220)">
+      <rect x="0" y="0" width="80" height="35" fill="#e5e7eb" stroke="#ccc" rx="6"/>
+      <text x="25" y="22" font-size="14">Cancel</text>
+      
+      <rect x="320" y="0" width="120" height="35" fill="#2563eb" rx="6"/>
+      <text x="355" y="22" fill="white" font-size="14">I Understand</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,82 @@
+<svg width="900" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="700" fill="#f5f5f5"/>
+  <!-- Main Container -->
+  <rect x="50" y="50" width="800" height="600" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="800" height="60" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="70" y="85" fill="white" font-size="18" font-weight="bold">Attorney Questionnaire Library</text>
+  
+  <!-- Search and Filter Bar -->
+  <g transform="translate(70, 130)">
+    <rect x="0" y="0" width="300" height="35" fill="white" stroke="#ccc" rx="4"/>
+    <text x="10" y="22" font-size="14" fill="#666">🔍 Search questionnaires...</text>
+    
+    <rect x="320" y="0" width="100" height="35" fill="white" stroke="#ccc" rx="4"/>
+    <text x="330" y="22" font-size="14">Filter ▼</text>
+  </g>
+  
+  <!-- Quick Templates -->
+  <g transform="translate(70, 175)">
+    <text x="0" y="15" font-size="14" font-weight="bold">Quick Templates:</text>
+    <rect x="120" y="0" width="90" height="25" fill="#e0f2fe" stroke="#0ea5e9" rx="4"/>
+    <text x="130" y="17" font-size="12">Standard O-1</text>
+    
+    <rect x="220" y="0" width="80" height="25" fill="#ecfdf5" stroke="#10b981" rx="4"/>
+    <text x="230" y="17" font-size="12">Researcher</text>
+    
+    <rect x="310" y="0" width="60" height="25" fill="#fef3c7" stroke="#f59e0b" rx="4"/>
+    <text x="320" y="17" font-size="12">Artist</text>
+  </g>
+  
+  <!-- Content Area -->
+  <g transform="translate(70, 220)">
+    <!-- Awards Section - Expanded with Preview -->
+    <rect x="0" y="0" width="400" height="40" fill="#f8fafc" stroke="#e2e8f0" rx="4"/>
+    <text x="10" y="25" font-size="16" font-weight="bold">▼ Awards &amp; Recognition</text>
+    <text x="250" y="25" font-size="12" fill="#666">12Q • 15min</text>
+    
+    <!-- Sub-items with Preview buttons -->
+    <g transform="translate(20, 50)">
+      <rect x="0" y="0" width="20" height="20" fill="#10b981" stroke="#10b981"/>
+      <text x="7" y="15" fill="white" font-size="12">✓</text>
+      <text x="30" y="15" font-size="14">National Awards</text>
+      <rect x="200" y="0" width="60" height="20" fill="#e5e7eb" stroke="#ccc" rx="4"/>
+      <text x="218" y="15" font-size="12">Preview</text>
+      
+      <rect x="0" y="30" width="20" height="20" fill="white" stroke="#ccc"/>
+      <text x="30" y="45" font-size="14">Industry Recognition</text>
+      <rect x="200" y="30" width="60" height="20" fill="#e5e7eb" stroke="#ccc" rx="4"/>
+      <text x="218" y="45" font-size="12">Preview</text>
+      
+      <!-- Progress indicator -->
+      <rect x="0" y="60" width="20" height="20" fill="#f59e0b" stroke="#f59e0b"/>
+      <text x="7" y="75" fill="white" font-size="10">⚡</text>
+      <text x="30" y="75" font-size="14" fill="#666">Competition Achievement</text>
+      <text x="200" y="75" font-size="12" fill="#f59e0b">(In Progress)</text>
+    </g>
+    
+    <!-- Preview Pane -->
+    <rect x="420" y="0" width="340" height="180" fill="#f9fafb" stroke="#e5e7eb" rx="4"/>
+    <text x="430" y="20" font-size="14" font-weight="bold">Preview Pane:</text>
+    <text x="430" y="45" font-size="12" fill="#666">"Describe the award you received..."</text>
+    
+    <!-- Input type indicators -->
+    <g transform="translate(430, 60)">
+      <rect x="0" y="0" width="15" height="15" fill="white" stroke="#ccc"/>
+      <text x="20" y="12" font-size="12">Text</text>
+      
+      <rect x="60" y="0" width="15" height="15" fill="white" stroke="#ccc"/>
+      <text x="80" y="12" font-size="12">Link</text>
+      
+      <rect x="120" y="0" width="15" height="15" fill="white" stroke="#ccc"/>
+      <text x="140" y="12" font-size="12">Upload</text>
+    </g>
+    
+    <!-- Membership Section - Collapsed -->
+    <rect x="0" y="200" width="400" height="40" fill="#f8fafc" stroke="#e2e8f0" rx="4"/>
+    <text x="10" y="225" font-size="16" font-weight="bold">► Membership</text>
+    <text x="250" y="225" font-size="12" fill="#666">8Q • 10min</text>
+  </g>
+</svg>

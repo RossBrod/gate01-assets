@@ -1,0 +1,46 @@
+<svg width="800" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="700" fill="#f5f5f5"/>
+  <!-- Main Container -->
+  <rect x="200" y="100" width="400" height="500" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header -->
+  <rect x="200" y="100" width="400" height="60" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="360" y="135" fill="white" font-size="18" font-weight="bold" text-anchor="middle">Create Account</text>
+  
+  <!-- Form Content -->
+  <g transform="translate(230, 180)">
+    <!-- Full Name -->
+    <text x="0" y="20" font-size="14" font-weight="bold">Full Name</text>
+    <rect x="0" y="25" width="340" height="35" fill="white" stroke="#ccc" rx="4"/>
+    <text x="10" y="45" font-size="12" fill="#666">Enter your full name</text>
+    
+    <!-- Email -->
+    <text x="0" y="85" font-size="14" font-weight="bold">Email Address</text>
+    <rect x="0" y="90" width="340" height="35" fill="white" stroke="#ccc" rx="4"/>
+    <text x="10" y="110" font-size="12" fill="#666">Enter your email</text>
+    
+    <!-- Password -->
+    <text x="0" y="150" font-size="14" font-weight="bold">Password</text>
+    <rect x="0" y="155" width="340" height="35" fill="white" stroke="#ccc" rx="4"/>
+    <text x="10" y="175" font-size="12" fill="#666">Enter password</text>
+    
+    <!-- Confirm Password -->
+    <text x="0" y="215" font-size="14" font-weight="bold">Confirm Password</text>
+    <rect x="0" y="220" width="340" height="35" fill="white" stroke="#ccc" rx="4"/>
+    <text x="10" y="240" font-size="12" fill="#666">Confirm password</text>
+    
+    <!-- Terms Checkbox -->
+    <g transform="translate(0, 280)">
+      <rect x="0" y="0" width="15" height="15" fill="white" stroke="#ccc" rx="2"/>
+      <text x="25" y="12" font-size="12">I agree to the Terms of Service and Privacy Policy</text>
+    </g>
+    
+    <!-- Create Account Button -->
+    <rect x="0" y="320" width="340" height="40" fill="#2563eb" rx="6"/>
+    <text x="170" y="345" fill="white" font-size="14" font-weight="bold" text-anchor="middle">Create Account</text>
+    
+    <!-- Login Link -->
+    <text x="170" y="385" font-size="12" text-anchor="middle" fill="#666">Already have an account? <tspan fill="#2563eb">Sign in</tspan></text>
+  </g>
+</svg>

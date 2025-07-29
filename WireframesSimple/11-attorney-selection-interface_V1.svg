@@ -1,0 +1,99 @@
+<svg width="800" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="700" fill="#f5f5f5"/>
+  <!-- Main Container -->
+  <rect x="50" y="50" width="700" height="600" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="700" height="60" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="400" y="85" fill="white" font-size="18" font-weight="bold" text-anchor="middle">Select Attorney</text>
+  
+  <!-- Attorney List -->
+  <g transform="translate(70, 130)">
+    <text x="0" y="20" font-size="16" font-weight="bold">Available Attorneys:</text>
+    
+    <!-- Attorney 1 -->
+    <g transform="translate(0, 40)">
+      <rect x="0" y="0" width="660" height="120" fill="#f8fafc" stroke="#e2e8f0" rx="6"/>
+      
+      <!-- Profile Image Placeholder -->
+      <circle cx="40" cy="60" r="25" fill="#d1d5db"/>
+      <text x="40" y="65" font-size="12" text-anchor="middle" fill="#6b7280">JS</text>
+      
+      <!-- Attorney Info -->
+      <g transform="translate(80, 20)">
+        <text x="0" y="18" font-size="16" font-weight="bold">Jane Smith, Esq.</text>
+        <text x="0" y="35" font-size="12" fill="#6b7280">Immigration Law Specialist</text>
+        <text x="0" y="50" font-size="11" fill="#6b7280">Languages: English, Spanish</text>
+        <text x="0" y="65" font-size="11" fill="#6b7280">Experience: 12 years | O-1 Success Rate: 95%</text>
+        <text x="0" y="80" font-size="11" fill="#6b7280">Location: New York, NY</text>
+      </g>
+      
+      <!-- Select Button -->
+      <rect x="550" y="40" width="80" height="30" fill="#2563eb" rx="4"/>
+      <text x="590" y="58" fill="white" font-size="12" text-anchor="middle">Select</text>
+    </g>
+    
+    <!-- Attorney 2 -->
+    <g transform="translate(0, 170)">
+      <rect x="0" y="0" width="660" height="120" fill="#f8fafc" stroke="#e2e8f0" rx="6"/>
+      
+      <circle cx="40" cy="60" r="25" fill="#d1d5db"/>
+      <text x="40" y="65" font-size="12" text-anchor="middle" fill="#6b7280">MD</text>
+      
+      <g transform="translate(80, 20)">
+        <text x="0" y="18" font-size="16" font-weight="bold">Michael Davis, Esq.</text>
+        <text x="0" y="35" font-size="12" fill="#6b7280">Business Immigration Attorney</text>
+        <text x="0" y="50" font-size="11" fill="#6b7280">Languages: English, Mandarin</text>
+        <text x="0" y="65" font-size="11" fill="#6b7280">Experience: 8 years | O-1 Success Rate: 92%</text>
+        <text x="0" y="80" font-size="11" fill="#6b7280">Location: San Francisco, CA</text>
+      </g>
+      
+      <rect x="550" y="40" width="80" height="30" fill="#2563eb" rx="4"/>
+      <text x="590" y="58" fill="white" font-size="12" text-anchor="middle">Select</text>
+    </g>
+    
+    <!-- Attorney 3 -->
+    <g transform="translate(0, 300)">
+      <rect x="0" y="0" width="660" height="120" fill="#f8fafc" stroke="#e2e8f0" rx="6"/>
+      
+      <circle cx="40" cy="60" r="25" fill="#d1d5db"/>
+      <text x="40" y="65" font-size="12" text-anchor="middle" fill="#6b7280">AR</text>
+      
+      <g transform="translate(80, 20)">
+        <text x="0" y="18" font-size="16" font-weight="bold">Ana Rodriguez, Esq.</text>
+        <text x="0" y="35" font-size="12" fill="#6b7280">Immigration &amp; Employment Law</text>
+        <text x="0" y="50" font-size="11" fill="#6b7280">Languages: English, Spanish, Portuguese</text>
+        <text x="0" y="65" font-size="11" fill="#6b7280">Experience: 15 years | O-1 Success Rate: 98%</text>
+        <text x="0" y="80" font-size="11" fill="#6b7280">Location: Miami, FL</text>
+      </g>
+      
+      <rect x="550" y="40" width="80" height="30" fill="#2563eb" rx="4"/>
+      <text x="590" y="58" fill="white" font-size="12" text-anchor="middle">Select</text>
+    </g>
+  </g>
+  
+  <!-- Filter Options -->
+  <g transform="translate(70, 470)">
+    <text x="0" y="20" font-size="14" font-weight="bold">Filter by:</text>
+    
+    <g transform="translate(0, 30)">
+      <text x="0" y="15" font-size="12">Language:</text>
+      <rect x="80" y="5" width="100" height="20" fill="white" stroke="#ccc" rx="3"/>
+      <text x="85" y="17" font-size="11" fill="#6b7280">All Languages ▼</text>
+      
+      <text x="200" y="15" font-size="12">Location:</text>
+      <rect x="270" y="5" width="100" height="20" fill="white" stroke="#ccc" rx="3"/>
+      <text x="275" y="17" font-size="11" fill="#6b7280">All Locations ▼</text>
+    </g>
+  </g>
+  
+  <!-- Action Buttons -->
+  <g transform="translate(70, 550)">
+    <rect x="0" y="0" width="100" height="35" fill="#6b7280" rx="6"/>
+    <text x="50" y="23" fill="white" font-size="12" text-anchor="middle">Back</text>
+    
+    <rect x="560" y="0" width="100" height="35" fill="#2563eb" rx="6"/>
+    <text x="610" y="23" fill="white" font-size="12" text-anchor="middle">Continue</text>
+  </g>
+</svg>

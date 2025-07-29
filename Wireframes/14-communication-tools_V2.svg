@@ -1,0 +1,152 @@
+<svg width="1000" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#f5f5f5"/>
+  <!-- Main Container -->
+  <rect x="50" y="50" width="900" height="600" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header with Status -->
+  <rect x="50" y="50" width="900" height="70" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="500" y="90" fill="white" font-size="20" font-weight="bold" text-anchor="middle">Advanced Communication Hub</text>
+  <text x="500" y="110" fill="white" font-size="14" text-anchor="middle">Secure messaging • File sharing • Video calls • Real-time collaboration</text>
+  
+  <!-- Communication Panel -->
+  <g transform="translate(70, 140)">
+    <!-- Left Sidebar: Contacts -->
+    <rect x="0" y="0" width="200" height="480" fill="#f8fafc" stroke="#e2e8f0" rx="6"/>
+    <text x="15" y="25" font-size="14" font-weight="bold">Team Members</text>
+    
+    <!-- Attorney Contact -->
+    <g transform="translate(15, 40)">
+      <rect x="0" y="0" width="170" height="50" fill="#3b82f6" rx="4"/>
+      <circle cx="25" cy="25" r="12" fill="white"/>
+      <text x="25" y="30" font-size="10" text-anchor="middle" fill="#3b82f6">JS</text>
+      
+      <g transform="translate(45, 10)">
+        <text x="0" y="15" font-size="12" font-weight="bold" fill="white">Jane Smith, Esq.</text>
+        <text x="0" y="30" font-size="10" fill="white">Online now</text>
+      </g>
+      
+      <circle cx="150" cy="15" r="5" fill="#22c55e"/>
+    </g>
+    
+    <!-- Paralegal Contact -->
+    <g transform="translate(15, 100)">
+      <rect x="0" y="0" width="170" height="50" fill="white" stroke="#e2e8f0" rx="4"/>
+      <circle cx="25" cy="25" r="12" fill="#6b7280"/>
+      <text x="25" y="30" font-size="10" text-anchor="middle" fill="white">MR</text>
+      
+      <g transform="translate(45, 10)">
+        <text x="0" y="15" font-size="12" font-weight="bold">Mike Rodriguez</text>
+        <text x="0" y="30" font-size="10" fill="#6b7280">Paralegal • Away</text>
+      </g>
+      
+      <circle cx="150" cy="15" r="5" fill="#f59e0b"/>
+    </g>
+  </g>
+  
+  <!-- Main Chat Area -->
+  <g transform="translate(290, 140)">
+    <rect x="0" y="0" width="630" height="480" fill="white" stroke="#e2e8f0" rx="6"/>
+    
+    <!-- Chat Header -->
+    <rect x="0" y="0" width="630" height="50" fill="#f8fafc" stroke="#e2e8f0" rx="6 6 0 0"/>
+    <text x="20" y="25" font-size="14" font-weight="bold">Jane Smith, Esq.</text>
+    <text x="20" y="40" font-size="11" fill="#22c55e">Online • Case #O1-2024-001234</text>
+    
+    <!-- Chat Tools -->
+    <g transform="translate(450, 10)">
+      <rect x="0" y="0" width="40" height="30" fill="#22c55e" rx="4"/>
+      <text x="12" y="20" fill="white" font-size="10">📹 Video</text>
+      
+      <rect x="50" y="0" width="40" height="30" fill="#3b82f6" rx="4"/>
+      <text x="62" y="20" fill="white" font-size="10">📅 Meet</text>
+      
+      <rect x="100" y="0" width="40" height="30" fill="#f59e0b" rx="4"/>
+      <text x="112" y="20" fill="white" font-size="10">📁 Files</text>
+    </g>
+    
+    <!-- Messages Area -->
+    <g transform="translate(20, 70)">
+      <!-- Attorney Message with File -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="450" height="80" fill="#f0f9ff" stroke="#3b82f6" rx="6"/>
+        <circle cx="25" cy="25" r="15" fill="#3b82f6"/>
+        <text x="25" y="30" fill="white" font-size="10" text-anchor="middle">JS</text>
+        
+        <g transform="translate(50, 15)">
+          <text x="0" y="15" font-size="12" font-weight="bold">Jane Smith, Esq.</text>
+          <text x="0" y="30" font-size="11" fill="#6b7280">I've reviewed your evidence package. Great work!</text>
+          
+          <!-- File Attachment -->
+          <rect x="0" y="35" width="200" height="25" fill="#dbeafe" stroke="#3b82f6" rx="3"/>
+          <text x="10" y="50" font-size="10" fill="#3b82f6">📄 Evidence_Review_Notes.pdf</text>
+        </g>
+        
+        <text x="400" y="70" font-size="9" fill="#9ca3af">Today, 2:15 PM</text>
+      </g>
+      
+      <!-- User Response -->
+      <g transform="translate(140, 90)">
+        <rect x="0" y="0" width="450" height="60" fill="#f0fdf4" stroke="#22c55e" rx="6"/>
+        <circle cx="400" cy="25" r="15" fill="#22c55e"/>
+        <text x="400" y="30" fill="white" font-size="10" text-anchor="middle">You</text>
+        
+        <g transform="translate(20, 15)">
+          <text x="0" y="15" font-size="12" font-weight="bold">John Smith</text>
+          <text x="0" y="30" font-size="11" fill="#6b7280">Thank you! Should I make any revisions before filing?</text>
+        </g>
+        
+        <text x="20" y="50" font-size="9" fill="#9ca3af">Today, 2:45 PM</text>
+      </g>
+      
+      <!-- Attorney with Video Call Invite -->
+      <g transform="translate(0, 160)">
+        <rect x="0" y="0" width="450" height="100" fill="#fef7ff" stroke="#a855f7" rx="6"/>
+        <circle cx="25" cy="25" r="15" fill="#a855f7"/>
+        <text x="25" y="30" fill="white" font-size="10" text-anchor="middle">JS</text>
+        
+        <g transform="translate(50, 15)">
+          <text x="0" y="15" font-size="12" font-weight="bold">Jane Smith, Esq.</text>
+          <text x="0" y="30" font-size="11" fill="#6b7280">Let's discuss this over video call. How about 4 PM today?</text>
+          
+          <!-- Video Call Card -->
+          <rect x="0" y="35" width="350" height="40" fill="#f3e8ff" stroke="#a855f7" rx="4"/>
+          <text x="15" y="50" font-size="11" font-weight="bold" fill="#a855f7">📹 Video Call Invitation</text>
+          <text x="15" y="65" font-size="9" fill="#a855f7">Today, 4:00 PM - 4:30 PM</text>
+          
+          <rect x="280" y="45" width="60" height="20" fill="#22c55e" rx="3"/>
+          <text x="300" y="57" fill="white" font-size="9">Accept</text>
+        </g>
+        
+        <text x="400" y="90" font-size="9" fill="#9ca3af">Today, 3:00 PM</text>
+      </g>
+    </g>
+    
+    <!-- Message Input Area -->
+    <g transform="translate(20, 400)">
+      <rect x="0" y="0" width="590" height="60" fill="#f9fafb" stroke="#d1d5db" rx="6"/>
+      
+      <!-- Input Field -->
+      <rect x="15" y="10" width="500" height="30" fill="white" stroke="#ccc" rx="4"/>
+      <text x="25" y="28" font-size="12" fill="#9ca3af">Type your message...</text>
+      
+      <!-- Input Tools -->
+      <g transform="translate(15, 45)">
+        <text x="0" y="10" font-size="10" fill="#6b7280">📁 File</text>
+        <text x="50" y="10" font-size="10" fill="#6b7280">📅 Schedule</text>
+        <text x="120" y="10" font-size="10" fill="#6b7280">📹 Video</text>
+        <text x="180" y="10" font-size="10" fill="#6b7280">🎙️ Voice</text>
+      </g>
+      
+      <!-- Send Button -->
+      <rect x="530" y="15" width="50" height="30" fill="#2563eb" rx="4"/>
+      <text x="555" y="33" fill="white" font-size="11" text-anchor="middle">Send</text>
+    </g>
+  </g>
+  
+  <!-- Status Bar -->
+  <g transform="translate(70, 630)">
+    <rect x="0" y="0" width="860" height="30" fill="#f0fdf4" stroke="#22c55e" rx="4"/>
+    <text x="15" y="20" font-size="11" fill="#166534">🔒 End-to-end encrypted • Attorney-client privilege protected • All messages archived securely</text>
+  </g>
+</svg>

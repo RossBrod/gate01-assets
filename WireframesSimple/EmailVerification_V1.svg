@@ -1,0 +1,38 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="80" fill="#2563eb"/>
+  <text x="40" y="50" font-family="Arial" font-size="24" fill="white" font-weight="bold">GateO1 - Immigration Platform</text>
+  
+  <!-- Main Container -->
+  <rect x="200" y="150" width="400" height="300" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header -->
+  <rect x="200" y="150" width="400" height="60" fill="#22c55e" rx="8 8 0 0"/>
+  <text x="400" y="185" fill="white" font-size="18" font-weight="bold" text-anchor="middle">Email Verification</text>
+  
+  <!-- Content -->
+  <g transform="translate(230, 240)">
+    <!-- Success Icon -->
+    <circle cx="170" cy="30" r="25" fill="#22c55e" stroke="none"/>
+    <path d="M160 30 L167 37 L180 23" stroke="white" stroke-width="3" fill="none"/>
+    
+    <!-- Message -->
+    <text x="170" y="80" font-size="16" font-weight="bold" text-anchor="middle" fill="#343a40">Check Your Email</text>
+    <text x="170" y="105" font-size="14" text-anchor="middle" fill="#6c757d">We've sent a verification link to:</text>
+    <text x="170" y="125" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="bold">user@example.com</text>
+    
+    <!-- Instructions -->
+    <text x="170" y="155" font-size="12" text-anchor="middle" fill="#6c757d">Click the link in your email to verify your account</text>
+    <text x="170" y="175" font-size="12" text-anchor="middle" fill="#6c757d">and continue with your O-1 visa application.</text>
+    
+    <!-- Resend Button -->
+    <rect x="95" y="200" width="150" height="35" fill="#e5e7eb" stroke="#d1d5db" rx="4"/>
+    <text x="170" y="222" font-size="12" text-anchor="middle" fill="#6c757d">Didn't receive email? Resend</text>
+  </g>
+  
+  <!-- Bottom Note -->
+  <text x="400" y="480" font-size="12" text-anchor="middle" fill="#9ca3af">The verification link expires in 24 hours</text>
+</svg>

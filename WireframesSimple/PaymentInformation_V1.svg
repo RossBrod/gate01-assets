@@ -1,0 +1,73 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="80" fill="#2563eb"/>
+  <text x="40" y="50" font-family="Arial" font-size="24" fill="white" font-weight="bold">GateO1 - Immigration Platform</text>
+  
+  <!-- Platform Attorney Pricing -->
+  <rect x="50" y="120" width="340" height="200" fill="white" stroke="#ddd" stroke-width="1" rx="8"/>
+  <rect x="50" y="120" width="340" height="40" fill="#f8fafc" rx="8 8 0 0"/>
+  <text x="220" y="145" font-family="Arial" font-size="16" text-anchor="middle" fill="#343a40" font-weight="bold">Platform Attorney - Lisa Smith</text>
+  
+  <g transform="translate(70, 180)">
+    <text x="150" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#343a40" font-weight="bold">Consultation Pricing</text>
+    
+    <!-- Pricing Tiers -->
+    <rect x="20" y="40" width="260" height="45" fill="#e3f2fd" stroke="#2196f3" stroke-width="1" rx="6"/>
+    <text x="25" y="58" font-family="Arial" font-size="12" fill="#1976d2" font-weight="bold">Initial Consultation (60 min)</text>
+    <text x="25" y="75" font-family="Arial" font-size="12" fill="#1976d2">$150 - Case review and strategy discussion</text>
+    
+    <rect x="20" y="95" width="260" height="30" fill="#f3e5f5" stroke="#9c27b0" stroke-width="1" rx="6"/>
+    <text x="25" y="113" font-family="Arial" font-size="12" fill="#7b1fa2">Follow-up Session (30 min): $75</text>
+    
+    <!-- Payment Notice -->
+    <text x="150" y="150" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">Payment managed directly with attorney</text>
+    <text x="150" y="170" font-family="Arial" font-size="11" text-anchor="middle" fill="#9ca3af">Payment details will be provided after booking</text>
+  </g>
+  
+  <!-- External Attorney Pricing -->
+  <rect x="410" y="120" width="340" height="200" fill="white" stroke="#ddd" stroke-width="1" rx="8"/>
+  <rect x="410" y="120" width="340" height="40" fill="#f8fafc" rx="8 8 0 0"/>
+  <text x="580" y="145" font-family="Arial" font-size="16" text-anchor="middle" fill="#343a40" font-weight="bold">External Attorney - Jane Doe</text>
+  
+  <g transform="translate(430, 180)">
+    <text x="150" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#343a40" font-weight="bold">Calendly Managed Pricing</text>
+    
+    <!-- Calendly Integration -->
+    <rect x="20" y="40" width="260" height="60" fill="#fff3cd" stroke="#ffc107" stroke-width="1" rx="6"/>
+    <text x="25" y="58" font-family="Arial" font-size="12" fill="#856404" font-weight="bold">📅 Calendly Integration</text>
+    <text x="25" y="75" font-family="Arial" font-size="11" fill="#856404">• Pricing set by attorney ($35 minimum)</text>
+    <text x="25" y="90" font-family="Arial" font-size="11" fill="#856404">• Payment processed through Calendly/Stripe</text>
+    
+    <rect x="20" y="110" width="260" height="30" fill="#d1ecf1" stroke="#17a2b8" stroke-width="1" rx="6"/>
+    <text x="25" y="128" font-family="Arial" font-size="12" fill="#0c5460">Typical Range: $75 - $350 per consultation</text>
+    
+    <!-- Calendly Link -->
+    <text x="150" y="160" font-family="Arial" font-size="12" text-anchor="middle" fill="#2563eb">🔗 calendly.com/jane-doe/consultation</text>
+    <text x="150" y="180" font-family="Arial" font-size="11" text-anchor="middle" fill="#9ca3af">Payment required at time of booking</text>
+  </g>
+  
+  <!-- Pricing Policy -->
+  <rect x="50" y="340" width="700" height="120" fill="white" stroke="#ddd" stroke-width="1" rx="8"/>
+  <rect x="50" y="340" width="700" height="40" fill="#f8fafc" rx="8 8 0 0"/>
+  <text x="400" y="365" font-family="Arial" font-size="16" text-anchor="middle" fill="#343a40" font-weight="bold">GateO1 Platform Pricing Policy</text>
+  
+  <g transform="translate(70, 400)">
+    <text x="0" y="20" font-family="Arial" font-size="14" fill="#343a40" font-weight="bold">Universal Consultation Charges:</text>
+    <text x="0" y="40" font-family="Arial" font-size="12" fill="#6c757d">• All consultations on the GateO1 platform require payment</text>
+    <text x="0" y="55" font-family="Arial" font-size="12" fill="#6c757d">• Minimum charge: $35 (typically as no-show fee)</text>
+    <text x="0" y="70" font-family="Arial" font-size="12" fill="#6c757d">• Pricing range: $35 - $3500+ (attorney controlled)</text>
+    <text x="400" y="40" font-family="Arial" font-size="12" fill="#6c757d">• NO FREE CONSULTATIONS available</text>
+    <text x="400" y="55" font-family="Arial" font-size="12" fill="#6c757d">• Payment processing handled outside platform</text>
+    <text x="400" y="70" font-family="Arial" font-size="12" fill="#6c757d">• Refund policies vary by attorney</text>
+  </g>
+  
+  <!-- Important Notice -->
+  <rect x="50" y="480" width="700" height="80" fill="#fef2f2" stroke="#ef4444" stroke-width="1" rx="8"/>
+  <text x="70" y="505" font-family="Arial" font-size="14" fill="#b91c1c" font-weight="bold">⚠️ Important Payment Information:</text>
+  <text x="70" y="525" font-family="Arial" font-size="12" fill="#b91c1c">• GateO1 does not process payments directly - all payments are handled by individual attorneys</text>
+  <text x="70" y="540" font-family="Arial" font-size="12" fill="#b91c1c">• Platform attorneys manage payment separately, external attorneys use Calendly/Stripe integration</text>
+  <text x="70" y="555" font-family="Arial" font-size="12" fill="#b91c1c">• For billing questions or disputes, contact the attorney directly</text>
+</svg>

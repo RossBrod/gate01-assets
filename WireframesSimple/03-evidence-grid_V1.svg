@@ -1,0 +1,85 @@
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="600" fill="#f5f5f5"/>
+  <!-- Main Container -->
+  <rect x="50" y="50" width="800" height="500" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="800" height="60" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="70" y="85" fill="white" font-size="18" font-weight="bold">Evidence Files</text>
+  <text x="650" y="85" fill="white" font-size="14">Total: 12 files</text>
+  
+  <!-- Table Header -->
+  <rect x="70" y="130" width="760" height="40" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="80" y="155" font-size="14" font-weight="bold">File Name</text>
+  <text x="300" y="155" font-size="14" font-weight="bold">Type</text>
+  <text x="450" y="155" font-size="14" font-weight="bold">Section</text>
+  <text x="600" y="155" font-size="14" font-weight="bold">Date</text>
+  <text x="720" y="155" font-size="14" font-weight="bold">Action</text>
+  
+  <!-- Table Rows -->
+  <g transform="translate(70, 170)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="760" height="35" fill="white" stroke="#e2e8f0"/>
+    <text x="10" y="22" font-size="13">📄 award_cert.pdf</text>
+    <text x="230" y="22" font-size="13">Award</text>
+    <text x="380" y="22" font-size="13">Awards</text>
+    <text x="530" y="22" font-size="13">3/15</text>
+    <rect x="650" y="7" width="30" height="20" fill="#ef4444" rx="4"/>
+    <text x="660" y="20" fill="white" font-size="12">🗑</text>
+    
+    <!-- Row 2 -->
+    <rect x="0" y="35" width="760" height="35" fill="#f9fafb" stroke="#e2e8f0"/>
+    <text x="10" y="57" font-size="13">🔗 article_link</text>
+    <text x="230" y="57" font-size="13">Article</text>
+    <text x="380" y="57" font-size="13">Publications</text>
+    <text x="530" y="57" font-size="13">3/14</text>
+    <rect x="650" y="42" width="30" height="20" fill="#ef4444" rx="4"/>
+    <text x="660" y="55" fill="white" font-size="12">🗑</text>
+    
+    <!-- Row 3 -->
+    <rect x="0" y="70" width="760" height="35" fill="white" stroke="#e2e8f0"/>
+    <text x="10" y="92" font-size="13">📄 resume.pdf</text>
+    <text x="230" y="92" font-size="13">CV</text>
+    <text x="380" y="92" font-size="13">General</text>
+    <text x="530" y="92" font-size="13">3/12</text>
+    <rect x="650" y="77" width="30" height="20" fill="#ef4444" rx="4"/>
+    <text x="660" y="90" fill="white" font-size="12">🗑</text>
+    
+    <!-- Row 4 -->
+    <rect x="0" y="105" width="760" height="35" fill="#f9fafb" stroke="#e2e8f0"/>
+    <text x="10" y="127" font-size="13">📷 conference.jpg</text>
+    <text x="230" y="127" font-size="13">Event</text>
+    <text x="380" y="127" font-size="13">Judging</text>
+    <text x="530" y="127" font-size="13">3/10</text>
+    <rect x="650" y="112" width="30" height="20" fill="#ef4444" rx="4"/>
+    <text x="660" y="125" fill="white" font-size="12">🗑</text>
+    
+    <!-- Row 5 -->
+    <rect x="0" y="140" width="760" height="35" fill="white" stroke="#e2e8f0"/>
+    <text x="10" y="162" font-size="13">📄 membership.pdf</text>
+    <text x="230" y="162" font-size="13">Certificate</text>
+    <text x="380" y="162" font-size="13">Membership</text>
+    <text x="530" y="162" font-size="13">3/08</text>
+    <rect x="650" y="147" width="30" height="20" fill="#ef4444" rx="4"/>
+    <text x="660" y="160" fill="white" font-size="12">🗑</text>
+    
+    <!-- Row 6 -->
+    <rect x="0" y="175" width="760" height="35" fill="#f9fafb" stroke="#e2e8f0"/>
+    <text x="10" y="197" font-size="13">📄 publication.pdf</text>
+    <text x="230" y="197" font-size="13">Paper</text>
+    <text x="380" y="197" font-size="13">Publications</text>
+    <text x="530" y="197" font-size="13">3/05</text>
+    <rect x="650" y="182" width="30" height="20" fill="#ef4444" rx="4"/>
+    <text x="660" y="195" fill="white" font-size="12">🗑</text>
+  </g>
+  
+  <!-- Sort Controls -->
+  <g transform="translate(70, 390)">
+    <rect x="0" y="0" width="120" height="30" fill="#e5e7eb" stroke="#ccc" rx="4"/>
+    <text x="10" y="20" font-size="12">Sort by Date ▼</text>
+    
+    <rect x="140" y="0" width="140" height="30" fill="#e5e7eb" stroke="#ccc" rx="4"/>
+    <text x="150" y="20" font-size="12">Sort by Section ▼</text>
+  </g>
+</svg>

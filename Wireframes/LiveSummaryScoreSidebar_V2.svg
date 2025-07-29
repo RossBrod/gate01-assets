@@ -1,0 +1,99 @@
+<svg width="400" height="900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sidebar Container -->
+  <rect width="400" height="900" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  
+  <!-- Header Section -->
+  <rect x="0" y="0" width="400" height="80" fill="linear-gradient(135deg, #007bff, #0056b3)"/>
+  <text x="30" y="40" font-family="Arial" font-size="18" fill="white" font-weight="bold">🎯 Your O-1 Assessment</text>
+  <text x="30" y="60" font-family="Arial" font-size="12" fill="rgba(255,255,255,0.8)">Real-time qualification analysis</text>
+  
+  <!-- Score Circle -->
+  <circle cx="320" cy="40" r="25" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+  <text x="320" y="50" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-weight="bold">67%</text>
+  
+  <!-- Main Content Area -->
+  <rect x="20" y="100" width="360" height="780" fill="white" stroke="#e9ecef" stroke-width="1" rx="8"/>
+  
+  <!-- Current Status Card -->
+  <rect x="40" y="120" width="320" height="80" fill="linear-gradient(135deg, #28a745, #20c997)" rx="8"/>
+  <text x="60" y="145" font-family="Arial" font-size="14" fill="white" font-weight="bold">CURRENT STATUS</text>
+  <text x="60" y="165" font-family="Arial" font-size="24" fill="white" font-weight="bold">Likely Qualifies</text>
+  <text x="60" y="185" font-family="Arial" font-size="12" fill="rgba(255,255,255,0.8)">You're on track for O-1 approval</text>
+  
+  <!-- Progress Ring -->
+  <circle cx="300" cy="160" r="20" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="3"/>
+  <circle cx="300" cy="160" r="20" fill="none" stroke="white" stroke-width="3" stroke-dasharray="84 42" stroke-linecap="round" transform="rotate(-90 300 160)"/>
+  
+  <!-- Section Progress -->
+  <text x="40" y="235" font-family="Arial" font-size="14" fill="#343a40" font-weight="bold">📋 SECTION PROGRESS</text>
+  
+  <!-- Progress Bars -->
+  <text x="40" y="260" font-family="Arial" font-size="12" fill="#6c757d">Completed Sections</text>
+  <rect x="40" y="270" width="320" height="6" fill="#e9ecef" rx="3"/>
+  <rect x="40" y="270" width="96" height="6" fill="#007bff" rx="3"/>
+  <text x="40" y="290" font-family="Arial" font-size="10" fill="#6c757d">3 of 10 sections (30%)</text>
+  
+  <!-- Criteria Status Grid -->
+  <text x="40" y="320" font-family="Arial" font-size="14" fill="#343a40" font-weight="bold">⚖️ CRITERIA STATUS</text>
+  
+  <!-- Strong Criteria -->
+  <rect x="40" y="340" width="150" height="50" fill="#d1ecf1" stroke="#bee5eb" stroke-width="1" rx="6"/>
+  <text x="50" y="355" font-family="Arial" font-size="10" fill="#0c5460" font-weight="bold">STRONG (85-100%)</text>
+  <text x="50" y="370" font-family="Arial" font-size="11" fill="#0c5460">Awards &amp; Recognition</text>
+  <text x="180" y="375" font-family="Arial" font-size="16" text-anchor="end" fill="#0c5460" font-weight="bold">1</text>
+  
+  <!-- Good Criteria -->
+  <rect x="210" y="340" width="150" height="50" fill="#d4edda" stroke="#c3e6cb" stroke-width="1" rx="6"/>
+  <text x="220" y="355" font-family="Arial" font-size="10" fill="#155724" font-weight="bold">GOOD (70-84%)</text>
+  <text x="220" y="370" font-family="Arial" font-size="11" fill="#155724">Memberships, Published</text>
+  <text x="350" y="375" font-family="Arial" font-size="16" text-anchor="end" fill="#155724" font-weight="bold">2</text>
+  
+  <!-- Needs Work -->
+  <rect x="40" y="400" width="150" height="50" fill="#fff3cd" stroke="#ffeaa7" stroke-width="1" rx="6"/>
+  <text x="50" y="415" font-family="Arial" font-size="10" fill="#856404" font-weight="bold">NEEDS WORK (50-69%)</text>
+  <text x="50" y="430" font-family="Arial" font-size="11" fill="#856404">Major Contributions</text>
+  <text x="180" y="435" font-family="Arial" font-size="16" text-anchor="end" fill="#856404" font-weight="bold">1</text>
+  
+  <!-- Not Started -->
+  <rect x="210" y="400" width="150" height="50" fill="#f8d7da" stroke="#f5c6cb" stroke-width="1" rx="6"/>
+  <text x="220" y="415" font-family="Arial" font-size="10" fill="#721c24" font-weight="bold">NOT STARTED (0%)</text>
+  <text x="220" y="430" font-family="Arial" font-size="11" fill="#721c24">Remaining 6 criteria</text>
+  <text x="350" y="435" font-family="Arial" font-size="16" text-anchor="end" fill="#721c24" font-weight="bold">6</text>
+  
+  <!-- Evidence Summary -->
+  <text x="40" y="485" font-family="Arial" font-size="14" fill="#343a40" font-weight="bold">📁 EVIDENCE SUMMARY</text>
+  
+  <rect x="40" y="500" width="320" height="60" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1" rx="6"/>
+  <text x="60" y="520" font-family="Arial" font-size="12" fill="#343a40" font-weight="bold">10 Documents Uploaded</text>
+  <text x="60" y="535" font-family="Arial" font-size="10" fill="#6c757d">• 3 Award certificates • 2 Press articles</text>
+  <text x="60" y="550" font-family="Arial" font-size="10" fill="#6c757d">• 2 Membership docs • 3 Other supporting files</text>
+  
+  <!-- AI Insights Panel -->
+  <text x="40" y="590" font-family="Arial" font-size="14" fill="#343a40" font-weight="bold">🤖 AI INSIGHTS</text>
+  
+  <rect x="40" y="605" width="320" height="100" fill="#e7f3ff" stroke="#b3d9ff" stroke-width="1" rx="6"/>
+  <text x="60" y="625" font-family="Arial" font-size="11" fill="#0056b3" font-weight="bold">💡 Strength Analysis</text>
+  <text x="60" y="640" font-family="Arial" font-size="10" fill="#0056b3">• Your awards show national recognition</text>
+  <text x="60" y="655" font-family="Arial" font-size="10" fill="#0056b3">• Strong membership in selective organizations</text>
+  
+  <text x="60" y="675" font-family="Arial" font-size="11" fill="#856404" font-weight="bold">⚠️ Recommendations</text>
+  <text x="60" y="690" font-family="Arial" font-size="10" fill="#856404">• Add more published articles or media coverage</text>
+  <text x="60" y="705" font-family="Arial" font-size="10" fill="#856404">• Consider adding judging/peer review evidence</text>
+  
+  <!-- Quick Actions -->
+  <text x="40" y="735" font-family="Arial" font-size="14" fill="#343a40" font-weight="bold">⚡ QUICK ACTIONS</text>
+  
+  <rect x="40" y="750" width="150" height="35" fill="white" stroke="#007bff" stroke-width="1" rx="4"/>
+  <text x="115" y="772" font-family="Arial" font-size="11" text-anchor="middle" fill="#007bff" font-weight="bold">Add Documents</text>
+  
+  <rect x="210" y="750" width="150" height="35" fill="white" stroke="#28a745" stroke-width="1" rx="4"/>
+  <text x="285" y="772" font-family="Arial" font-size="11" text-anchor="middle" fill="#28a745" font-weight="bold">Get Help</text>
+  
+  <!-- Main CTA -->
+  <rect x="40" y="800" width="320" height="50" fill="linear-gradient(135deg, #007bff, #0056b3)" rx="8"/>
+  <text x="200" y="820" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Ready for the next step?</text>
+  <text x="200" y="838" font-family="Arial" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Schedule Attorney Review</text>
+  
+  <!-- Bottom Info -->
+  <text x="200" y="870" font-family="Arial" font-size="9" text-anchor="middle" fill="#6c757d">Last updated: 2 minutes ago</text>
+</svg>

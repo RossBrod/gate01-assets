@@ -1,0 +1,90 @@
+<svg width="900" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="800" fill="#f5f5f5"/>
+  <!-- Main Container -->
+  <rect x="50" y="50" width="800" height="700" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="800" height="50" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="70" y="80" fill="white" font-size="16" font-weight="bold">Abstract Editor | Words: 156/300 | v2.1</text>
+  
+  <!-- Content Area -->
+  <g transform="translate(70, 120)">
+    <!-- View Options -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="60" height="25" fill="#3b82f6" rx="4"/>
+      <text x="18" y="17" fill="white" font-size="11">Original</text>
+      
+      <rect x="70" y="0" width="70" height="25" fill="#e5e7eb" rx="4"/>
+      <text x="90" y="17" font-size="11">Generated</text>
+      
+      <rect x="150" y="0" width="90" height="25" fill="#e5e7eb" rx="4"/>
+      <text x="175" y="17" font-size="11">Side-by-Side</text>
+    </g>
+    
+    <!-- Type and AI Options -->
+    <g transform="translate(300, 0)">
+      <text x="0" y="17" font-size="12">Type: Classic ▼</text>
+      
+      <rect x="100" y="0" width="80" height="25" fill="#22c55e" rx="4"/>
+      <text x="120" y="17" fill="white" font-size="11">🤖 AI Improve</text>
+      
+      <rect x="190" y="0" width="60" height="25" fill="#f59e0b" rx="4"/>
+      <text x="205" y="17" fill="white" font-size="11">📝 History</text>
+    </g>
+    
+    <!-- Side-by-Side View -->
+    <g transform="translate(0, 40)">
+      <!-- Original Text Column -->
+      <text x="0" y="20" font-size="14" font-weight="bold">Original Text</text>
+      <rect x="0" y="25" width="320" height="200" fill="#f9fafb" stroke="#e5e7eb" rx="4"/>
+      <text x="10" y="45" font-size="11">"Machine learning</text>
+      <text x="10" y="60" font-size="11">applications in</text>
+      <text x="10" y="75" font-size="11">quantum computing</text>
+      <text x="10" y="90" font-size="11">have shown</text>
+      <text x="10" y="105" font-size="11">promising results</text>
+      <text x="10" y="120" font-size="11">for optimization</text>
+      <text x="10" y="135" font-size="11">problems..."</text>
+      
+      <!-- Your Abstract Column -->
+      <text x="340" y="20" font-size="14" font-weight="bold">Your Abstract</text>
+      <rect x="340" y="25" width="320" height="200" fill="white" stroke="#ccc" rx="4"/>
+      <text x="350" y="45" font-size="11">[Edit area with</text>
+      <text x="350" y="60" font-size="11">rich formatting]</text>
+      <text x="350" y="90" font-size="11">Research shows</text>
+      <text x="350" y="105" font-size="11">quantum ML</text>
+      <text x="350" y="120" font-size="11">optimization</text>
+      <text x="350" y="135" font-size="11">improves by 40%</text>
+    </g>
+    
+    <!-- AI Suggestions -->
+    <g transform="translate(0, 280)">
+      <text x="0" y="20" font-size="14" font-weight="bold">🤖 AI Suggestions:</text>
+      <text x="0" y="40" font-size="12">• Add specific impact metrics</text>
+      <text x="0" y="55" font-size="12">• Mention publication journal</text>
+      <text x="0" y="70" font-size="12">• Include methodology brief</text>
+    </g>
+    
+    <!-- Attorney Comment -->
+    <g transform="translate(0, 370)">
+      <rect x="0" y="0" width="760" height="40" fill="#ecfdf5" stroke="#22c55e" rx="4"/>
+      <text x="10" y="20" font-size="12" font-weight="bold">👩‍⚖️ Attorney comment: "Great improvement!"</text>
+    </g>
+    
+    <!-- Enhanced Action Buttons -->
+    <g transform="translate(0, 430)">
+      <rect x="0" y="0" width="60" height="30" fill="#10b981" rx="4"/>
+      <text x="20" y="20" fill="white" font-size="11">💾 Save</text>
+      
+      <rect x="70" y="0" width="80" height="30" fill="#3b82f6" rx="4"/>
+      <text x="95" y="20" fill="white" font-size="11">🔄 Regenerate</text>
+      
+      <rect x="160" y="0" width="60" height="30" fill="#6366f1" rx="4"/>
+      <text x="180" y="20" fill="white" font-size="11">📤 Share</text>
+      
+      <!-- Real-time metrics -->
+      <text x="400" y="20" font-size="11" fill="#666">Auto-saved 2 minutes ago</text>
+      <text x="600" y="20" font-size="11" fill="#22c55e">Readability: A+</text>
+    </g>
+  </g>
+</svg>

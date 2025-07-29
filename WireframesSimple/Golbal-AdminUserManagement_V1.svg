@@ -1,0 +1,249 @@
+<svg width="1000" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#f5f5f5"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1000" height="70" fill="#1f2937"/>
+  <text x="30" y="45" font-family="Arial" font-size="20" fill="white" font-weight="bold">GateO1 Admin Panel</text>
+  <text x="920" y="30" font-family="Arial" font-size="12" fill="white" text-anchor="end">Admin User</text>
+  <text x="920" y="50" font-family="Arial" font-size="11" fill="#9ca3af" text-anchor="end">Settings | Logout</text>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="70" width="200" height="630" fill="#374151"/>
+  <g transform="translate(20, 90)">
+    <!-- Navigation Menu -->
+    <rect x="0" y="0" width="160" height="35" fill="transparent" rx="4"/>
+    <text x="10" y="25" font-family="Arial" font-size="12" fill="#d1d5db">📊 Dashboard</text>
+    
+    <rect x="0" y="45" width="160" height="35" fill="#2563eb" rx="4"/>
+    <text x="10" y="70" font-family="Arial" font-size="12" fill="white" font-weight="bold">👤 Users</text>
+    
+    <rect x="0" y="120" width="140" height="25" fill="transparent" rx="2"/>
+    <text x="20" y="137" font-family="Arial" font-size="11" fill="#d1d5db">User Directory</text>
+    
+    <rect x="0" y="145" width="140" height="25" fill="transparent" rx="2"/>
+    <text x="20" y="162" font-family="Arial" font-size="11" fill="#d1d5db">Support Queue</text>
+    
+    <rect x="0" y="180" width="160" height="35" fill="transparent" rx="4"/>
+    <text x="10" y="205" font-family="Arial" font-size="12" fill="#d1d5db">👩‍⚖️ Attorneys</text>
+    
+    <rect x="0" y="225" width="160" height="35" fill="transparent" rx="4"/>
+    <text x="10" y="250" font-family="Arial" font-size="12" fill="#d1d5db">📋 Applications</text>
+  </g>
+  
+  <!-- Main Content -->
+  <g transform="translate(220, 90)">
+    <!-- Page Header -->
+    <text x="0" y="25" font-family="Arial" font-size="24" fill="#1f2937" font-weight="bold">User Management</text>
+    <text x="600" y="25" font-family="Arial" font-size="12" fill="#6b7280" text-anchor="end">1,247 total users</text>
+    
+    <!-- Search and Filters -->
+    <rect x="0" y="40" width="760" height="50" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+    <g transform="translate(15, 55)">
+      <!-- Search Input -->
+      <rect x="0" y="0" width="250" height="30" fill="white" stroke="#d1d5db" rx="4"/>
+      <text x="10" y="20" font-family="Arial" font-size="12" fill="#9ca3af">🔍 Search users by name, email...</text>
+      
+      <!-- Filter Dropdowns -->
+      <rect x="270" y="0" width="100" height="30" fill="white" stroke="#d1d5db" rx="4"/>
+      <text x="280" y="20" font-family="Arial" font-size="12" fill="#6b7280">Status: All ▼</text>
+      
+      <rect x="380" y="0" width="120" height="30" fill="white" stroke="#d1d5db" rx="4"/>
+      <text x="390" y="20" font-family="Arial" font-size="12" fill="#6b7280">Registration: All ▼</text>
+      
+      <rect x="510" y="0" width="100" height="30" fill="white" stroke="#d1d5db" rx="4"/>
+      <text x="520" y="20" font-family="Arial" font-size="12" fill="#6b7280">Language ▼</text>
+      
+      <!-- Actions -->
+      <rect x="630" y="0" width="80" height="30" fill="#2563eb" rx="4"/>
+      <text x="670" y="20" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Export</text>
+    </g>
+    
+    <!-- User Table -->
+    <rect x="0" y="110" width="760" height="450" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+    
+    <!-- Table Header -->
+    <rect x="0" y="110" width="760" height="40" fill="#f9fafb" rx="8 8 0 0"/>
+    <g transform="translate(15, 135)">
+      <rect x="0" y="0" width="15" height="15" fill="white" stroke="#d1d5db" rx="2"/>
+      <text x="25" y="12" font-family="Arial" font-size="11" fill="#6b7280" font-weight="bold">User</text>
+      <text x="200" y="12" font-family="Arial" font-size="11" fill="#6b7280" font-weight="bold">Status</text>
+      <text x="300" y="12" font-family="Arial" font-size="11" fill="#6b7280" font-weight="bold">Application</text>
+      <text x="450" y="12" font-family="Arial" font-size="11" fill="#6b7280" font-weight="bold">Attorney</text>
+      <text x="580" y="12" font-family="Arial" font-size="11" fill="#6b7280" font-weight="bold">Registered</text>
+      <text x="680" y="12" font-family="Arial" font-size="11" fill="#6b7280" font-weight="bold">Actions</text>
+    </g>
+    
+    <!-- Table Rows -->
+    <g transform="translate(15, 170)">
+      <!-- Row 1 -->
+      <rect x="0" y="0" width="15" height="15" fill="white" stroke="#d1d5db" rx="2"/>
+      <circle cx="45" cy="20" r="15" fill="#2563eb"/>
+      <text x="45" y="26" font-family="Arial" font-size="10" text-anchor="middle" fill="white" font-weight="bold">JD</text>
+      <text x="75" y="18" font-family="Arial" font-size="12" fill="#1f2937" font-weight="bold">John Doe</text>
+      <text x="75" y="32" font-family="Arial" font-size="11" fill="#6b7280">john.doe@email.com</text>
+      
+      <rect x="185" y="10" width="60" height="20" fill="#dcfce7" stroke="#22c55e" rx="10"/>
+      <text x="215" y="23" font-family="Arial" font-size="10" text-anchor="middle" fill="#15803d">Active</text>
+      
+      <text x="285" y="18" font-family="Arial" font-size="11" fill="#1f2937">O-1A Application</text>
+      <text x="285" y="32" font-family="Arial" font-size="10" fill="#22c55e">67% Complete</text>
+      
+      <text x="435" y="18" font-family="Arial" font-size="11" fill="#1f2937">Lisa Smith</text>
+      <text x="435" y="32" font-family="Arial" font-size="10" fill="#6b7280">Assigned</text>
+      
+      <text x="565" y="25" font-family="Arial" font-size="11" fill="#6b7280">Mar 15, 2024</text>
+      
+      <rect x="665" y="10" width="60" height="20" fill="#2563eb" rx="4"/>
+      <text x="695" y="23" font-family="Arial" font-size="10" text-anchor="middle" fill="white">View</text>
+      
+      <!-- Row 2 -->
+      <g transform="translate(0, 50)">
+        <rect x="0" y="0" width="15" height="15" fill="white" stroke="#d1d5db" rx="2"/>
+        <circle cx="45" cy="20" r="15" fill="#10b981"/>
+        <text x="45" y="26" font-family="Arial" font-size="10" text-anchor="middle" fill="white" font-weight="bold">JS</text>
+        <text x="75" y="18" font-family="Arial" font-size="12" fill="#1f2937" font-weight="bold">Jane Smith</text>
+        <text x="75" y="32" font-family="Arial" font-size="11" fill="#6b7280">jane.smith@email.com</text>
+        
+        <rect x="185" y="10" width="60" height="20" fill="#fef3c7" stroke="#f59e0b" rx="10"/>
+        <text x="215" y="23" font-family="Arial" font-size="10" text-anchor="middle" fill="#92400e">Pending</text>
+        
+        <text x="285" y="18" font-family="Arial" font-size="11" fill="#1f2937">O-1A Application</text>
+        <text x="285" y="32" font-family="Arial" font-size="10" fill="#f59e0b">23% Complete</text>
+        
+        <text x="435" y="18" font-family="Arial" font-size="11" fill="#6b7280">Unassigned</text>
+        <text x="435" y="32" font-family="Arial" font-size="10" fill="#6b7280">-</text>
+        
+        <text x="565" y="25" font-family="Arial" font-size="11" fill="#6b7280">Mar 18, 2024</text>
+        
+        <rect x="665" y="10" width="60" height="20" fill="#2563eb" rx="4"/>
+        <text x="695" y="23" font-family="Arial" font-size="10" text-anchor="middle" fill="white">View</text>
+      </g>
+      
+      <!-- Row 3 -->
+      <g transform="translate(0, 100)">
+        <rect x="0" y="0" width="15" height="15" fill="white" stroke="#d1d5db" rx="2"/>
+        <circle cx="45" cy="20" r="15" fill="#f59e0b"/>
+        <text x="45" y="26" font-family="Arial" font-size="10" text-anchor="middle" fill="white" font-weight="bold">MB</text>
+        <text x="75" y="18" font-family="Arial" font-size="12" fill="#1f2937" font-weight="bold">Michael Brown</text>
+        <text x="75" y="32" font-family="Arial" font-size="11" fill="#6b7280">m.brown@email.com</text>
+        
+        <rect x="185" y="10" width="60" height="20" fill="#fee2e2" stroke="#ef4444" rx="10"/>
+        <text x="215" y="23" font-family="Arial" font-size="10" text-anchor="middle" fill="#b91c1c">Inactive</text>
+        
+        <text x="285" y="18" font-family="Arial" font-size="11" fill="#6b7280">No Application</text>
+        <text x="285" y="32" font-family="Arial" font-size="10" fill="#6b7280">Registered only</text>
+        
+        <text x="435" y="18" font-family="Arial" font-size="11" fill="#6b7280">-</text>
+        <text x="435" y="32" font-family="Arial" font-size="10" fill="#6b7280">-</text>
+        
+        <text x="565" y="25" font-family="Arial" font-size="11" fill="#6b7280">Mar 10, 2024</text>
+        
+        <rect x="665" y="10" width="60" height="20" fill="#2563eb" rx="4"/>
+        <text x="695" y="23" font-family="Arial" font-size="10" text-anchor="middle" fill="white">View</text>
+      </g>
+      
+      <!-- Row 4 -->
+      <g transform="translate(0, 150)">
+        <rect x="0" y="0" width="15" height="15" fill="white" stroke="#d1d5db" rx="2"/>
+        <circle cx="45" cy="20" r="15" fill="#8b5cf6"/>
+        <text x="45" y="26" font-family="Arial" font-size="10" text-anchor="middle" fill="white" font-weight="bold">AL</text>
+        <text x="75" y="18" font-family="Arial" font-size="12" fill="#1f2937" font-weight="bold">Anna Lee</text>
+        <text x="75" y="32" font-family="Arial" font-size="11" fill="#6b7280">anna.lee@email.com</text>
+        
+        <rect x="185" y="10" width="60" height="20" fill="#dcfce7" stroke="#22c55e" rx="10"/>
+        <text x="215" y="23" font-family="Arial" font-size="10" text-anchor="middle" fill="#15803d">Active</text>
+        
+        <text x="285" y="18" font-family="Arial" font-size="11" fill="#1f2937">O-1A Application</text>
+        <text x="285" y="32" font-family="Arial" font-size="10" fill="#22c55e">89% Complete</text>
+        
+        <text x="435" y="18" font-family="Arial" font-size="11" fill="#1f2937">Jane Doe</text>
+        <text x="435" y="32" font-family="Arial" font-size="10" fill="#6b7280">Consultation Scheduled</text>
+        
+        <text x="565" y="25" font-family="Arial" font-size="11" fill="#6b7280">Mar 12, 2024</text>
+        
+        <rect x="665" y="10" width="60" height="20" fill="#2563eb" rx="4"/>
+        <text x="695" y="23" font-family="Arial" font-size="10" text-anchor="middle" fill="white">View</text>
+      </g>
+      
+      <!-- Row 5 -->
+      <g transform="translate(0, 200)">
+        <rect x="0" y="0" width="15" height="15" fill="white" stroke="#d1d5db" rx="2"/>
+        <circle cx="45" cy="20" r="15" fill="#ec4899"/>
+        <text x="45" y="26" font-family="Arial" font-size="10" text-anchor="middle" fill="white" font-weight="bold">RG</text>
+        <text x="75" y="18" font-family="Arial" font-size="12" fill="#1f2937" font-weight="bold">Robert Garcia</text>
+        <text x="75" y="32" font-family="Arial" font-size="11" fill="#6b7280">r.garcia@email.com</text>
+        
+        <rect x="185" y="10" width="60" height="20" fill="#dcfce7" stroke="#22c55e" rx="10"/>
+        <text x="215" y="23" font-family="Arial" font-size="10" text-anchor="middle" fill="#15803d">Active</text>
+        
+        <text x="285" y="18" font-family="Arial" font-size="11" fill="#1f2937">O-1A Application</text>
+        <text x="285" y="32" font-family="Arial" font-size="10" fill="#ef4444">Submitted</text>
+        
+        <text x="435" y="18" font-family="Arial" font-size="11" fill="#1f2937">Michael Johnson</text>
+        <text x="435" y="32" font-family="Arial" font-size="10" fill="#6b7280">Under Review</text>
+        
+        <text x="565" y="25" font-family="Arial" font-size="11" fill="#6b7280">Mar 8, 2024</text>
+        
+        <rect x="665" y="10" width="60" height="20" fill="#2563eb" rx="4"/>
+        <text x="695" y="23" font-family="Arial" font-size="10" text-anchor="middle" fill="white">View</text>
+      </g>
+    </g>
+    
+    <!-- Pagination -->
+    <g transform="translate(0, 580)">
+      <text x="0" y="15" font-family="Arial" font-size="12" fill="#6b7280">Showing 1-5 of 1,247 users</text>
+      <rect x="600" y="0" width="160" height="30" fill="white" stroke="#e5e7eb" rx="4"/>
+      <text x="620" y="20" font-family="Arial" font-size="12" fill="#2563eb">← Previous</text>
+      <text x="680" y="20" font-family="Arial" font-size="12" fill="#1f2937">1</text>
+      <text x="695" y="20" font-family="Arial" font-size="12" fill="#6b7280">2</text>
+      <text x="710" y="20" font-family="Arial" font-size="12" fill="#6b7280">3</text>
+      <text x="730" y="20" font-family="Arial" font-size="12" fill="#2563eb">Next →</text>
+    </g>
+  </g>
+  
+  <!-- User Detail Modal (Overlay) -->
+  <rect x="250" y="150" width="500" height="400" fill="white" stroke="#e5e7eb" stroke-width="2" rx="8" opacity="0.95"/>
+  <rect x="250" y="150" width="500" height="40" fill="#f9fafb" rx="8 8 0 0"/>
+  <text x="270" y="175" font-family="Arial" font-size="14" fill="#1f2937" font-weight="bold">User Details - John Doe</text>
+  <text x="720" y="175" font-family="Arial" font-size="16" fill="#6b7280" text-anchor="end">×</text>
+  
+  <g transform="translate(270, 210)">
+    <!-- User Info -->
+    <text x="0" y="20" font-family="Arial" font-size="12" fill="#6b7280">Email:</text>
+    <text x="100" y="20" font-family="Arial" font-size="12" fill="#1f2937">john.doe@email.com</text>
+    
+    <text x="0" y="40" font-family="Arial" font-size="12" fill="#6b7280">Status:</text>
+    <text x="100" y="40" font-family="Arial" font-size="12" fill="#22c55e">Active</text>
+    
+    <text x="0" y="60" font-family="Arial" font-size="12" fill="#6b7280">Registered:</text>
+    <text x="100" y="60" font-family="Arial" font-size="12" fill="#1f2937">March 15, 2024</text>
+    
+    <text x="0" y="80" font-family="Arial" font-size="12" fill="#6b7280">Last Login:</text>
+    <text x="100" y="80" font-family="Arial" font-size="12" fill="#1f2937">2 hours ago</text>
+    
+    <text x="0" y="100" font-family="Arial" font-size="12" fill="#6b7280">Language:</text>
+    <text x="100" y="100" font-family="Arial" font-size="12" fill="#1f2937">English</text>
+    
+    <!-- Application Info -->
+    <text x="0" y="140" font-family="Arial" font-size="14" fill="#1f2937" font-weight="bold">Application Status</text>
+    <text x="0" y="160" font-family="Arial" font-size="12" fill="#6b7280">Type: O-1A Visa Application</text>
+    <text x="0" y="180" font-family="Arial" font-size="12" fill="#6b7280">Progress: 67% Complete</text>
+    <text x="0" y="200" font-family="Arial" font-size="12" fill="#6b7280">Score: 67/100 (Borderline)</text>
+    <text x="0" y="220" font-family="Arial" font-size="12" fill="#6b7280">Attorney: Lisa Smith</text>
+    <text x="0" y="240" font-family="Arial" font-size="12" fill="#6b7280">Documents: 8 uploaded</text>
+    
+    <!-- Actions -->
+    <rect x="0" y="270" width="80" height="30" fill="#2563eb" rx="4"/>
+    <text x="40" y="290" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Edit User</text>
+    
+    <rect x="90" y="270" width="100" height="30" fill="#22c55e" rx="4"/>
+    <text x="140" y="290" font-family="Arial" font-size="12" text-anchor="middle" fill="white">View Application</text>
+    
+    <rect x="200" y="270" width="90" height="30" fill="#f59e0b" rx="4"/>
+    <text x="245" y="290" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Reset Password</text>
+    
+    <rect x="300" y="270" width="90" height="30" fill="#ef4444" rx="4"/>
+    <text x="345" y="290" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Suspend User</text>
+  </g>
+</svg>

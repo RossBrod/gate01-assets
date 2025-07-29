@@ -1,0 +1,146 @@
+<svg width="1000" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#f5f5f5"/>
+  <!-- Main Container -->
+  <rect x="50" y="50" width="900" height="600" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="900" height="60" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="500" y="85" fill="white" font-size="18" font-weight="bold" text-anchor="middle">Advanced Evidence Scoring Dashboard</text>
+  
+  <!-- Score Summary Panel -->
+  <g transform="translate(70, 130)">
+    <rect x="0" y="0" width="860" height="80" fill="#f8fafc" stroke="#e2e8f0" rx="6"/>
+    
+    <!-- Overall Score with Visual -->
+    <g transform="translate(20, 20)">
+      <text x="0" y="20" font-size="16" font-weight="bold">Overall O-1 Qualification:</text>
+      
+      <!-- Large Score Circle -->
+      <g transform="translate(250, -5)">
+        <circle cx="30" cy="30" r="25" fill="#22c55e" stroke="#166534" stroke-width="3"/>
+        <text x="30" y="37" fill="white" font-size="16" font-weight="bold" text-anchor="middle">78%</text>
+      </g>
+      
+      <text x="330" y="35" font-size="16" fill="#22c55e" font-weight="bold">Strong Candidate</text>
+      
+      <!-- Success Indicator -->
+      <g transform="translate(500, 10)">
+        <rect x="0" y="0" width="120" height="25" fill="#22c55e" rx="4"/>
+        <text x="35" y="17" fill="white" font-size="12">Likely Approved</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Detailed Criteria Analysis -->
+  <g transform="translate(70, 230)">
+    <text x="0" y="20" font-size="16" font-weight="bold">Detailed Criteria Analysis:</text>
+    
+    <!-- Criteria Grid -->
+    <g transform="translate(0, 35)">
+      <!-- Criterion 1: Awards -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="420" height="60" fill="#f0fdf4" stroke="#22c55e" rx="6"/>
+        <text x="15" y="20" font-size="14" font-weight="bold">1. Awards or Prizes</text>
+        <text x="15" y="35" font-size="11" fill="#6b7280">3 significant awards documented</text>
+        <text x="15" y="50" font-size="11" fill="#22c55e">Evidence: IEEE Award, Best Paper Award</text>
+        
+        <!-- Score Bar -->
+        <g transform="translate(300, 15)">
+          <rect x="0" y="0" width="80" height="12" fill="#e5e7eb" rx="6"/>
+          <rect x="0" y="0" width="68" height="12" fill="#22c55e" rx="6"/>
+          <text x="90" y="10" font-size="12" font-weight="bold">85%</text>
+        </g>
+      </g>
+      
+      <!-- Criterion 2: Publications -->
+      <g transform="translate(440, 0)">
+        <rect x="0" y="0" width="420" height="60" fill="#f0fdf4" stroke="#22c55e" rx="6"/>
+        <text x="15" y="20" font-size="14" font-weight="bold">2. Scholarly Publications</text>
+        <text x="15" y="35" font-size="11" fill="#6b7280">12 peer-reviewed publications</text>
+        <text x="15" y="50" font-size="11" fill="#22c55e">Evidence: Nature, Science journals</text>
+        
+        <g transform="translate(300, 15)">
+          <rect x="0" y="0" width="80" height="12" fill="#e5e7eb" rx="6"/>
+          <rect x="0" y="0" width="72" height="12" fill="#22c55e" rx="6"/>
+          <text x="90" y="10" font-size="12" font-weight="bold">90%</text>
+        </g>
+      </g>
+      
+      <!-- Criterion 3: Critical Role -->
+      <g transform="translate(0, 75)">
+        <rect x="0" y="0" width="420" height="60" fill="#fffbeb" stroke="#f59e0b" rx="6"/>
+        <text x="15" y="20" font-size="14" font-weight="bold">3. Critical/Essential Role</text>
+        <text x="15" y="35" font-size="11" fill="#6b7280">Team leadership demonstrated</text>
+        <text x="15" y="50" font-size="11" fill="#f59e0b">Evidence: Project lead documentation</text>
+        
+        <g transform="translate(300, 15)">
+          <rect x="0" y="0" width="80" height="12" fill="#e5e7eb" rx="6"/>
+          <rect x="0" y="0" width="48" height="12" fill="#f59e0b" rx="6"/>
+          <text x="90" y="10" font-size="12" font-weight="bold">60%</text>
+        </g>
+      </g>
+      
+      <!-- Criterion 4: Media Coverage -->
+      <g transform="translate(440, 75)">
+        <rect x="0" y="0" width="420" height="60" fill="#fef2f2" stroke="#ef4444" rx="6"/>
+        <text x="15" y="20" font-size="14" font-weight="bold">4. Media Coverage</text>
+        <text x="15" y="35" font-size="11" fill="#6b7280">Limited press coverage found</text>
+        <text x="15" y="50" font-size="11" fill="#ef4444">Evidence: 2 technical blog mentions</text>
+        
+        <g transform="translate(300, 15)">
+          <rect x="0" y="0" width="80" height="12" fill="#e5e7eb" rx="6"/>
+          <rect x="0" y="0" width="24" height="12" fill="#ef4444" rx="6"/>
+          <text x="90" y="10" font-size="12" font-weight="bold">30%</text>
+        </g>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Evidence Documents -->
+  <g transform="translate(70, 400)">
+    <text x="0" y="20" font-size="16" font-weight="bold">Supporting Evidence Documents:</text>
+    
+    <!-- Evidence List -->
+    <g transform="translate(0, 35)">
+      <!-- High Impact Evidence -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="860" height="40" fill="#f0fdf4" stroke="#22c55e" rx="4"/>
+        <text x="15" y="18" font-size="13" font-weight="bold">📄 Quantum_ML_Nature_2024.pdf</text>
+        <text x="15" y="32" font-size="11" fill="#6b7280">High-impact journal publication • 47 citations • Impact factor: 9.2</text>
+        <rect x="700" y="8" width="80" height="24" fill="#22c55e" rx="4"/>
+        <text x="740" y="23" fill="white" font-size="11" text-anchor="middle">High Impact</text>
+      </g>
+      
+      <!-- Medium Impact Evidence -->
+      <g transform="translate(0, 50)">
+        <rect x="0" y="0" width="860" height="40" fill="#fffbeb" stroke="#f59e0b" rx="4"/>
+        <text x="15" y="18" font-size="13" font-weight="bold">🏆 IEEE_Excellence_Award_2023.pdf</text>
+        <text x="15" y="32" font-size="11" fill="#6b7280">Professional recognition • Industry significance • Peer nominated</text>
+        <rect x="700" y="8" width="80" height="24" fill="#f59e0b" rx="4"/>
+        <text x="740" y="23" fill="white" font-size="11" text-anchor="middle">Medium Impact</text>
+      </g>
+      
+      <!-- Supporting Evidence -->
+      <g transform="translate(0, 100)">
+        <rect x="0" y="0" width="860" height="40" fill="#f8fafc" stroke="#94a3b8" rx="4"/>
+        <text x="15" y="18" font-size="13" font-weight="bold">📄 CV_Dr_Smith_2024.pdf</text>
+        <text x="15" y="32" font-size="11" fill="#6b7280">Comprehensive CV • Education credentials • Work history</text>
+        <rect x="700" y="8" width="80" height="24" fill="#94a3b8" rx="4"/>
+        <text x="740" y="23" fill="white" font-size="11" text-anchor="middle">Supporting</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Action Bar -->
+  <g transform="translate(70, 580)">
+    <rect x="0" y="0" width="120" height="35" fill="#6b7280" rx="6"/>
+    <text x="60" y="23" fill="white" font-size="12" text-anchor="middle">Export Report</text>
+    
+    <rect x="140" y="0" width="120" height="35" fill="#f59e0b" rx="6"/>
+    <text x="200" y="23" fill="white" font-size="12" text-anchor="middle">Add Evidence</text>
+    
+    <rect x="740" y="0" width="120" height="35" fill="#2563eb" rx="6"/>
+    <text x="800" y="23" fill="white" font-size="12" text-anchor="middle">Next: Attorney</text>
+  </g>
+</svg>

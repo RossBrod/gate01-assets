@@ -1,0 +1,104 @@
+<svg width="900" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="700" fill="#f5f5f5"/>
+  <!-- Main Container -->
+  <rect x="50" y="50" width="800" height="600" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="800" height="60" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="450" y="85" fill="white" font-size="18" font-weight="bold" text-anchor="middle">Enhanced Document Upload</text>
+  
+  <!-- Progress Indicator -->
+  <g transform="translate(200, 130)">
+    <rect x="0" y="0" width="500" height="6" fill="#e5e7eb" rx="3"/>
+    <rect x="0" y="0" width="250" height="6" fill="#10b981" rx="3"/>
+    <text x="250" y="25" font-size="12" text-anchor="middle" fill="#6b7280">Step 2 of 4: Document Upload</text>
+  </g>
+  
+  <!-- Smart Upload Area -->
+  <g transform="translate(70, 170)">
+    <!-- Drag and Drop Zone with Categories -->
+    <rect x="0" y="0" width="760" height="150" fill="#f8fafc" stroke="#3b82f6" stroke-width="2" stroke-dasharray="8,4" rx="8"/>
+    <text x="380" y="50" font-size="18" text-anchor="middle" fill="#3b82f6">Smart Upload Zone</text>
+    <text x="380" y="75" font-size="14" text-anchor="middle" fill="#6b7280">AI will automatically categorize your documents</text>
+    <text x="380" y="100" font-size="12" text-anchor="middle" fill="#9ca3af">PDF, DOC, DOCX, JPG, PNG • Max 10MB per file</text>
+    
+    <!-- Upload Options -->
+    <g transform="translate(200, 110)">
+      <rect x="0" y="0" width="80" height="25" fill="#22c55e" rx="4"/>
+      <text x="40" y="17" fill="white" font-size="11" text-anchor="middle">Browse Files</text>
+      
+      <rect x="90" y="0" width="100" height="25" fill="#3b82f6" rx="4"/>
+      <text x="140" y="17" fill="white" font-size="11" text-anchor="middle">Scan Document</text>
+      
+      <rect x="200" y="0" width="120" height="25" fill="#7c3aed" rx="4"/>
+      <text x="260" y="17" fill="white" font-size="11" text-anchor="middle">Import from Cloud</text>
+    </g>
+  </g>
+  
+  <!-- File Categories -->
+  <g transform="translate(70, 340)">
+    <text x="0" y="20" font-size="16" font-weight="bold">Document Categories:</text>
+    
+    <!-- Category Tabs -->
+    <g transform="translate(0, 30)">
+      <rect x="0" y="0" width="100" height="30" fill="#3b82f6" rx="4"/>
+      <text x="50" y="20" fill="white" font-size="12" text-anchor="middle">All (2)</text>
+      
+      <rect x="110" y="0" width="120" height="30" fill="#e5e7eb" rx="4"/>
+      <text x="170" y="20" font-size="12" text-anchor="middle">Publications (1)</text>
+      
+      <rect x="240" y="0" width="100" height="30" fill="#e5e7eb" rx="4"/>
+      <text x="290" y="20" font-size="12" text-anchor="middle">Awards (0)</text>
+      
+      <rect x="350" y="0" width="120" height="30" fill="#e5e7eb" rx="4"/>
+      <text x="410" y="20" font-size="12" text-anchor="middle">Experience (1)</text>
+    </g>
+  </g>
+  
+  <!-- File List with AI Analysis -->
+  <g transform="translate(70, 410)">
+    <!-- File Item 1 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="760" height="60" fill="#f0f9ff" stroke="#0ea5e9" rx="6"/>
+      <text x="15" y="20" font-size="14" font-weight="bold">CV_JohnSmith.pdf</text>
+      <text x="15" y="35" font-size="11" fill="#6b7280">2.3 MB • Uploaded 2 min ago</text>
+      <text x="15" y="50" font-size="11" fill="#0ea5e9">AI Category: Academic CV • Confidence: 95%</text>
+      
+      <g transform="translate(600, 15)">
+        <rect x="0" y="0" width="60" height="20" fill="#22c55e" rx="3"/>
+        <text x="30" y="13" fill="white" font-size="9" text-anchor="middle">Verified</text>
+        
+        <rect x="70" y="0" width="40" height="20" fill="#ef4444" rx="3"/>
+        <text x="90" y="13" fill="white" font-size="9" text-anchor="middle">Remove</text>
+      </g>
+    </g>
+    
+    <!-- File Item 2 -->
+    <g transform="translate(0, 70)">
+      <rect x="0" y="0" width="760" height="60" fill="#f0fdf4" stroke="#22c55e" rx="6"/>
+      <text x="15" y="20" font-size="14" font-weight="bold">Research_Paper_Nature.pdf</text>
+      <text x="15" y="35" font-size="11" fill="#6b7280">4.1 MB • Processing...</text>
+      <text x="15" y="50" font-size="11" fill="#22c55e">AI Analysis: High-impact publication detected</text>
+      
+      <!-- Processing indicator -->
+      <g transform="translate(600, 20)">
+        <rect x="0" y="0" width="80" height="15" fill="#e5e7eb" rx="3"/>
+        <rect x="0" y="0" width="48" height="15" fill="#22c55e" rx="3"/>
+        <text x="90" y="12" font-size="10" fill="#6b7280">60%</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Action Buttons -->
+  <g transform="translate(70, 570)">
+    <rect x="0" y="0" width="100" height="35" fill="#6b7280" rx="6"/>
+    <text x="50" y="23" fill="white" font-size="12" text-anchor="middle">Back</text>
+    
+    <rect x="300" y="0" width="120" height="35" fill="#f59e0b" rx="6"/>
+    <text x="360" y="23" fill="white" font-size="12" text-anchor="middle">Save &amp; Continue</text>
+    
+    <rect x="660" y="0" width="100" height="35" fill="#2563eb" rx="6"/>
+    <text x="710" y="23" fill="white" font-size="12" text-anchor="middle">Next Step</text>
+  </g>
+</svg>

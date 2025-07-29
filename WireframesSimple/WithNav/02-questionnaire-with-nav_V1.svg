@@ -1,0 +1,147 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Page Background -->
+  <rect width="1200" height="800" fill="#f5f5f5"/>
+  
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#2563eb"/>
+  
+  <!-- Logo and Title -->
+  <text x="20" y="35" font-family="Arial" font-size="18" font-weight="bold" fill="white">GateO1</text>
+  <text x="100" y="35" font-family="Arial" font-size="14" fill="#93c5fd">O-1 Visa Platform</text>
+  
+  <!-- Top Nav Right Section -->
+  <circle cx="1100" cy="30" r="15" fill="none" stroke="white" stroke-width="1.5"/>
+  <text x="1095" y="35" font-family="Arial" font-size="12" fill="white">🔔</text>
+  
+  <circle cx="1150" cy="30" r="15" fill="none" stroke="white" stroke-width="1.5"/>
+  <text x="1145" y="35" font-family="Arial" font-size="12" fill="white">👤</text>
+  <text x="1050" y="35" font-family="Arial" font-size="14" fill="white">John Doe</text>
+  
+  <!-- Left Navigation -->
+  <rect x="0" y="60" width="256" height="740" fill="white" stroke="#e2e8f0"/>
+  
+  <!-- Nav Header -->
+  <rect x="0" y="60" width="256" height="80" fill="white" stroke-bottom="#e2e8f0"/>
+  <text x="24" y="90" font-family="Arial" font-size="16" font-weight="bold" fill="#343a40">Navigation</text>
+  <text x="24" y="110" font-family="Arial" font-size="12" fill="#6b7280">O-1 Visa Application</text>
+  
+  <!-- Nav Items -->
+  <!-- Dashboard -->
+  <rect x="0" y="140" width="256" height="48" fill="white"/>
+  <text x="24" y="160" font-family="Arial" font-size="12" fill="#6b7280">🏠</text>
+  <text x="54" y="168" font-family="Arial" font-size="14" font-weight="500" fill="#343a40">Dashboard</text>
+  
+  <!-- Questionnaire (Active/Expanded) -->
+  <rect x="0" y="188" width="256" height="48" fill="#2563eb"/>
+  <text x="24" y="208" font-family="Arial" font-size="12" fill="white">📄</text>
+  <text x="54" y="216" font-family="Arial" font-size="14" font-weight="500" fill="white">Questionnaire</text>
+  <text x="220" y="216" font-family="Arial" font-size="12" fill="white">▼</text>
+  
+  <!-- Questionnaire Sub-items -->
+  <rect x="0" y="236" width="256" height="40" fill="#2563eb"/>
+  <circle cx="66" cy="256" r="3" fill="white"/>
+  <text x="78" y="260" font-family="Arial" font-size="13" fill="white">General Questions</text>
+  
+  <rect x="0" y="276" width="256" height="40" fill="#f9fafb"/>
+  <circle cx="66" cy="296" r="3" fill="#6b7280"/>
+  <text x="78" y="300" font-family="Arial" font-size="13" fill="#343a40">Detailed Questions</text>
+  
+  <!-- Other Nav Items -->
+  <rect x="0" y="316" width="256" height="48" fill="white"/>
+  <text x="24" y="336" font-family="Arial" font-size="12" fill="#6b7280">📤</text>
+  <text x="54" y="344" font-family="Arial" font-size="14" font-weight="500" fill="#343a40">Documents</text>
+  
+  <rect x="0" y="364" width="256" height="48" fill="white"/>
+  <text x="24" y="384" font-family="Arial" font-size="12" fill="#6b7280">📊</text>
+  <text x="54" y="392" font-family="Arial" font-size="14" font-weight="500" fill="#343a40">Scoring &amp; Results</text>
+  
+  <rect x="0" y="412" width="256" height="48" fill="white"/>
+  <text x="24" y="432" font-family="Arial" font-size="12" fill="#6b7280">👥</text>
+  <text x="54" y="440" font-family="Arial" font-size="14" font-weight="500" fill="#343a40">Attorney Review</text>
+  
+  <!-- Progress Section -->
+  <rect x="0" y="680" width="256" height="120" fill="white" stroke-top="#e2e8f0"/>
+  <text x="24" y="700" font-family="Arial" font-size="14" font-weight="500" fill="#343a40">Application Progress</text>
+  <text x="200" y="700" font-family="Arial" font-size="12" fill="#6b7280">75%</text>
+  
+  <rect x="24" y="710" width="208" height="8" rx="4" fill="#e5e7eb"/>
+  <rect x="24" y="710" width="156" height="8" rx="4" fill="#22c55e"/>
+  
+  <!-- Main Content Area -->
+  <rect x="256" y="60" width="944" height="740" fill="white" stroke="#ddd" rx="8"/>
+  
+  <!-- Questionnaire Header -->
+  <rect x="256" y="60" width="944" height="60" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="286" y="95" font-family="Arial" font-size="18" font-weight="bold" fill="white">General Questionnaire</text>
+  
+  <!-- Progress Bar -->
+  <text x="286" y="140" font-family="Arial" font-size="14" fill="#343a40">Question 8 of 20</text>
+  <rect x="286" y="150" width="880" height="8" rx="4" fill="#e5e7eb"/>
+  <rect x="286" y="150" width="352" height="8" rx="4" fill="#22c55e"/>
+  <text x="1100" y="165" font-family="Arial" font-size="12" fill="#6b7280">40% Complete</text>
+  
+  <!-- Question Container -->
+  <rect x="296" y="190" width="860" height="450" fill="white" stroke="#e2e8f0" rx="8"/>
+  
+  <!-- Question -->
+  <text x="326" y="220" font-family="Arial" font-size="16" font-weight="bold" fill="#343a40">Professional Background</text>
+  <text x="326" y="245" font-family="Arial" font-size="14" fill="#343a40">What is your current professional role and primary area of expertise?</text>
+  
+  <!-- Text Area -->
+  <rect x="326" y="270" width="800" height="120" fill="white" stroke="#ced4da" rx="4"/>
+  <text x="336" y="290" font-family="Arial" font-size="13" fill="#6c757d">Please describe your current role, responsibilities, and area of specialization...</text>
+  
+  <!-- Upload Section -->
+  <text x="326" y="420" font-family="Arial" font-size="14" font-weight="bold" fill="#343a40">Supporting Documents (Optional)</text>
+  <text x="326" y="440" font-family="Arial" font-size="13" fill="#6b7280">Upload any documents that support your response</text>
+  
+  <!-- Upload Area -->
+  <rect x="326" y="450" width="400" height="120" fill="#f9fafb" stroke="#d1d5db" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
+  <text x="526" y="500" font-family="Arial" font-size="14" fill="#6b7280" text-anchor="middle">📤</text>
+  <text x="526" y="520" font-family="Arial" font-size="13" fill="#6b7280" text-anchor="middle">Drop files here or click to upload</text>
+  <text x="526" y="535" font-family="Arial" font-size="11" fill="#9ca3af" text-anchor="middle">PDF, DOC, JPG up to 10MB</text>
+  
+  <!-- Uploaded Files -->
+  <rect x="746" y="450" width="380" height="120" fill="white" stroke="#e2e8f0" rx="4"/>
+  <text x="756" y="470" font-family="Arial" font-size="12" font-weight="bold" fill="#343a40">Uploaded Files (2)</text>
+  
+  <rect x="756" y="480" width="360" height="35" fill="#f8fafc" stroke="#e2e8f0" rx="4"/>
+  <text x="766" y="495" font-family="Arial" font-size="12" fill="#343a40">📄 professional_resume.pdf</text>
+  <text x="1086" y="495" font-family="Arial" font-size="12" fill="#ef4444">🗑</text>
+  <text x="756" y="505" font-family="Arial" font-size="10" fill="#6b7280">2.3 MB • Uploaded 5 min ago</text>
+  
+  <rect x="756" y="520" width="360" height="35" fill="#f8fafc" stroke="#e2e8f0" rx="4"/>
+  <text x="766" y="535" font-family="Arial" font-size="12" fill="#343a40">📄 job_description.pdf</text>
+  <text x="1086" y="535" font-family="Arial" font-size="12" fill="#ef4444">🗑</text>
+  <text x="756" y="545" font-family="Arial" font-size="10" fill="#6b7280">1.8 MB • Uploaded 3 min ago</text>
+  
+  <!-- Navigation Buttons -->
+  <rect x="296" y="670" width="100" height="35" fill="#e5e7eb" rx="6"/>
+  <text x="346" y="692" font-family="Arial" font-size="14" font-weight="500" fill="#343a40" text-anchor="middle">← Previous</text>
+  
+  <rect x="980" y="670" width="100" height="35" fill="#2563eb" rx="6"/>
+  <text x="1030" y="692" font-family="Arial" font-size="14" font-weight="500" fill="white" text-anchor="middle">Next →</text>
+  
+  <rect x="1100" y="670" width="100" height="35" fill="#6b7280" rx="6"/>
+  <text x="1150" y="692" font-family="Arial" font-size="14" font-weight="500" fill="white" text-anchor="middle">Save Draft</text>
+  
+  <!-- Sidebar - Question List -->
+  <rect x="1220" y="60" width="280" height="740" fill="white" stroke="#e2e8f0"/>
+  <text x="1240" y="90" font-family="Arial" font-size="14" font-weight="bold" fill="#343a40">Question Progress</text>
+  
+  <!-- Question Progress Items -->
+  <rect x="1230" y="110" width="260" height="30" fill="#22c55e" rx="4"/>
+  <text x="1240" y="128" font-family="Arial" font-size="12" fill="white">✓ 1. Personal Information</text>
+  
+  <rect x="1230" y="145" width="260" height="30" fill="#22c55e" rx="4"/>
+  <text x="1240" y="163" font-family="Arial" font-size="12" fill="white">✓ 2. Education Background</text>
+  
+  <rect x="1230" y="180" width="260" height="30" fill="#2563eb" rx="4"/>
+  <text x="1240" y="198" font-family="Arial" font-size="12" fill="white">→ 8. Professional Background</text>
+  
+  <rect x="1230" y="215" width="260" height="30" fill="#f8fafc" stroke="#e2e8f0" rx="4"/>
+  <text x="1240" y="233" font-family="Arial" font-size="12" fill="#6b7280">9. Work Experience</text>
+  
+  <rect x="1230" y="250" width="260" height="30" fill="#f8fafc" stroke="#e2e8f0" rx="4"/>
+  <text x="1240" y="268" font-family="Arial" font-size="12" fill="#6b7280">10. Awards &amp; Recognition</text>
+</svg>

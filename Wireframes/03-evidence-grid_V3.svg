@@ -1,0 +1,169 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f5f5f5"/>
+  <!-- Main Container -->
+  <rect x="50" y="50" width="1100" height="700" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header with AI Intelligence -->
+  <rect x="50" y="50" width="1100" height="60" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="70" y="85" fill="white" font-size="18" font-weight="bold">🤖 Evidence Intelligence Dashboard</text>
+  
+  <!-- AI Analytics Panel -->
+  <g transform="translate(70, 130)">
+    <rect x="0" y="0" width="1060" height="60" fill="#ecfdf5" stroke="#22c55e" rx="6"/>
+    <text x="10" y="20" font-size="14" font-weight="bold">📊 Case Strength: 87%</text>
+    <text x="200" y="20" font-size="14" font-weight="bold">🎯 Missing: Industry Memberships</text>
+    <text x="10" y="45" font-size="12" fill="#666">🔍 AI Analysis: Strong publications, weak awards evidence</text>
+    <text x="400" y="45" font-size="12" fill="#666">💡 Success Probability: 78% (USCIS approval rate)</text>
+  </g>
+  
+  <!-- View Selector -->
+  <g transform="translate(70, 210)">
+    <text x="0" y="15" font-size="14" font-weight="bold">View:</text>
+    <rect x="50" y="0" width="60" height="25" fill="#3b82f6" rx="4"/>
+    <text x="65" y="17" fill="white" font-size="12">📋 Table</text>
+    
+    <rect x="120" y="0" width="70" height="25" fill="#e5e7eb" rx="4"/>
+    <text x="135" y="17" font-size="12">📈 Timeline</text>
+    
+    <rect x="200" y="0" width="80" height="25" fill="#e5e7eb" rx="4"/>
+    <text x="215" y="17" font-size="12">🎯 Impact Map</text>
+    
+    <rect x="290" y="0" width="60" height="25" fill="#e5e7eb" rx="4"/>
+    <text x="305" y="17" font-size="12">🤝 Collab</text>
+  </g>
+  
+  <!-- Evidence Timeline -->
+  <g transform="translate(70, 250)">
+    <text x="0" y="15" font-size="14" font-weight="bold">Evidence Timeline:</text>
+    
+    <!-- Timeline Line -->
+    <line x1="0" y1="35" x2="400" y2="35" stroke="#e5e7eb" stroke-width="2"/>
+    
+    <!-- Timeline Points -->
+    <circle cx="80" cy="35" r="6" fill="#22c55e"/>
+    <text x="65" y="55" font-size="10">Awards</text>
+    <text x="70" y="67" font-size="8">2023</text>
+    
+    <circle cx="200" cy="35" r="6" fill="#3b82f6"/>
+    <text x="185" y="55" font-size="10">Publications</text>
+    <text x="190" y="67" font-size="8">2022-2024</text>
+    
+    <circle cx="320" cy="35" r="6" fill="#f59e0b"/>
+    <text x="305" y="55" font-size="10">Speaking</text>
+    <text x="310" y="67" font-size="8">2024</text>
+  </g>
+  
+  <!-- Smart Evidence Grid -->
+  <g transform="translate(70, 330)">
+    <text x="0" y="15" font-size="14" font-weight="bold">Smart Grid:</text>
+    
+    <!-- Header Row -->
+    <rect x="0" y="20" width="1060" height="30" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="10" y="40" font-size="12" font-weight="bold">●</text>
+    <text x="40" y="40" font-size="12" font-weight="bold">File</text>
+    <text x="250" y="40" font-size="12" font-weight="bold">AI Rating</text>
+    <text x="350" y="40" font-size="12" font-weight="bold">Section</text>
+    <text x="450" y="40" font-size="12" font-weight="bold">AI Analysis</text>
+    <text x="650" y="40" font-size="12" font-weight="bold">Comments</text>
+    <text x="750" y="40" font-size="12" font-weight="bold">Impact</text>
+    <text x="850" y="40" font-size="12" font-weight="bold">Actions</text>
+    
+    <!-- Row 1 - High Impact -->
+    <rect x="0" y="50" width="1060" height="35" fill="#ecfdf5" stroke="#22c55e"/>
+    <circle cx="15" cy="67" r="4" fill="#22c55e"/>
+    <text x="40" y="70" font-size="12">📄 award_cert.pdf</text>
+    
+    <!-- AI Rating Stars -->
+    <g transform="translate(250, 60)">
+      <text x="0" y="12" font-size="12">⭐⭐⭐</text>
+    </g>
+    
+    <text x="350" y="70" font-size="12">Awards</text>
+    <text x="450" y="70" font-size="12">🤖 Verified</text>
+    <text x="650" y="70" font-size="12">💬2</text>
+    <text x="750" y="70" font-size="12">❤️</text>
+    
+    <!-- Action Buttons -->
+    <g transform="translate(850, 57)">
+      <rect x="0" y="0" width="25" height="20" fill="#3b82f6" rx="2"/>
+      <text x="7" y="13" fill="white" font-size="10">🔄</text>
+      
+      <rect x="30" y="0" width="25" height="20" fill="#ef4444" rx="2"/>
+      <text x="37" y="13" fill="white" font-size="10">🗑</text>
+    </g>
+    
+    <!-- Row 2 - High Impact Publication -->
+    <rect x="0" y="85" width="1060" height="35" fill="#ecfdf5" stroke="#22c55e"/>
+    <circle cx="15" cy="102" r="4" fill="#22c55e"/>
+    <text x="40" y="105" font-size="12">🔗 Nature_article</text>
+    
+    <g transform="translate(250, 95)">
+      <text x="0" y="12" font-size="12">⭐⭐⭐⭐</text>
+    </g>
+    
+    <text x="350" y="105" font-size="12">Publications</text>
+    <text x="450" y="105" font-size="12">🤖 High-impact</text>
+    <text x="650" y="105" font-size="12">💬</text>
+    <text x="750" y="105" font-size="12">❤️</text>
+    
+    <g transform="translate(850, 92)">
+      <rect x="0" y="0" width="25" height="20" fill="#3b82f6" rx="2"/>
+      <text x="7" y="13" fill="white" font-size="10">🔄</text>
+      
+      <rect x="30" y="0" width="25" height="20" fill="#ef4444" rx="2"/>
+      <text x="37" y="13" fill="white" font-size="10">🗑</text>
+    </g>
+    
+    <!-- Row 3 - Needs Review -->
+    <rect x="0" y="120" width="1060" height="35" fill="#fef2f2" stroke="#fecaca"/>
+    <circle cx="15" cy="137" r="4" fill="#ef4444"/>
+    <text x="40" y="140" font-size="12">📄 weak_cert.pdf</text>
+    
+    <g transform="translate(250, 130)">
+      <text x="0" y="12" font-size="12">⭐░░░</text>
+    </g>
+    
+    <text x="350" y="140" font-size="12">Awards</text>
+    <text x="450" y="140" font-size="12">🤖 Needs review</text>
+    <text x="650" y="140" font-size="12">💬5</text>
+    <text x="750" y="140" font-size="12">⚠️</text>
+    
+    <g transform="translate(850, 127)">
+      <rect x="0" y="0" width="25" height="20" fill="#3b82f6" rx="2"/>
+      <text x="7" y="13" fill="white" font-size="10">🔄</text>
+      
+      <rect x="30" y="0" width="25" height="20" fill="#ef4444" rx="2"/>
+      <text x="37" y="13" fill="white" font-size="10">🗑</text>
+    </g>
+  </g>
+  
+  <!-- AI Recommendations Panel -->
+  <rect x="70" y="520" width="1060" height="120" fill="#f0f9ff" stroke="#0ea5e9" rx="6"/>
+  <text x="80" y="540" font-size="14" font-weight="bold">🎯 AI Recommendations:</text>
+  
+  <g transform="translate(80, 550)">
+    <rect x="0" y="0" width="300" height="25" fill="#ecfdf5" stroke="#22c55e" rx="4"/>
+    <text x="10" y="17" font-size="12">• Upload IEEE membership certificate (+15 pts)</text>
+    
+    <rect x="0" y="30" width="280" height="25" fill="#fef3c7" stroke="#f59e0b" rx="4"/>
+    <text x="10" y="47" font-size="12">• Add citation metrics for publications (+8 pts)</text>
+    
+    <rect x="0" y="60" width="320" height="25" fill="#fef7ff" stroke="#a855f7" rx="4"/>
+    <text x="10" y="77" font-size="12">• Include speaking engagement proof (+12 pts)</text>
+  </g>
+  
+  <!-- Impact Score Visualization -->
+  <g transform="translate(600, 550)">
+    <text x="0" y="15" font-size="12" font-weight="bold">Real-time Strength Monitor:</text>
+    
+    <!-- Progress Bar -->
+    <rect x="0" y="20" width="200" height="15" fill="#e5e7eb" rx="7"/>
+    <rect x="0" y="20" width="174" height="15" fill="#22c55e" rx="7"/>
+    <text x="210" y="32" font-size="12">87% ↗️ trending up</text>
+    
+    <!-- Prediction -->
+    <text x="0" y="55" font-size="11" fill="#666">Predicted with recommendations: 94% (+7%)</text>
+    <text x="0" y="70" font-size="11" fill="#666">USCIS approval probability: 85%</text>
+  </g>
+</svg>

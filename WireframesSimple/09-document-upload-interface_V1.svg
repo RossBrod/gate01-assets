@@ -1,0 +1,50 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  <!-- Main Container -->
+  <rect x="100" y="50" width="600" height="500" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header -->
+  <rect x="100" y="50" width="600" height="60" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="400" y="85" fill="white" font-size="18" font-weight="bold" text-anchor="middle">Document Upload</text>
+  
+  <!-- Upload Area -->
+  <g transform="translate(130, 130)">
+    <!-- Drag and Drop Zone -->
+    <rect x="0" y="0" width="540" height="120" fill="#f9fafb" stroke="#d1d5db" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
+    <text x="270" y="45" font-size="16" text-anchor="middle" fill="#6b7280">📁 Drag and drop files here</text>
+    <text x="270" y="70" font-size="14" text-anchor="middle" fill="#9ca3af">or click to browse</text>
+    <text x="270" y="95" font-size="12" text-anchor="middle" fill="#9ca3af">Supported: PDF, DOC, DOCX, JPG, PNG</text>
+  </g>
+  
+  <!-- File List -->
+  <g transform="translate(130, 270)">
+    <text x="0" y="20" font-size="14" font-weight="bold">Uploaded Files:</text>
+    
+    <!-- File Item 1 -->
+    <g transform="translate(0, 35)">
+      <rect x="0" y="0" width="540" height="40" fill="#f3f4f6" stroke="#d1d5db" rx="4"/>
+      <text x="10" y="15" font-size="12">📄 CV_JohnSmith.pdf</text>
+      <text x="10" y="30" font-size="10" fill="#6b7280">2.3 MB • Uploaded 2 min ago</text>
+      <text x="500" y="25" font-size="12" fill="#ef4444">✕</text>
+    </g>
+    
+    <!-- File Item 2 -->
+    <g transform="translate(0, 85)">
+      <rect x="0" y="0" width="540" height="40" fill="#f3f4f6" stroke="#d1d5db" rx="4"/>
+      <text x="10" y="15" font-size="12">📄 Publications_List.docx</text>
+      <text x="10" y="30" font-size="10" fill="#6b7280">1.8 MB • Uploading...</text>
+      <rect x="400" y="15" width="80" height="6" fill="#e5e7eb" rx="3"/>
+      <rect x="400" y="15" width="48" height="6" fill="#3b82f6" rx="3"/>
+    </g>
+  </g>
+  
+  <!-- Action Buttons -->
+  <g transform="translate(130, 470)">
+    <rect x="0" y="0" width="100" height="35" fill="#6b7280" rx="6"/>
+    <text x="50" y="23" fill="white" font-size="12" text-anchor="middle">Cancel</text>
+    
+    <rect x="440" y="0" width="100" height="35" fill="#2563eb" rx="6"/>
+    <text x="490" y="23" fill="white" font-size="12" text-anchor="middle">Continue</text>
+  </g>
+</svg>

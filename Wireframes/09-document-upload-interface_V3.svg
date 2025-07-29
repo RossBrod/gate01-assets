@@ -1,0 +1,171 @@
+<svg width="1200" height="900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#f5f5f5"/>
+  <!-- Main Container -->
+  <rect x="50" y="50" width="1100" height="800" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header with AI Status -->
+  <rect x="50" y="50" width="1100" height="70" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="600" y="90" fill="white" font-size="20" font-weight="bold" text-anchor="middle">🤖 AI-Powered Document Hub</text>
+  <text x="600" y="110" fill="white" font-size="14" text-anchor="middle">Intelligent processing • Real-time analysis • Multi-language support</text>
+  
+  <!-- AI Assistant Panel -->
+  <g transform="translate(70, 140)">
+    <rect x="0" y="0" width="1060" height="60" fill="#ecfdf5" stroke="#22c55e" rx="6"/>
+    <text x="15" y="20" font-size="14" font-weight="bold">🤖 AI Upload Assistant:</text>
+    <text x="15" y="40" font-size="12">"I've analyzed your profile. I recommend uploading your latest Nature publication and CV first for maximum impact."</text>
+    <text x="15" y="55" font-size="12">"I can also extract text from images and translate documents on-the-fly."</text>
+    
+    <g transform="translate(900, 15)">
+      <rect x="0" y="0" width="70" height="25" fill="#22c55e" rx="4"/>
+      <text x="20" y="17" fill="white" font-size="11">📨 Smart Tips</text>
+    </g>
+  </g>
+  
+  <!-- Multi-modal Upload Zone -->
+  <g transform="translate(70, 220)">
+    <rect x="0" y="0" width="1060" height="180" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="3" stroke-dasharray="10,5" rx="12"/>
+    <text x="530" y="50" font-size="20" text-anchor="middle" fill="#0ea5e9">🎯 Multi-Modal AI Upload Zone</text>
+    <text x="530" y="75" font-size="14" text-anchor="middle" fill="#6b7280">Drag files, paste URLs, scan documents, or speak to upload</text>
+    
+    <!-- Upload Methods -->
+    <g transform="translate(150, 90)">
+      <rect x="0" y="0" width="120" height="35" fill="#22c55e" rx="6"/>
+      <text x="35" y="23" fill="white" font-size="12">📁 Browse Files</text>
+      
+      <rect x="140" y="0" width="120" height="35" fill="#3b82f6" rx="6"/>
+      <text x="175" y="23" fill="white" font-size="12">📷 Smart Scan</text>
+      
+      <rect x="280" y="0" width="120" height="35" fill="#7c3aed" rx="6"/>
+      <text x="315" y="23" fill="white" font-size="12">🌐 Web Import</text>
+      
+      <rect x="420" y="0" width="120" height="35" fill="#f59e0b" rx="6"/>
+      <text x="455" y="23" fill="white" font-size="12">🎙️ Voice Upload</text>
+      
+      <rect x="560" y="0" width="120" height="35" fill="#ef4444" rx="6"/>
+      <text x="595" y="23" fill="white" font-size="12">🔗 Paste Link</text>
+    </g>
+    
+    <!-- Real-time Processing Indicator -->
+    <g transform="translate(400, 140)">
+      <text x="0" y="15" font-size="11" fill="#0ea5e9">🤖 AI Processing: Text extraction • Language detection • Category prediction</text>
+      <text x="0" y="30" font-size="11" fill="#22c55e">Supported: 50+ formats • OCR enabled • Real-time translation • Voice-to-text</text>
+    </g>
+  </g>
+  
+  <!-- Smart Categories with AI Insights -->
+  <g transform="translate(70, 420)">
+    <rect x="0" y="0" width="1060" height="80" fill="#fef7ff" stroke="#a855f7" rx="6"/>
+    <text x="15" y="25" font-size="16" font-weight="bold">AI Document Intelligence:</text>
+    
+    <g transform="translate(15, 35)">
+      <rect x="0" y="0" width="150" height="30" fill="#3b82f6" rx="4"/>
+      <text x="75" y="20" fill="white" font-size="12" text-anchor="middle">All Documents (3)</text>
+      
+      <rect x="160" y="0" width="140" height="30" fill="#22c55e" rx="4"/>
+      <text x="230" y="20" fill="white" font-size="12" text-anchor="middle">Publications (2) ✓</text>
+      
+      <rect x="310" y="0" width="120" height="30" fill="#f59e0b" rx="4"/>
+      <text x="370" y="20" fill="white" font-size="12" text-anchor="middle">Awards (1) 🏆</text>
+      
+      <rect x="440" y="0" width="130" height="30" fill="#7c3aed" rx="4"/>
+      <text x="505" y="20" fill="white" font-size="12" text-anchor="middle">Experience (0)</text>
+      
+      <rect x="580" y="0" width="120" height="30" fill="#ef4444" rx="4"/>
+      <text x="640" y="20" fill="white" font-size="12" text-anchor="middle">Media (0)</text>
+      
+      <!-- AI Recommendations -->
+      <rect x="720" y="0" width="160" height="30" fill="#0ea5e9" rx="4"/>
+      <text x="800" y="20" fill="white" font-size="12" text-anchor="middle">🤖 Missing: Letters</text>
+    </g>
+  </g>
+  
+  <!-- Advanced File List with AI Analysis -->
+  <g transform="translate(70, 520)">
+    <!-- File Item 1 with Full AI Analysis -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="1060" height="80" fill="#f0f9ff" stroke="#0ea5e9" rx="6"/>
+      <text x="15" y="20" font-size="14" font-weight="bold">📄 quantum_ML_nature_2024.pdf</text>
+      <text x="15" y="35" font-size="11" fill="#6b7280">8.2 MB • Processed 30 seconds ago • 🌍 Translated from German</text>
+      
+      <!-- AI Insights -->
+      <g transform="translate(15, 45)">
+        <text x="0" y="15" font-size="10" fill="#0ea5e9">🤖 AI Analysis: High-impact Nature publication • Citation count: 47 • Impact factor: 9.2</text>
+        <text x="0" y="30" font-size="10" fill="#22c55e">Key terms: quantum computing, machine learning, optimization • O-1 relevance: 98%</text>
+      </g>
+      
+      <!-- Action Buttons -->
+      <g transform="translate(850, 15)">
+        <rect x="0" y="0" width="50" height="20" fill="#22c55e" rx="3"/>
+        <text x="12" y="13" fill="white" font-size="9">📋 Summary</text>
+        
+        <rect x="60" y="0" width="50" height="20" fill="#3b82f6" rx="3"/>
+        <text x="75" y="13" fill="white" font-size="9">🌍 Translate</text>
+        
+        <rect x="120" y="0" width="40" height="20" fill="#f59e0b" rx="3"/>
+        <text x="135" y="13" fill="white" font-size="9">📊 Analyze</text>
+      </g>
+    </g>
+    
+    <!-- File Item 2: Live Processing -->
+    <g transform="translate(0, 90)">
+      <rect x="0" y="0" width="1060" height="80" fill="#fef7ff" stroke="#a855f7" rx="6"/>
+      <text x="15" y="20" font-size="14" font-weight="bold">📄 CV_Dr_Smith_2024.pdf</text>
+      <text x="15" y="35" font-size="11" fill="#6b7280">3.4 MB • 🤖 AI processing in real-time...</text>
+      
+      <!-- Live Processing Indicators -->
+      <g transform="translate(15, 45)">
+        <rect x="0" y="0" width="200" height="6" fill="#e5e7eb" rx="3"/>
+        <rect x="0" y="0" width="140" height="6" fill="#22c55e" rx="3"/>
+        <text x="210" y="5" font-size="9" fill="#22c55e">Text extraction: 70%</text>
+        
+        <text x="0" y="25" font-size="10" fill="#7c3aed">🤖 Detected: PhD Stanford, 12 publications, 5 awards • Extracting achievement dates...</text>
+      </g>
+      
+      <!-- Live Status -->
+      <g transform="translate(900, 25)">
+        <circle cx="10" cy="10" r="5" fill="#22c55e"/>
+        <text x="25" y="15" font-size="10" fill="#22c55e">Processing</text>
+      </g>
+    </g>
+    
+    <!-- File Item 3: Voice Upload in Progress -->
+    <g transform="translate(0, 180)">
+      <rect x="0" y="0" width="1060" height="60" fill="#ecfdf5" stroke="#22c55e" rx="6"/>
+      <text x="15" y="20" font-size="14" font-weight="bold">🎙️ Voice Recording: Award Description</text>
+      <text x="15" y="35" font-size="11" fill="#6b7280">Recording... • Duration: 1:23 • 🤖 Real-time transcription active</text>
+      <text x="15" y="50" font-size="10" fill="#22c55e">Transcript: "I received the IEEE Excellence Award for my work on quantum algorithms..."</text>
+      
+      <!-- Recording Controls -->
+      <g transform="translate(900, 15)">
+        <circle cx="15" cy="15" r="12" fill="#ef4444"/>
+        <text x="10" y="20" fill="white" font-size="10">⏹️</text>
+        <text x="35" y="20" font-size="10" fill="#ef4444">Stop</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Advanced Action Bar -->
+  <g transform="translate(70, 790)">
+    <rect x="0" y="0" width="120" height="40" fill="#6b7280" rx="6"/>
+    <text x="60" y="25" fill="white" font-size="12" text-anchor="middle">← Previous</text>
+    
+    <rect x="140" y="0" width="140" height="40" fill="#7c3aed" rx="6"/>
+    <text x="210" y="25" fill="white" font-size="12" text-anchor="middle">🤖 AI Quick Process</text>
+    
+    <rect x="300" y="0" width="120" height="40" fill="#22c55e" rx="6"/>
+    <text x="360" y="25" fill="white" font-size="12" text-anchor="middle">📊 Bulk Analyze</text>
+    
+    <rect x="440" y="0" width="120" height="40" fill="#f59e0b" rx="6"/>
+    <text x="500" y="25" fill="white" font-size="12" text-anchor="middle">🌐 Auto-Translate</text>
+    
+    <rect x="940" y="0" width="120" height="40" fill="#2563eb" rx="6"/>
+    <text x="1000" y="25" fill="white" font-size="12" text-anchor="middle">Continue →</text>
+  </g>
+  
+  <!-- Real-time AI Status -->
+  <g transform="translate(70, 850)">
+    <rect x="0" y="0" width="1060" height="30" fill="#f0f9ff" stroke="#0ea5e9" rx="4"/>
+    <text x="15" y="20" font-size="11">🤖 AI Status: 3 documents processed • 2 high-impact publications detected • O-1 visa strength: 89% • Estimated review time: 45 minutes</text>
+  </g>
+</svg>

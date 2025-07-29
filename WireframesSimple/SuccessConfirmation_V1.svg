@@ -1,0 +1,109 @@
+<svg width="800" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="700" fill="#f5f5f5"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="80" fill="#2563eb"/>
+  <text x="40" y="50" font-family="Arial" font-size="24" fill="white" font-weight="bold">GateO1 - Immigration Platform</text>
+  
+  <!-- Application Submitted Success -->
+  <rect x="50" y="100" width="330" height="250" fill="white" stroke="#ddd" stroke-width="1" rx="8"/>
+  <rect x="50" y="100" width="330" height="40" fill="#22c55e" rx="8 8 0 0"/>
+  <text x="215" y="125" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-weight="bold">Application Submitted</text>
+  
+  <g transform="translate(70, 160)">
+    <!-- Success Icon -->
+    <circle cx="145" cy="35" r="30" fill="#22c55e"/>
+    <path d="M130 35 L140 45 L160 25" stroke="white" stroke-width="4" fill="none"/>
+    
+    <text x="145" y="85" font-family="Arial" font-size="16" text-anchor="middle" fill="#343a40" font-weight="bold">Success!</text>
+    <text x="145" y="105" font-family="Arial" font-size="14" text-anchor="middle" fill="#6c757d">Your O-1A application has been submitted</text>
+    <text x="145" y="125" font-family="Arial" font-size="14" text-anchor="middle" fill="#6c757d">and assigned to your attorney.</text>
+    
+    <!-- Application Details -->
+    <rect x="20" y="140" width="250" height="60" fill="#f0fdf4" stroke="#22c55e" stroke-width="1" rx="6"/>
+    <text x="25" y="158" font-family="Arial" font-size="12" fill="#15803d" font-weight="bold">Application ID: O1A-2024-001234</text>
+    <text x="25" y="175" font-family="Arial" font-size="12" fill="#15803d">Attorney: Lisa Smith</text>
+    <text x="25" y="192" font-family="Arial" font-size="12" fill="#15803d">Final Score: 67% (Borderline)</text>
+    
+    <!-- Next Steps -->
+    <text x="145" y="225" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">You will be contacted within 24 hours</text>
+  </g>
+  
+  <!-- Consultation Scheduled Success -->
+  <rect x="420" y="100" width="330" height="250" fill="white" stroke="#ddd" stroke-width="1" rx="8"/>
+  <rect x="420" y="100" width="330" height="40" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="585" y="125" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-weight="bold">Consultation Scheduled</text>
+  
+  <g transform="translate(440, 160)">
+    <!-- Calendar Icon -->
+    <rect x="120" y="15" width="50" height="45" fill="#2563eb" rx="6"/>
+    <rect x="125" y="25" width="40" height="30" fill="white" rx="4"/>
+    <rect x="130" y="5" width="4" height="20" fill="#6c757d" rx="2"/>
+    <rect x="156" y="5" width="4" height="20" fill="#6c757d" rx="2"/>
+    <text x="145" y="45" font-family="Arial" font-size="10" text-anchor="middle" fill="#2563eb" font-weight="bold">MAR 25</text>
+    
+    <text x="145" y="85" font-family="Arial" font-size="16" text-anchor="middle" fill="#343a40" font-weight="bold">Consultation Booked!</text>
+    <text x="145" y="105" font-family="Arial" font-size="14" text-anchor="middle" fill="#6c757d">Your consultation has been scheduled</text>
+    <text x="145" y="125" font-family="Arial" font-size="14" text-anchor="middle" fill="#6c757d">with your assigned attorney.</text>
+    
+    <!-- Meeting Details -->
+    <rect x="20" y="140" width="250" height="80" fill="#eff6ff" stroke="#2563eb" stroke-width="1" rx="6"/>
+    <text x="25" y="158" font-family="Arial" font-size="12" fill="#1d4ed8" font-weight="bold">📅 March 25, 2024 at 2:00 PM EST</text>
+    <text x="25" y="175" font-family="Arial" font-size="12" fill="#1d4ed8">👩‍⚖️ Attorney: Lisa Smith</text>
+    <text x="25" y="192" font-family="Arial" font-size="12" fill="#1d4ed8">⏱️ Duration: 60 minutes</text>
+    <text x="25" y="209" font-family="Arial" font-size="12" fill="#1d4ed8">💻 Meeting Link: (sent via email)</text>
+    
+    <text x="145" y="240" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">Calendar invite sent to your email</text>
+  </g>
+  
+  <!-- Attorney Assignment Success -->
+  <rect x="50" y="370" width="330" height="250" fill="white" stroke="#ddd" stroke-width="1" rx="8"/>
+  <rect x="50" y="370" width="330" height="40" fill="#f59e0b" rx="8 8 0 0"/>
+  <text x="215" y="395" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-weight="bold">Attorney Assigned</text>
+  
+  <g transform="translate(70, 430)">
+    <!-- Attorney Icon -->
+    <circle cx="145" cy="35" r="25" fill="#f59e0b"/>
+    <text x="145" y="43" font-family="Arial" font-size="20" text-anchor="middle" fill="white">👩‍⚖️</text>
+    
+    <text x="145" y="75" font-family="Arial" font-size="16" text-anchor="middle" fill="#343a40" font-weight="bold">Attorney Matched!</text>
+    <text x="145" y="95" font-family="Arial" font-size="14" text-anchor="middle" fill="#6c757d">Based on your preferences, we've</text>
+    <text x="145" y="115" font-family="Arial" font-size="14" text-anchor="middle" fill="#6c757d">matched you with a specialized attorney.</text>
+    
+    <!-- Attorney Details -->
+    <rect x="20" y="130" width="250" height="80" fill="#fffbeb" stroke="#f59e0b" stroke-width="1" rx="6"/>
+    <text x="25" y="148" font-family="Arial" font-size="12" fill="#92400e" font-weight="bold">Lisa Smith, Esq.</text>
+    <text x="25" y="165" font-family="Arial" font-size="12" fill="#92400e">Languages: English, Spanish</text>
+    <text x="25" y="182" font-family="Arial" font-size="12" fill="#92400e">Specialization: O-1A Visas</text>
+    <text x="25" y="199" font-family="Arial" font-size="12" fill="#92400e">Experience: 8+ years immigration law</text>
+    
+    <text x="145" y="230" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">You'll receive an introduction email shortly</text>
+  </g>
+  
+  <!-- Document Upload Success -->
+  <rect x="420" y="370" width="330" height="250" fill="white" stroke="#ddd" stroke-width="1" rx="8"/>
+  <rect x="420" y="370" width="330" height="40" fill="#10b981" rx="8 8 0 0"/>
+  <text x="585" y="395" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-weight="bold">Document Uploaded</text>
+  
+  <g transform="translate(440, 430)">
+    <!-- Document Icon -->
+    <rect x="125" y="15" width="40" height="50" fill="#10b981" rx="6"/>
+    <path d="M130 25 L137 32 L160 9" stroke="white" stroke-width="3" fill="none"/>
+    <rect x="130" y="35" width="30" height="3" fill="white" rx="1"/>
+    <rect x="130" y="42" width="25" height="3" fill="white" rx="1"/>
+    <rect x="130" y="49" width="20" height="3" fill="white" rx="1"/>
+    
+    <text x="145" y="85" font-family="Arial" font-size="16" text-anchor="middle" fill="#343a40" font-weight="bold">Upload Complete!</text>
+    <text x="145" y="105" font-family="Arial" font-size="14" text-anchor="middle" fill="#6c757d">Your document has been successfully</text>
+    <text x="145" y="125" font-family="Arial" font-size="14" text-anchor="middle" fill="#6c757d">uploaded and is being processed.</text>
+    
+    <!-- Upload Details -->
+    <rect x="20" y="140" width="250" height="70" fill="#ecfdf5" stroke="#10b981" stroke-width="1" rx="6"/>
+    <text x="25" y="158" font-family="Arial" font-size="12" fill="#059669" font-weight="bold">📄 Award_Certificate.pdf</text>
+    <text x="25" y="175" font-family="Arial" font-size="12" fill="#059669">Classification: Award Certificate</text>
+    <text x="25" y="192" font-family="Arial" font-size="12" fill="#059669">Status: Processing with AI analysis</text>
+    
+    <text x="145" y="230" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">Your score will update automatically</text>
+  </g>
+</svg>

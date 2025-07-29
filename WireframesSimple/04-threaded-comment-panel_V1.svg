@@ -1,0 +1,42 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  <!-- Main Container -->
+  <rect x="50" y="50" width="700" height="500" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="700" height="50" fill="#f8fafc" stroke="#e2e8f0" rx="8 8 0 0"/>
+  <text x="70" y="80" font-size="16" font-weight="bold">Comments (3)</text>
+  <text x="500" y="80" font-size="14">[Resolved: 1] [Open: 2]</text>
+  
+  <!-- Comment Thread 1 -->
+  <g transform="translate(70, 120)">
+    <rect x="0" y="0" width="660" height="80" fill="white" stroke="#e5e7eb" rx="4"/>
+    <text x="10" y="20" font-size="12" font-weight="bold">👩‍⚖️ Attorney Sarah - 2 hours ago</text>
+    <text x="10" y="40" font-size="12">"Please provide more detail about the</text>
+    <text x="10" y="55" font-size="12">selection criteria for this award."</text>
+    
+    <!-- Reply -->
+    <rect x="40" y="90" width="620" height="60" fill="#f9fafb" stroke="#e5e7eb" rx="4"/>
+    <text x="50" y="110" font-size="12" font-weight="bold">└─ 👤 John Smith - 1 hour ago</text>
+    <text x="60" y="130" font-size="12">"The award required peer review</text>
+    <text x="65" y="145" font-size="12">and had only 50 recipients."</text>
+  </g>
+  
+  <!-- Comment Actions -->
+  <g transform="translate(70, 280)">
+    <rect x="0" y="0" width="120" height="30" fill="#3b82f6" rx="4"/>
+    <text x="30" y="20" fill="white" font-size="12">💬 Add Comment</text>
+    
+    <rect x="140" y="0" width="100" height="30" fill="#10b981" rx="4"/>
+    <text x="165" y="20" fill="white" font-size="12">✅ Resolve Thread</text>
+  </g>
+  
+  <!-- Resolved Comment -->
+  <g transform="translate(70, 330)">
+    <rect x="0" y="0" width="660" height="50" fill="#f0fdf4" stroke="#22c55e" rx="4"/>
+    <text x="10" y="20" font-size="12" font-weight="bold">👩‍⚖️ Attorney Sarah - 1 day ago ✅</text>
+    <text x="10" y="35" font-size="12">"Award certificate looks good!"</text>
+    <text x="10" y="45" font-size="10" fill="#22c55e">[Resolved]</text>
+  </g>
+</svg>

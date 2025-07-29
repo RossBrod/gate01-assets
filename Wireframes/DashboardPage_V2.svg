@@ -1,0 +1,132 @@
+<svg width="1400" height="900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="900" fill="#ffffff"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1400" height="100" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0 0 1 0"/>
+  <text x="60" y="60" font-family="Arial" font-size="28" fill="#007bff" font-weight="bold">GateO1</text>
+  <text x="200" y="45" font-family="Arial" font-size="14" fill="#6c757d">Dashboard</text>
+  <text x="200" y="65" font-family="Arial" font-size="12" fill="#adb5bd">O-1 Visa Application Portal</text>
+  
+  <!-- User Profile -->
+  <circle cx="1250" cy="50" r="25" fill="#007bff"/>
+  <text x="1250" y="57" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">JD</text>
+  <text x="1190" y="45" font-family="Arial" font-size="12" text-anchor="end" fill="#343a40">John Doe</text>
+  <text x="1190" y="65" font-family="Arial" font-size="10" text-anchor="end" fill="#6c757d">john@email.com</text>
+  
+  <!-- Navigation Tabs -->
+  <rect x="60" y="120" width="120" height="40" fill="#007bff" rx="6"/>
+  <text x="120" y="145" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">Overview</text>
+  
+  <rect x="190" y="120" width="120" height="40" fill="white" stroke="#dee2e6" stroke-width="1" rx="6"/>
+  <text x="250" y="145" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">Questionnaire</text>
+  
+  <rect x="320" y="120" width="120" height="40" fill="white" stroke="#dee2e6" stroke-width="1" rx="6"/>
+  <text x="380" y="145" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">Documents</text>
+  
+  <rect x="450" y="120" width="120" height="40" fill="white" stroke="#dee2e6" stroke-width="1" rx="6"/>
+  <text x="510" y="145" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">Messages</text>
+  
+  <!-- Main Grid Layout -->
+  <!-- Left Column - Large Cards -->
+  
+  <!-- Application Status Card -->
+  <rect x="60" y="180" width="800" height="200" fill="white" stroke="#e9ecef" stroke-width="1" rx="12"/>
+  <rect x="60" y="180" width="800" height="60" fill="linear-gradient(135deg, #007bff, #0056b3)" rx="12 12 0 0"/>
+  <text x="90" y="220" font-family="Arial" font-size="20" fill="white" font-weight="bold">🎯 Your O-1 Application Status</text>
+  
+  <!-- Score Display -->
+  <circle cx="750" cy="210" r="30" fill="rgba(255,255,255,0.2)"/>
+  <text x="750" y="220" font-family="Arial" font-size="18" text-anchor="middle" fill="white" font-weight="bold">67%</text>
+  
+  <!-- Status Details -->
+  <text x="90" y="275" font-family="Arial" font-size="16" fill="#343a40" font-weight="bold">Application Assessment: Likely Qualifies</text>
+  <text x="90" y="300" font-family="Arial" font-size="12" fill="#6c757d">Based on your current evidence, you have a strong chance of O-1 approval</text>
+  
+  <!-- Progress Bars -->
+  <text x="90" y="330" font-family="Arial" font-size="12" fill="#6c757d" font-weight="bold">Overall Progress</text>
+  <rect x="90" y="340" width="600" height="8" fill="#e9ecef" rx="4"/>
+  <rect x="90" y="340" width="180" height="8" fill="#007bff" rx="4"/>
+  <text x="700" y="352" font-family="Arial" font-size="11" fill="#6c757d">30%</text>
+  
+  <text x="90" y="370" font-family="Arial" font-size="12" fill="#6c757d" font-weight="bold">Qualifying Criteria (3 of 8 needed)</text>
+  <rect x="90" y="380" width="600" height="8" fill="#e9ecef" rx="4"/>
+  <rect x="90" y="380" width="225" height="8" fill="#28a745" rx="4"/>
+  <text x="700" y="392" font-family="Arial" font-size="11" fill="#28a745">3 Strong</text>
+  
+  <!-- Next Steps Card -->
+  <rect x="60" y="400" width="800" height="120" fill="white" stroke="#e9ecef" stroke-width="1" rx="12"/>
+  <text x="90" y="430" font-family="Arial" font-size="18" fill="#343a40" font-weight="bold">📋 Recommended Next Steps</text>
+  
+  <rect x="90" y="450" width="350" height="50" fill="#fff3cd" stroke="#ffeaa7" stroke-width="1" rx="6"/>
+  <text x="110" y="470" font-family="Arial" font-size="12" fill="#856404" font-weight="bold">1. Complete Major Contributions section</text>
+  <text x="110" y="485" font-family="Arial" font-size="10" fill="#856404">Add patents, research papers, or innovative work</text>
+  
+  <rect x="460" y="450" width="350" height="50" fill="#e7f3ff" stroke="#b3d9ff" stroke-width="1" rx="6"/>
+  <text x="480" y="470" font-family="Arial" font-size="12" fill="#0056b3" font-weight="bold">2. Consider attorney consultation</text>
+  <text x="480" y="485" font-family="Arial" font-size="10" fill="#0056b3">Professional review to optimize your case</text>
+  
+  <!-- Right Column - Sidebar -->
+  <rect x="880" y="180" width="460" height="700" fill="white" stroke="#e9ecef" stroke-width="1" rx="12"/>
+  
+  <!-- Quick Stats -->
+  <text x="910" y="210" font-family="Arial" font-size="16" fill="#343a40" font-weight="bold">📊 Quick Stats</text>
+  
+  <!-- Stat Boxes -->
+  <rect x="910" y="230" width="200" height="60" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1" rx="6"/>
+  <text x="1010" y="250" font-family="Arial" font-size="20" text-anchor="middle" fill="#007bff" font-weight="bold">12</text>
+  <text x="1010" y="270" font-family="Arial" font-size="11" text-anchor="middle" fill="#6c757d">Documents Uploaded</text>
+  
+  <rect x="1120" y="230" width="200" height="60" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1" rx="6"/>
+  <text x="1220" y="250" font-family="Arial" font-size="20" text-anchor="middle" fill="#28a745" font-weight="bold">3</text>
+  <text x="1220" y="270" font-family="Arial" font-size="11" text-anchor="middle" fill="#6c757d">Criteria Qualifying</text>
+  
+  <!-- Criteria Status -->
+  <text x="910" y="330" font-family="Arial" font-size="16" fill="#343a40" font-weight="bold">⚖️ Criteria Status</text>
+  
+  <!-- Qualifying Criteria -->
+  <text x="910" y="355" font-family="Arial" font-size="12" fill="#28a745" font-weight="bold">✓ QUALIFYING (3)</text>
+  <rect x="910" y="365" width="400" height="25" fill="#d4edda" stroke="#c3e6cb" stroke-width="1" rx="4"/>
+  <text x="920" y="382" font-family="Arial" font-size="10" fill="#155724">Awards (85%) • Memberships (78%) • Published Materials (72%)</text>
+  
+  <text x="910" y="410" font-family="Arial" font-size="12" fill="#ffc107" font-weight="bold">⏳ IN PROGRESS (1)</text>
+  <rect x="910" y="420" width="400" height="25" fill="#fff3cd" stroke="#ffeaa7" stroke-width="1" rx="4"/>
+  <text x="920" y="437" font-family="Arial" font-size="10" fill="#856404">Major Contributions (45%)</text>
+  
+  <text x="910" y="465" font-family="Arial" font-size="12" fill="#6c757d" font-weight="bold">○ NOT STARTED (6)</text>
+  <rect x="910" y="475" width="400" height="25" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1" rx="4"/>
+  <text x="920" y="492" font-family="Arial" font-size="10" fill="#6c757d">Judging • Authored Articles • Critical Employment • High Salary • Other</text>
+  
+  <!-- Recent Documents -->
+  <text x="910" y="530" font-family="Arial" font-size="16" fill="#343a40" font-weight="bold">📁 Recent Documents</text>
+  
+  <rect x="910" y="550" width="400" height="30" fill="#f8f9fa" rx="4"/>
+  <text x="920" y="570" font-family="Arial" font-size="10" fill="#343a40">📄 Innovation_Award_Certificate.pdf</text>
+  <text x="1290" y="570" font-family="Arial" font-size="9" text-anchor="end" fill="#6c757d">2h ago</text>
+  
+  <rect x="910" y="590" width="400" height="30" fill="#f8f9fa" rx="4"/>
+  <text x="920" y="610" font-family="Arial" font-size="10" fill="#343a40">📄 Tech_Association_Membership.pdf</text>
+  <text x="1290" y="610" font-family="Arial" font-size="9" text-anchor="end" fill="#6c757d">1d ago</text>
+  
+  <rect x="910" y="630" width="400" height="30" fill="#f8f9fa" rx="4"/>
+  <text x="920" y="650" font-family="Arial" font-size="10" fill="#343a40">📄 TechCrunch_Article_Screenshot.pdf</text>
+  <text x="1290" y="650" font-family="Arial" font-size="9" text-anchor="end" fill="#6c757d">2d ago</text>
+  
+  <text x="910" y="675" font-family="Arial" font-size="10" fill="#007bff" text-decoration="underline">View all documents (12)</text>
+  
+  <!-- AI Recommendations -->
+  <text x="910" y="710" font-family="Arial" font-size="16" fill="#343a40" font-weight="bold">🤖 AI Recommendations</text>
+  
+  <rect x="910" y="730" width="400" height="80" fill="#e7f3ff" stroke="#b3d9ff" stroke-width="1" rx="6"/>
+  <text x="930" y="750" font-family="Arial" font-size="11" fill="#0056b3" font-weight="bold">💡 Strengthen Your Case</text>
+  <text x="930" y="765" font-family="Arial" font-size="9" fill="#0056b3">• Add evidence of judging peer work (conferences, panels)</text>
+  <text x="930" y="780" font-family="Arial" font-size="9" fill="#0056b3">• Include citations or references to your published work</text>
+  <text x="930" y="795" font-family="Arial" font-size="9" fill="#0056b3">• Document your critical role in current/past positions</text>
+  
+  <!-- Action Buttons -->
+  <rect x="910" y="830" width="190" height="40" fill="#007bff" stroke="#007bff" stroke-width="1" rx="6"/>
+  <text x="1005" y="854" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">Continue Questionnaire</text>
+  
+  <rect x="1120" y="830" width="190" height="40" fill="#28a745" stroke="#28a745" stroke-width="1" rx="6"/>
+  <text x="1215" y="854" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">Schedule Consultation</text>
+</svg>

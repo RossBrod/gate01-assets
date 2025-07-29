@@ -1,0 +1,245 @@
+<svg width="1000" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#f5f5f5"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1000" height="70" fill="#1f2937"/>
+  <text x="30" y="45" font-family="Arial" font-size="20" fill="white" font-weight="bold">GateO1 Admin Panel</text>
+  <text x="920" y="30" font-family="Arial" font-size="12" fill="white" text-anchor="end">Admin User</text>
+  <text x="920" y="50" font-family="Arial" font-size="11" fill="#9ca3af" text-anchor="end">Settings | Logout</text>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="70" width="200" height="630" fill="#374151"/>
+  <g transform="translate(20, 90)">
+    <!-- Navigation Menu -->
+    <rect x="0" y="0" width="160" height="35" fill="transparent" rx="4"/>
+    <text x="10" y="25" font-family="Arial" font-size="12" fill="#d1d5db">📊 Dashboard</text>
+    
+    <rect x="0" y="45" width="160" height="35" fill="transparent" rx="4"/>
+    <text x="10" y="70" font-family="Arial" font-size="12" fill="#d1d5db">👤 Users</text>
+    
+    <rect x="0" y="90" width="160" height="35" fill="#2563eb" rx="4"/>
+    <text x="10" y="115" font-family="Arial" font-size="12" fill="white" font-weight="bold">👩‍⚖️ Attorneys</text>
+    
+    <rect x="0" y="135" width="140" height="25" fill="transparent" rx="2"/>
+    <text x="20" y="152" font-family="Arial" font-size="11" fill="#d1d5db">Attorney Directory</text>
+    
+    <rect x="0" y="160" width="140" height="25" fill="transparent" rx="2"/>
+    <text x="20" y="177" font-family="Arial" font-size="11" fill="#d1d5db">Onboarding Queue</text>
+    
+    <rect x="0" y="185" width="140" height="25" fill="transparent" rx="2"/>
+    <text x="20" y="202" font-family="Arial" font-size="11" fill="#d1d5db">Performance Reports</text>
+    
+    <rect x="0" y="220" width="160" height="35" fill="transparent" rx="4"/>
+    <text x="10" y="245" font-family="Arial" font-size="12" fill="#d1d5db">📋 Applications</text>
+    
+    <!-- Stats -->
+    <text x="0" y="290" font-family="Arial" font-size="11" fill="#9ca3af" font-weight="bold">ATTORNEY STATS</text>
+    <text x="0" y="310" font-family="Arial" font-size="10" fill="#d1d5db">Active: 18/24</text>
+    <text x="0" y="325" font-family="Arial" font-size="10" fill="#d1d5db">Pending Onboarding: 3</text>
+    <text x="0" y="340" font-family="Arial" font-size="10" fill="#d1d5db">Avg Rating: 4.7/5</text>
+  </g>
+  
+  <!-- Main Content -->
+  <g transform="translate(220, 90)">
+    <!-- Page Header -->
+    <text x="0" y="25" font-family="Arial" font-size="24" fill="#1f2937" font-weight="bold">Attorney Management</text>
+    <rect x="600" y="5" width="120" height="30" fill="#22c55e" rx="4"/>
+    <text x="660" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="white">+ Add Attorney</text>
+    
+    <!-- Stats Cards -->
+    <g transform="translate(0, 50)">
+      <!-- Active Attorneys -->
+      <rect x="0" y="0" width="180" height="80" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <text x="15" y="25" font-family="Arial" font-size="12" fill="#6b7280">Active Attorneys</text>
+      <text x="15" y="45" font-family="Arial" font-size="24" fill="#1f2937" font-weight="bold">18</text>
+      <text x="15" y="65" font-family="Arial" font-size="11" fill="#22c55e">75% utilization</text>
+      
+      <!-- Pending Onboarding -->
+      <rect x="200" y="0" width="180" height="80" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <text x="215" y="25" font-family="Arial" font-size="12" fill="#6b7280">Pending Onboarding</text>
+      <text x="215" y="45" font-family="Arial" font-size="24" fill="#1f2937" font-weight="bold">3</text>
+      <text x="215" y="65" font-family="Arial" font-size="11" fill="#f59e0b">Need Review</text>
+      
+      <!-- Avg. Rating -->
+      <rect x="400" y="0" width="180" height="80" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <text x="415" y="25" font-family="Arial" font-size="12" fill="#6b7280">Average Rating</text>
+      <text x="415" y="45" font-family="Arial" font-size="24" fill="#1f2937" font-weight="bold">4.7</text>
+      <text x="415" y="65" font-family="Arial" font-size="11" fill="#22c55e">★★★★☆</text>
+      
+      <!-- Monthly Revenue -->
+      <rect x="600" y="0" width="180" height="80" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <text x="615" y="25" font-family="Arial" font-size="12" fill="#6b7280">Monthly Revenue</text>
+      <text x="615" y="45" font-family="Arial" font-size="24" fill="#1f2937" font-weight="bold">$24,500</text>
+      <text x="615" y="65" font-family="Arial" font-size="11" fill="#22c55e">+12% this month</text>
+    </g>
+    
+    <!-- Search and Filters -->
+    <rect x="0" y="150" width="780" height="50" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+    <g transform="translate(15, 165)">
+      <!-- Search Input -->
+      <rect x="0" y="0" width="200" height="30" fill="white" stroke="#d1d5db" rx="4"/>
+      <text x="10" y="20" font-family="Arial" font-size="12" fill="#9ca3af">🔍 Search attorneys...</text>
+      
+      <!-- Filter Dropdowns -->
+      <rect x="220" y="0" width="100" height="30" fill="white" stroke="#d1d5db" rx="4"/>
+      <text x="230" y="20" font-family="Arial" font-size="12" fill="#6b7280">Status: All ▼</text>
+      
+      <rect x="330" y="0" width="120" height="30" fill="white" stroke="#d1d5db" rx="4"/>
+      <text x="340" y="20" font-family="Arial" font-size="12" fill="#6b7280">Specialization ▼</text>
+      
+      <rect x="460" y="0" width="100" height="30" fill="white" stroke="#d1d5db" rx="4"/>
+      <text x="470" y="20" font-family="Arial" font-size="12" fill="#6b7280">Language ▼</text>
+      
+      <!-- View Toggle -->
+      <rect x="580" y="0" width="60" height="30" fill="#e5e7eb" stroke="#d1d5db" rx="4"/>
+      <text x="610" y="20" font-family="Arial" font-size="12" text-anchor="middle" fill="#6b7280">List</text>
+      
+      <rect x="650" y="0" width="60" height="30" fill="#2563eb" rx="4"/>
+      <text x="680" y="20" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Cards</text>
+    </g>
+    
+    <!-- Attorney Cards Grid -->
+    <g transform="translate(0, 220)">
+      <!-- Attorney Card 1 -->
+      <rect x="0" y="0" width="240" height="160" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <g transform="translate(20, 20)">
+        <circle cx="25" cy="25" r="20" fill="#2563eb"/>
+        <text x="25" y="32" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">LS</text>
+        
+        <rect x="140" y="8" width="60" height="20" fill="#dcfce7" stroke="#22c55e" rx="10"/>
+        <text x="170" y="21" font-family="Arial" font-size="10" text-anchor="middle" fill="#15803d">Active</text>
+        
+        <text x="55" y="20" font-family="Arial" font-size="14" fill="#1f2937" font-weight="bold">Lisa Smith, Esq.</text>
+        <text x="55" y="35" font-family="Arial" font-size="11" fill="#6b7280">Bar #123456 | California</text>
+        
+        <text x="0" y="60" font-family="Arial" font-size="11" fill="#6b7280">Specialization: O-1A</text>
+        <text x="0" y="75" font-family="Arial" font-size="11" fill="#6b7280">Languages: English, Spanish</text>
+        <text x="0" y="90" font-family="Arial" font-size="11" fill="#6b7280">Cases: 12 active | Rating: ★★★★★ 4.9</text>
+        
+        <rect x="0" y="105" width="80" height="25" fill="#2563eb" rx="4"/>
+        <text x="40" y="122" font-family="Arial" font-size="11" text-anchor="middle" fill="white">View Profile</text>
+        
+        <rect x="90" y="105" width="80" height="25" fill="#f59e0b" rx="4"/>
+        <text x="130" y="122" font-family="Arial" font-size="11" text-anchor="middle" fill="white">Performance</text>
+      </g>
+      
+      <!-- Attorney Card 2 -->
+      <rect x="260" y="0" width="240" height="160" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <g transform="translate(280, 20)">
+        <circle cx="25" cy="25" r="20" fill="#10b981"/>
+        <text x="25" y="32" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">JD</text>
+        
+        <rect x="140" y="8" width="60" height="20" fill="#fef3c7" stroke="#f59e0b" rx="10"/>
+        <text x="170" y="21" font-family="Arial" font-size="10" text-anchor="middle" fill="#92400e">Pending</text>
+        
+        <text x="55" y="20" font-family="Arial" font-size="14" fill="#1f2937" font-weight="bold">Jane Doe, Esq.</text>
+        <text x="55" y="35" font-family="Arial" font-size="11" fill="#6b7280">Bar #789012 | New York</text>
+        
+        <text x="0" y="60" font-family="Arial" font-size="11" fill="#6b7280">Specialization: O-1A, EB-1A</text>
+        <text x="0" y="75" font-family="Arial" font-size="11" fill="#6b7280">Languages: English, Chinese</text>
+        <text x="0" y="90" font-family="Arial" font-size="11" fill="#6b7280">Onboarding | Credentials Under Review</text>
+        
+        <rect x="0" y="105" width="80" height="25" fill="#22c55e" rx="4"/>
+        <text x="40" y="122" font-family="Arial" font-size="11" text-anchor="middle" fill="white">Approve</text>
+        
+        <rect x="90" y="105" width="80" height="25" fill="#ef4444" rx="4"/>
+        <text x="130" y="122" font-family="Arial" font-size="11" text-anchor="middle" fill="white">Reject</text>
+      </g>
+      
+      <!-- Attorney Card 3 -->
+      <rect x="520" y="0" width="240" height="160" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <g transform="translate(540, 20)">
+        <circle cx="25" cy="25" r="20" fill="#f59e0b"/>
+        <text x="25" y="32" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">MJ</text>
+        
+        <rect x="140" y="8" width="60" height="20" fill="#dcfce7" stroke="#22c55e" rx="10"/>
+        <text x="170" y="21" font-family="Arial" font-size="10" text-anchor="middle" fill="#15803d">Active</text>
+        
+        <text x="55" y="20" font-family="Arial" font-size="14" fill="#1f2937" font-weight="bold">Michael Johnson</text>
+        <text x="55" y="35" font-family="Arial" font-size="11" fill="#6b7280">Bar #345678 | Texas</text>
+        
+        <text x="0" y="60" font-family="Arial" font-size="11" fill="#6b7280">Specialization: O-1A</text>
+        <text x="0" y="75" font-family="Arial" font-size="11" fill="#6b7280">Languages: English</text>
+        <text x="0" y="90" font-family="Arial" font-size="11" fill="#6b7280">Cases: 8 active | Rating: ★★★★☆ 4.5</text>
+        
+        <rect x="0" y="105" width="80" height="25" fill="#2563eb" rx="4"/>
+        <text x="40" y="122" font-family="Arial" font-size="11" text-anchor="middle" fill="white">View Profile</text>
+        
+        <rect x="90" y="105" width="80" height="25" fill="#f59e0b" rx="4"/>
+        <text x="130" y="122" font-family="Arial" font-size="11" text-anchor="middle" fill="white">Performance</text>
+      </g>
+      
+      <!-- Attorney Card 4 -->
+      <rect x="0" y="180" width="240" height="160" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <g transform="translate(20, 200)">
+        <circle cx="25" cy="25" r="20" fill="#8b5cf6"/>
+        <text x="25" y="32" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">AL</text>
+        
+        <rect x="140" y="8" width="60" height="20" fill="#fee2e2" stroke="#ef4444" rx="10"/>
+        <text x="170" y="21" font-family="Arial" font-size="10" text-anchor="middle" fill="#b91c1c">Suspended</text>
+        
+        <text x="55" y="20" font-family="Arial" font-size="14" fill="#1f2937" font-weight="bold">Anna Lopez, Esq.</text>
+        <text x="55" y="35" font-family="Arial" font-size="11" fill="#6b7280">Bar #456789 | Florida</text>
+        
+        <text x="0" y="60" font-family="Arial" font-size="11" fill="#6b7280">Specialization: O-1A, O-1B</text>
+        <text x="0" y="75" font-family="Arial" font-size="11" fill="#6b7280">Languages: English, Spanish</text>
+        <text x="0" y="90" font-family="Arial" font-size="11" fill="#ef4444">Suspended for review</text>
+        
+        <rect x="0" y="105" width="80" height="25" fill="#22c55e" rx="4"/>
+        <text x="40" y="122" font-family="Arial" font-size="11" text-anchor="middle" fill="white">Reactivate</text>
+        
+        <rect x="90" y="105" width="80" height="25" fill="#2563eb" rx="4"/>
+        <text x="130" y="122" font-family="Arial" font-size="11" text-anchor="middle" fill="white">Review Case</text>
+      </g>
+      
+      <!-- Attorney Card 5 -->
+      <rect x="260" y="180" width="240" height="160" fill="white" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <g transform="translate(280, 200)">
+        <circle cx="25" cy="25" r="20" fill="#ec4899"/>
+        <text x="25" y="32" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">RW</text>
+        
+        <rect x="140" y="8" width="60" height="20" fill="#dcfce7" stroke="#22c55e" rx="10"/>
+        <text x="170" y="21" font-family="Arial" font-size="10" text-anchor="middle" fill="#15803d">Active</text>
+        
+        <text x="55" y="20" font-family="Arial" font-size="14" fill="#1f2937" font-weight="bold">Robert Wang, Esq.</text>
+        <text x="55" y="35" font-family="Arial" font-size="11" fill="#6b7280">Bar #567890 | California</text>
+        
+        <text x="0" y="60" font-family="Arial" font-size="11" fill="#6b7280">Specialization: O-1A</text>
+        <text x="0" y="75" font-family="Arial" font-size="11" fill="#6b7280">Languages: English, Mandarin</text>
+        <text x="0" y="90" font-family="Arial" font-size="11" fill="#6b7280">Cases: 15 active | Rating: ★★★★★ 4.8</text>
+        
+        <rect x="0" y="105" width="80" height="25" fill="#2563eb" rx="4"/>
+        <text x="40" y="122" font-family="Arial" font-size="11" text-anchor="middle" fill="white">View Profile</text>
+        
+        <rect x="90" y="105" width="80" height="25" fill="#f59e0b" rx="4"/>
+        <text x="130" y="122" font-family="Arial" font-size="11" text-anchor="middle" fill="white">Performance</text>
+      </g>
+      
+      <!-- Performance Summary Card -->
+      <rect x="520" y="180" width="240" height="160" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+      <g transform="translate(540, 200)">
+        <text x="0" y="20" font-family="Arial" font-size="14" fill="#1f2937" font-weight="bold">Performance Summary</text>
+        
+        <text x="0" y="45" font-family="Arial" font-size="11" fill="#6b7280">Total Active Attorneys: 18</text>
+        <text x="0" y="60" font-family="Arial" font-size="11" fill="#6b7280">Average Cases per Attorney: 11.2</text>
+        <text x="0" y="75" font-family="Arial" font-size="11" fill="#6b7280">Average Rating: 4.7/5</text>
+        <text x="0" y="90" font-family="Arial" font-size="11" fill="#6b7280">Consultation Success Rate: 94%</text>
+        
+        <text x="0" y="115" font-family="Arial" font-size="11" fill="#22c55e">↗ +2 new attorneys this month</text>
+        <text x="0" y="130" font-family="Arial" font-size="11" fill="#f59e0b">⚠ 1 attorney needs attention</text>
+      </g>
+    </g>
+    
+    <!-- Pagination -->
+    <g transform="translate(0, 560)">
+      <text x="0" y="15" font-family="Arial" font-size="12" fill="#6b7280">Showing 5 of 24 attorneys</text>
+      <rect x="600" y="0" width="180" height="30" fill="white" stroke="#e5e7eb" rx="4"/>
+      <text x="620" y="20" font-family="Arial" font-size="12" fill="#2563eb">← Previous</text>
+      <text x="690" y="20" font-family="Arial" font-size="12" fill="#1f2937">1</text>
+      <text x="705" y="20" font-family="Arial" font-size="12" fill="#6b7280">2</text>
+      <text x="720" y="20" font-family="Arial" font-size="12" fill="#6b7280">3</text>
+      <text x="740" y="20" font-family="Arial" font-size="12" fill="#2563eb">Next →</text>
+    </g>
+  </g>
+</svg>

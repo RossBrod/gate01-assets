@@ -1,0 +1,137 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Page Background -->
+  <rect width="1200" height="800" fill="#f5f5f5"/>
+  
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#2563eb"/>
+  
+  <!-- Logo and Title -->
+  <text x="20" y="35" font-family="Arial" font-size="18" font-weight="bold" fill="white">GateO1</text>
+  <text x="100" y="35" font-family="Arial" font-size="14" fill="#93c5fd">O-1 Visa Platform</text>
+  
+  <!-- Top Nav Right Section -->
+  <circle cx="1100" cy="30" r="15" fill="none" stroke="white" stroke-width="1.5"/>
+  <text x="1095" y="35" font-family="Arial" font-size="12" fill="white">🔔</text>
+  
+  <circle cx="1150" cy="30" r="15" fill="none" stroke="white" stroke-width="1.5"/>
+  <text x="1145" y="35" font-family="Arial" font-size="12" fill="white">👤</text>
+  <text x="1050" y="35" font-family="Arial" font-size="14" fill="white">John Doe</text>
+  
+  <!-- Left Navigation -->
+  <rect x="0" y="60" width="256" height="740" fill="white" stroke="#e2e8f0"/>
+  
+  <!-- Nav Header -->
+  <text x="24" y="90" font-family="Arial" font-size="16" font-weight="bold" fill="#343a40">Navigation</text>
+  <text x="24" y="110" font-family="Arial" font-size="12" fill="#6b7280">O-1 Visa Application</text>
+  
+  <!-- Nav Items -->
+  <rect x="0" y="140" width="256" height="48" fill="white"/>
+  <text x="24" y="160" font-family="Arial" font-size="12" fill="#6b7280">🏠</text>
+  <text x="54" y="168" font-family="Arial" font-size="14" font-weight="500" fill="#343a40">Dashboard</text>
+  
+  <rect x="0" y="188" width="256" height="48" fill="white"/>
+  <text x="24" y="208" font-family="Arial" font-size="12" fill="#6b7280">📄</text>
+  <text x="54" y="216" font-family="Arial" font-size="14" font-weight="500" fill="#343a40">Questionnaire</text>
+  
+  <!-- Documents (Active) -->
+  <rect x="0" y="236" width="256" height="48" fill="#2563eb"/>
+  <text x="24" y="256" font-family="Arial" font-size="12" fill="white">📤</text>
+  <text x="54" y="264" font-family="Arial" font-size="14" font-weight="500" fill="white">Documents</text>
+  
+  <rect x="0" y="284" width="256" height="48" fill="white"/>
+  <text x="24" y="304" font-family="Arial" font-size="12" fill="#6b7280">📊</text>
+  <text x="54" y="312" font-family="Arial" font-size="14" font-weight="500" fill="#343a40">Scoring &amp; Results</text>
+  
+  <!-- Progress Section -->
+  <rect x="0" y="680" width="256" height="120" fill="white" stroke-top="#e2e8f0"/>
+  <text x="24" y="700" font-family="Arial" font-size="14" font-weight="500" fill="#343a40">Application Progress</text>
+  <text x="200" y="700" font-family="Arial" font-size="12" fill="#6b7280">80%</text>
+  
+  <rect x="24" y="710" width="208" height="8" rx="4" fill="#e5e7eb"/>
+  <rect x="24" y="710" width="166" height="8" rx="4" fill="#22c55e"/>
+  
+  <!-- Main Content Area -->
+  <rect x="256" y="60" width="944" height="740" fill="white" stroke="#ddd" rx="8"/>
+  
+  <!-- Document Upload Header -->
+  <rect x="256" y="60" width="944" height="60" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="286" y="95" font-family="Arial" font-size="18" font-weight="bold" fill="white">Document Upload</text>
+  
+  <!-- Upload Categories -->
+  <text x="286" y="140" font-family="Arial" font-size="16" font-weight="bold" fill="#343a40">Upload Documents by Category</text>
+  <text x="286" y="160" font-family="Arial" font-size="14" fill="#6b7280">Select a category to upload relevant documents for your O-1 visa application</text>
+  
+  <!-- Category Tabs -->
+  <rect x="286" y="180" width="120" height="40" fill="#2563eb" rx="6 6 0 0"/>
+  <text x="346" y="204" font-family="Arial" font-size="13" font-weight="500" fill="white" text-anchor="middle">Education</text>
+  
+  <rect x="406" y="180" width="120" height="40" fill="#f8fafc" stroke="#e2e8f0" rx="6 6 0 0"/>
+  <text x="466" y="204" font-family="Arial" font-size="13" font-weight="500" fill="#343a40" text-anchor="middle">Work Experience</text>
+  
+  <rect x="526" y="180" width="120" height="40" fill="#f8fafc" stroke="#e2e8f0" rx="6 6 0 0"/>
+  <text x="586" y="204" font-family="Arial" font-size="13" font-weight="500" fill="#343a40" text-anchor="middle">Awards</text>
+  
+  <rect x="646" y="180" width="120" height="40" fill="#f8fafc" stroke="#e2e8f0" rx="6 6 0 0"/>
+  <text x="706" y="204" font-family="Arial" font-size="13" font-weight="500" fill="#343a40" text-anchor="middle">Publications</text>
+  
+  <rect x="766" y="180" width="120" height="40" fill="#f8fafc" stroke="#e2e8f0" rx="6 6 0 0"/>
+  <text x="826" y="204" font-family="Arial" font-size="13" font-weight="500" fill="#343a40" text-anchor="middle">Other</text>
+  
+  <!-- Upload Area -->
+  <rect x="286" y="220" width="880" height="200" fill="#f9fafb" stroke="#d1d5db" stroke-width="2" stroke-dasharray="8,8" rx="8"/>
+  
+  <text x="726" y="280" font-family="Arial" font-size="48" fill="#d1d5db" text-anchor="middle">📤</text>
+  <text x="726" y="310" font-family="Arial" font-size="18" font-weight="500" fill="#343a40" text-anchor="middle">Education Documents</text>
+  <text x="726" y="330" font-family="Arial" font-size="14" fill="#6b7280" text-anchor="middle">Drop files here or click to browse</text>
+  <text x="726" y="350" font-family="Arial" font-size="12" fill="#9ca3af" text-anchor="middle">Supported formats: PDF, DOC, DOCX, JPG, PNG • Max file size: 10MB</text>
+  
+  <rect x="606" y="370" width="240" height="35" fill="#2563eb" rx="6"/>
+  <text x="726" y="392" font-family="Arial" font-size="14" font-weight="500" fill="white" text-anchor="middle">Select Files to Upload</text>
+  
+  <!-- Document Requirements -->
+  <text x="286" y="460" font-family="Arial" font-size="16" font-weight="bold" fill="#343a40">Required Documents for Education</text>
+  
+  <rect x="286" y="480" width="420" height="150" fill="white" stroke="#e2e8f0" rx="8"/>
+  <text x="306" y="505" font-family="Arial" font-size="14" font-weight="bold" fill="#343a40">Required (3/5 uploaded)</text>
+  
+  <text x="306" y="525" font-family="Arial" font-size="13" fill="#22c55e">✓ University Diploma</text>
+  <text x="306" y="545" font-family="Arial" font-size="13" fill="#22c55e">✓ Official Transcripts</text>
+  <text x="306" y="565" font-family="Arial" font-size="13" fill="#22c55e">✓ Degree Verification Letter</text>
+  <text x="306" y="585" font-family="Arial" font-size="13" fill="#ef4444">○ Academic Recommendations</text>
+  <text x="306" y="605" font-family="Arial" font-size="13" fill="#ef4444">○ Curriculum Vitae</text>
+  
+  <!-- Optional Documents -->
+  <rect x="726" y="480" width="420" height="150" fill="white" stroke="#e2e8f0" rx="8"/>
+  <text x="746" y="505" font-family="Arial" font-size="14" font-weight="bold" fill="#343a40">Optional (1/3 uploaded)</text>
+  
+  <text x="746" y="525" font-family="Arial" font-size="13" fill="#22c55e">✓ Research Publications</text>
+  <text x="746" y="545" font-family="Arial" font-size="13" fill="#6b7280">○ Conference Presentations</text>
+  <text x="746" y="565" font-family="Arial" font-size="13" fill="#6b7280">○ Academic Honors</text>
+  
+  <!-- Progress Indicator -->
+  <rect x="746" y="590" width="380" height="30" fill="#f8fafc" stroke="#e2e8f0" rx="4"/>
+  <text x="756" y="608" font-family="Arial" font-size="12" fill="#343a40">Education Category Progress:</text>
+  <text x="1100" y="608" font-family="Arial" font-size="12" fill="#f59e0b">60%</text>
+  <rect x="756" y="610" width="320" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="756" y="610" width="192" height="6" rx="3" fill="#f59e0b"/>
+  
+  <!-- Uploaded Files List -->
+  <text x="286" y="670" font-family="Arial" font-size="16" font-weight="bold" fill="#343a40">Recently Uploaded Files</text>
+  
+  <rect x="286" y="690" width="880" height="90" fill="white" stroke="#e2e8f0" rx="8"/>
+  
+  <!-- File Items -->
+  <rect x="306" y="705" width="840" height="30" fill="#f8fafc" stroke="#e2e8f0" rx="4"/>
+  <text x="316" y="722" font-family="Arial" font-size="12" fill="#343a40">📄 university_diploma.pdf</text>
+  <text x="500" y="722" font-family="Arial" font-size="12" fill="#6b7280">Education • Required</text>
+  <text x="700" y="722" font-family="Arial" font-size="12" fill="#6b7280">2.3 MB</text>
+  <text x="800" y="722" font-family="Arial" font-size="12" fill="#22c55e">✓ Processed</text>
+  <text x="1120" y="722" font-family="Arial" font-size="12" fill="#ef4444">🗑</text>
+  
+  <rect x="306" y="740" width="840" height="30" fill="#f8fafc" stroke="#e2e8f0" rx="4"/>
+  <text x="316" y="757" font-family="Arial" font-size="12" fill="#343a40">📄 official_transcripts.pdf</text>
+  <text x="500" y="757" font-family="Arial" font-size="12" fill="#6b7280">Education • Required</text>
+  <text x="700" y="757" font-family="Arial" font-size="12" fill="#6b7280">1.8 MB</text>
+  <text x="800" y="757" font-family="Arial" font-size="12" fill="#f59e0b">⏳ Processing</text>
+  <text x="1120" y="757" font-family="Arial" font-size="12" fill="#ef4444">🗑</text>
+</svg>

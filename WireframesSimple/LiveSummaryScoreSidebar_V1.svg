@@ -1,0 +1,78 @@
+<svg width="350" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sidebar Container -->
+  <rect width="350" height="800" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="350" height="50" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0 0 1 0"/>
+  <text x="20" y="32" font-family="Arial" font-size="16" fill="#343a40" font-weight="bold">📊 Live Assessment</text>
+  
+  <!-- Progress Overview -->
+  <text x="20" y="80" font-family="Arial" font-size="14" fill="#6c757d" font-weight="bold">COMPLETION STATUS</text>
+  <rect x="20" y="90" width="310" height="8" fill="#e9ecef" rx="4"/>
+  <rect x="20" y="90" width="93" height="8" fill="#007bff" rx="4"/>
+  <text x="20" y="115" font-family="Arial" font-size="12" fill="#6c757d">3 of 10 sections completed (30%)</text>
+  
+  <!-- Current Score -->
+  <text x="20" y="150" font-family="Arial" font-size="14" fill="#6c757d" font-weight="bold">CURRENT SCORE</text>
+  <rect x="20" y="160" width="310" height="60" fill="linear-gradient(135deg, #007bff, #0056b3)" rx="8"/>
+  <text x="175" y="195" font-family="Arial" font-size="32" text-anchor="middle" fill="white" font-weight="bold">67%</text>
+  <text x="175" y="215" font-family="Arial" font-size="12" text-anchor="middle" fill="rgba(255,255,255,0.8)">Likely Qualifies</text>
+  
+  <!-- Score Breakdown -->
+  <text x="20" y="250" font-family="Arial" font-size="14" fill="#6c757d" font-weight="bold">CRITERIA BREAKDOWN</text>
+  
+  <!-- Awards -->
+  <rect x="20" y="265" width="310" height="30" fill="#d4edda" stroke="#c3e6cb" stroke-width="1" rx="4"/>
+  <text x="30" y="285" font-family="Arial" font-size="11" fill="#155724" font-weight="bold">✓ Awards &amp; Recognition</text>
+  <text x="300" y="285" font-family="Arial" font-size="11" text-anchor="end" fill="#155724" font-weight="bold">85%</text>
+  
+  <!-- Memberships -->
+  <rect x="20" y="300" width="310" height="30" fill="#d4edda" stroke="#c3e6cb" stroke-width="1" rx="4"/>
+  <text x="30" y="320" font-family="Arial" font-size="11" fill="#155724" font-weight="bold">✓ Professional Memberships</text>
+  <text x="300" y="320" font-family="Arial" font-size="11" text-anchor="end" fill="#155724" font-weight="bold">78%</text>
+  
+  <!-- Published Material -->
+  <rect x="20" y="335" width="310" height="30" fill="#d4edda" stroke="#c3e6cb" stroke-width="1" rx="4"/>
+  <text x="30" y="355" font-family="Arial" font-size="11" fill="#155724" font-weight="bold">✓ Published Materials</text>
+  <text x="300" y="355" font-family="Arial" font-size="11" text-anchor="end" fill="#155724" font-weight="bold">72%</text>
+  
+  <!-- Major Contributions - In Progress -->
+  <rect x="20" y="370" width="310" height="30" fill="#fff3cd" stroke="#ffeaa7" stroke-width="1" rx="4"/>
+  <text x="30" y="390" font-family="Arial" font-size="11" fill="#856404" font-weight="bold">⏳ Major Contributions</text>
+  <text x="300" y="390" font-family="Arial" font-size="11" text-anchor="end" fill="#856404" font-weight="bold">45%</text>
+  
+  <!-- Remaining criteria -->
+  <rect x="20" y="405" width="310" height="30" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1" rx="4"/>
+  <text x="30" y="425" font-family="Arial" font-size="11" fill="#6c757d">○ Judging Others' Work</text>
+  <text x="300" y="425" font-family="Arial" font-size="11" text-anchor="end" fill="#6c757d">0%</text>
+  
+  <rect x="20" y="440" width="310" height="30" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1" rx="4"/>
+  <text x="30" y="460" font-family="Arial" font-size="11" fill="#6c757d">○ Authored Publications</text>
+  <text x="300" y="460" font-family="Arial" font-size="11" text-anchor="end" fill="#6c757d">0%</text>
+  
+  <rect x="20" y="475" width="310" height="30" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1" rx="4"/>
+  <text x="30" y="495" font-family="Arial" font-size="11" fill="#6c757d">○ Critical Employment</text>
+  <text x="300" y="495" font-family="Arial" font-size="11" text-anchor="end" fill="#6c757d">0%</text>
+  
+  <rect x="20" y="510" width="310" height="30" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1" rx="4"/>
+  <text x="30" y="530" font-family="Arial" font-size="11" fill="#6c757d">○ High Salary</text>
+  <text x="300" y="530" font-family="Arial" font-size="11" text-anchor="end" fill="#6c757d">0%</text>
+  
+  <!-- Documents Uploaded -->
+  <text x="20" y="570" font-family="Arial" font-size="14" fill="#6c757d" font-weight="bold">DOCUMENTS UPLOADED</text>
+  <text x="20" y="590" font-family="Arial" font-size="11" fill="#6c757d">📄 Award_Certificate_2023.pdf</text>
+  <text x="20" y="605" font-family="Arial" font-size="11" fill="#6c757d">📄 Membership_Confirmation.pdf</text>
+  <text x="20" y="620" font-family="Arial" font-size="11" fill="#6c757d">📄 Resume_Updated.pdf</text>
+  <text x="20" y="635" font-family="Arial" font-size="11" fill="#6c757d">📄 Press_Article_Tech.pdf</text>
+  <text x="20" y="650" font-family="Arial" font-size="11" fill="#007bff" text-decoration="underline">+ 6 more documents</text>
+  
+  <!-- Key Milestones -->
+  <text x="20" y="680" font-family="Arial" font-size="14" fill="#6c757d" font-weight="bold">MILESTONES ACHIEVED</text>
+  <text x="20" y="700" font-family="Arial" font-size="11" fill="#28a745">✓ 3+ criteria qualifying threshold met</text>
+  <text x="20" y="715" font-family="Arial" font-size="11" fill="#28a745">✓ Strong evidence in awards category</text>
+  <text x="20" y="730" font-family="Arial" font-size="11" fill="#ffc107">⏳ Need more authored publications</text>
+  
+  <!-- CTA Button -->
+  <rect x="20" y="750" width="310" height="40" fill="#28a745" stroke="#28a745" stroke-width="1" rx="6"/>
+  <text x="175" y="774" font-family="Arial" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Schedule Attorney Consultation</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#ffffff"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="100" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0 0 1 0"/>
+  <text x="60" y="60" font-family="Arial" font-size="28" fill="#007bff" font-weight="bold">GateO1</text>
+  
+  <!-- User Menu -->
+  <rect x="1050" y="25" width="120" height="50" fill="white" stroke="#dee2e6" stroke-width="1" rx="25"/>
+  <circle cx="1070" cy="50" r="15" fill="#007bff"/>
+  <text x="1075" y="55" font-family="Arial" font-size="10" fill="white" text-anchor="middle">JD</text>
+  <text x="1095" y="55" font-family="Arial" font-size="12" fill="#343a40">John Doe</text>
+  
+  <!-- Main Content Area -->
+  <rect x="100" y="150" width="1000" height="600" fill="white"/>
+  
+  <!-- Breadcrumb -->
+  <text x="100" y="180" font-family="Arial" font-size="12" fill="#6c757d">Setup</text>
+  <text x="140" y="180" font-family="Arial" font-size="12" fill="#6c757d">&gt;</text>
+  <text x="155" y="180" font-family="Arial" font-size="12" fill="#007bff" font-weight="bold">Visa Selection</text>
+  
+  <!-- Title -->
+  <text x="100" y="230" font-family="Arial" font-size="32" fill="#343a40" font-weight="bold">Which visa are you applying for?</text>
+  <text x="100" y="260" font-family="Arial" font-size="16" fill="#6c757d">Select the immigration classification that best matches your situation. Don't worry - we can help you reassess later.</text>
+  
+  <!-- Visa Options - Vertical Layout -->
+  
+  <!-- O-1 Option -->
+  <rect x="150" y="320" width="900" height="100" fill="white" stroke="#007bff" stroke-width="2" rx="8"/>
+  <rect x="170" y="340" width="60" height="60" fill="#007bff" rx="8"/>
+  <text x="200" y="375" font-family="Arial" font-size="18" text-anchor="middle" fill="white" font-weight="bold">O-1</text>
+  
+  <text x="260" y="350" font-family="Arial" font-size="20" fill="#343a40" font-weight="bold">O-1 Extraordinary Ability Visa</text>
+  <text x="260" y="370" font-family="Arial" font-size="14" fill="#6c757d">Temporary work visa for individuals with extraordinary ability in sciences, arts, education, business, or athletics</text>
+  <text x="260" y="390" font-family="Arial" font-size="12" fill="#28a745">✓ Available now</text>
+  <text x="260" y="405" font-family="Arial" font-size="12" fill="#6c757d">• 3-year initial period • Renewable • Faster processing</text>
+  
+  <rect x="950" y="360" width="80" height="30" fill="#007bff" stroke="#007bff" stroke-width="1" rx="4"/>
+  <text x="990" y="379" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">Select</text>
+  
+  <!-- EB-1 Option -->
+  <rect x="150" y="440" width="900" height="100" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2" rx="8"/>
+  <rect x="170" y="460" width="60" height="60" fill="#6c757d" rx="8"/>
+  <text x="200" y="495" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-weight="bold">EB-1</text>
+  
+  <text x="260" y="470" font-family="Arial" font-size="20" fill="#adb5bd" font-weight="bold">EB-1 Outstanding Worker (Permanent Residence)</text>
+  <text x="260" y="490" font-family="Arial" font-size="14" fill="#adb5bd">Permanent residence for outstanding professors, researchers, and individuals with extraordinary ability</text>
+  <text x="260" y="510" font-family="Arial" font-size="12" fill="#ffc107">⏳ Coming soon</text>
+  <text x="260" y="525" font-family="Arial" font-size="12" fill="#adb5bd">• Direct path to green card • Higher evidence threshold • No temporary status</text>
+  
+  <rect x="950" y="480" width="80" height="30" fill="#6c757d" stroke="#6c757d" stroke-width="1" rx="4"/>
+  <text x="990" y="499" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">Disabled</text>
+  
+  <!-- EB-2 NIW Option -->
+  <rect x="150" y="560" width="900" height="100" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2" rx="8"/>
+  <rect x="170" y="580" width="60" height="60" fill="#6c757d" rx="8"/>
+  <text x="200" y="615" font-family="Arial" font-size="14" text-anchor="middle" fill="white" font-weight="bold">EB-2</text>
+  
+  <text x="260" y="590" font-family="Arial" font-size="20" fill="#adb5bd" font-weight="bold">EB-2 National Interest Waiver</text>
+  <text x="260" y="610" font-family="Arial" font-size="14" fill="#adb5bd">Permanent residence for advanced degree holders whose work benefits U.S. national interest</text>
+  <text x="260" y="630" font-family="Arial" font-size="12" fill="#ffc107">⏳ Coming soon</text>
+  <text x="260" y="645" font-family="Arial" font-size="12" fill="#adb5bd">• Advanced degree required • No job offer needed • Different qualification criteria</text>
+  
+  <rect x="950" y="600" width="80" height="30" fill="#6c757d" stroke="#6c757d" stroke-width="1" rx="4"/>
+  <text x="990" y="619" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">Disabled</text>
+  
+  <!-- Help Section -->
+  <rect x="150" y="690" width="900" height="40" fill="#e7f3ff" stroke="#b3d9ff" stroke-width="1" rx="4"/>
+  <text x="170" y="710" font-family="Arial" font-size="12" fill="#0056b3" font-weight="bold">💡 Need help deciding?</text>
+  <text x="290" y="710" font-family="Arial" font-size="12" fill="#0056b3">Our questionnaire will assess your qualifications and suggest the best visa type for your situation.</text>
+  <text x="950" y="710" font-family="Arial" font-size="12" fill="#007bff" text-decoration="underline">Learn more</text>
+</svg>

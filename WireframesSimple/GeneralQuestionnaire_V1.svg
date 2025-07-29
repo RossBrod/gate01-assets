@@ -1,0 +1,140 @@
+<svg width="1400" height="900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="900" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1400" height="80" fill="#343a40"/>
+  <text x="50" y="50" font-family="Arial" font-size="24" fill="white" font-weight="bold">GateO1 - O-1 General Questionnaire</text>
+  <text x="1300" y="30" font-family="Arial" font-size="12" fill="white" text-anchor="end">John Doe</text>
+  <text x="1300" y="50" font-family="Arial" font-size="10" fill="#adb5bd" text-anchor="end">Save &amp; Exit</text>
+  
+  <!-- Main Layout Container -->
+  <rect x="50" y="100" width="1000" height="750" fill="white" stroke="#dee2e6" stroke-width="1" rx="8"/>
+  
+  <!-- Sidebar - Live Summary -->
+  <rect x="1070" y="100" width="280" height="750" fill="white" stroke="#dee2e6" stroke-width="1" rx="8"/>
+  
+  <!-- Progress Bar -->
+  <rect x="70" y="120" width="960" height="6" fill="#e9ecef" rx="3"/>
+  <rect x="70" y="120" width="192" height="6" fill="#007bff" rx="3"/>
+  <text x="70" y="140" font-family="Arial" font-size="12" fill="#6c757d">Progress: 2 of 10 sections completed</text>
+  
+  <!-- Form Navigation Tabs -->
+  <rect x="70" y="160" width="120" height="35" fill="#007bff" stroke="#007bff" stroke-width="1" rx="4"/>
+  <text x="130" y="182" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">General Info</text>
+  
+  <rect x="200" y="160" width="120" height="35" fill="white" stroke="#dee2e6" stroke-width="1" rx="4"/>
+  <text x="260" y="182" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">U.S. Employer</text>
+  
+  <rect x="330" y="160" width="120" height="35" fill="white" stroke="#dee2e6" stroke-width="1" rx="4"/>
+  <text x="390" y="182" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">Awards</text>
+  
+  <rect x="460" y="160" width="120" height="35" fill="white" stroke="#dee2e6" stroke-width="1" rx="4"/>
+  <text x="520" y="182" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">Memberships</text>
+  
+  <text x="600" y="182" font-family="Arial" font-size="12" fill="#adb5bd">...</text>
+  
+  <!-- Form Content Area -->
+  <text x="90" y="240" font-family="Arial" font-size="20" fill="#343a40" font-weight="bold">General Information</text>
+  <text x="90" y="265" font-family="Arial" font-size="14" fill="#6c757d">Please provide your basic personal and contact information</text>
+  
+  <!-- AI Guidance Banner -->
+  <rect x="90" y="280" width="920" height="40" fill="#e7f3ff" stroke="#b3d9ff" stroke-width="1" rx="4"/>
+  <text x="110" y="300" font-family="Arial" font-size="12" fill="#0056b3" font-weight="bold">🤖 We use AI to understand your documents. The more detail you provide, the better we can support your case.</text>
+  
+  <!-- Form Fields -->
+  <text x="90" y="350" font-family="Arial" font-size="14" fill="#343a40" font-weight="bold">Full Legal Name</text>
+  <rect x="90" y="355" width="400" height="35" fill="white" stroke="#ced4da" stroke-width="1" rx="4"/>
+  <text x="100" y="377" font-family="Arial" font-size="12" fill="#6c757d">Enter your full name as it appears on your passport</text>
+  
+  <text x="520" y="350" font-family="Arial" font-size="14" fill="#343a40" font-weight="bold">Email Address</text>
+  <rect x="520" y="355" width="400" height="35" fill="white" stroke="#ced4da" stroke-width="1" rx="4"/>
+  <text x="530" y="377" font-family="Arial" font-size="12" fill="#6c757d">your@email.com</text>
+  
+  <!-- Multi-input Section -->
+  <text x="90" y="430" font-family="Arial" font-size="14" fill="#343a40" font-weight="bold">Current Immigration Status</text>
+  <text x="90" y="450" font-family="Arial" font-size="12" fill="#6c757d">Describe your current status and provide supporting evidence</text>
+  
+  <!-- Text Area -->
+  <text x="90" y="475" font-family="Arial" font-size="12" fill="#343a40">Text Response:</text>
+  <rect x="90" y="480" width="830" height="80" fill="white" stroke="#ced4da" stroke-width="1" rx="4"/>
+  <text x="100" y="500" font-family="Arial" font-size="11" fill="#6c757d">Describe your current visa status, expiration dates, and any pending applications...</text>
+  
+  <!-- Link Input -->
+  <text x="90" y="580" font-family="Arial" font-size="12" fill="#343a40">Related Links:</text>
+  <rect x="90" y="585" width="500" height="30" fill="white" stroke="#ced4da" stroke-width="1" rx="4"/>
+  <text x="100" y="604" font-family="Arial" font-size="11" fill="#6c757d">Add relevant web links (USCIS pages, company info, etc.)</text>
+  
+  <rect x="600" y="585" width="150" height="30" fill="white" stroke="#ced4da" stroke-width="1" rx="4"/>
+  <text x="610" y="604" font-family="Arial" font-size="11" fill="#6c757d">Link Classification ▼</text>
+  
+  <rect x="760" y="585" width="80" height="30" fill="#007bff" stroke="#007bff" stroke-width="1" rx="4"/>
+  <text x="800" y="604" font-family="Arial" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Add Link</text>
+  
+  <!-- Upload Section -->
+  <text x="90" y="640" font-family="Arial" font-size="12" fill="#343a40">Supporting Documents:</text>
+  <rect x="90" y="645" width="830" height="80" fill="#f8f9fa" stroke="#ced4da" stroke-width="2" stroke-dasharray="5,5" rx="4"/>
+  <text x="500" y="675" font-family="Arial" font-size="14" text-anchor="middle" fill="#6c757d">📁 Drag &amp; drop files here or</text>
+  <rect x="450" y="685" width="100" height="25" fill="#007bff" stroke="#007bff" stroke-width="1" rx="4"/>
+  <text x="500" y="701" font-family="Arial" font-size="11" text-anchor="middle" fill="white" font-weight="bold">Browse Files</text>
+  
+  <!-- Classification Dropdown -->
+  <text x="90" y="745" font-family="Arial" font-size="12" fill="#343a40">Document Classification:</text>
+  <rect x="90" y="750" width="200" height="30" fill="white" stroke="#ced4da" stroke-width="1" rx="4"/>
+  <text x="100" y="769" font-family="Arial" font-size="11" fill="#6c757d">Select classification ▼</text>
+  
+  <!-- Optional Description -->
+  <text x="300" y="745" font-family="Arial" font-size="12" fill="#343a40">Optional Description:</text>
+  <rect x="300" y="750" width="420" height="30" fill="white" stroke="#ced4da" stroke-width="1" rx="4"/>
+  <text x="310" y="769" font-family="Arial" font-size="11" fill="#6c757d">Describe what this document is and how it supports your case</text>
+  
+  <!-- Action Buttons -->
+  <rect x="90" y="810" width="100" height="35" fill="white" stroke="#6c757d" stroke-width="1" rx="4"/>
+  <text x="140" y="832" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d" font-weight="bold">Save Draft</text>
+  
+  <rect x="820" y="810" width="100" height="35" fill="#007bff" stroke="#007bff" stroke-width="1" rx="4"/>
+  <text x="870" y="832" font-family="Arial" font-size="12" text-anchor="middle" fill="white" font-weight="bold">Next Section</text>
+  
+  <!-- SIDEBAR CONTENT -->
+  <text x="1090" y="130" font-family="Arial" font-size="16" fill="#343a40" font-weight="bold">Live Summary</text>
+  
+  <!-- Progress Section -->
+  <text x="1090" y="160" font-family="Arial" font-size="12" fill="#6c757d" font-weight="bold">COMPLETION STATUS</text>
+  <rect x="1090" y="170" width="240" height="6" fill="#e9ecef" rx="3"/>
+  <rect x="1090" y="170" width="48" height="6" fill="#28a745" rx="3"/>
+  <text x="1090" y="190" font-family="Arial" font-size="11" fill="#6c757d">2 of 10 sections (20%)</text>
+  
+  <!-- Sections Status -->
+  <text x="1090" y="220" font-family="Arial" font-size="12" fill="#6c757d" font-weight="bold">SECTIONS</text>
+  <text x="1090" y="240" font-family="Arial" font-size="11" fill="#28a745">✓ General Info</text>
+  <text x="1090" y="255" font-family="Arial" font-size="11" fill="#28a745">✓ U.S. Employer</text>
+  <text x="1090" y="270" font-family="Arial" font-size="11" fill="#ffc107">⏳ Awards &amp; Prizes</text>
+  <text x="1090" y="285" font-family="Arial" font-size="11" fill="#6c757d">○ Memberships</text>
+  <text x="1090" y="300" font-family="Arial" font-size="11" fill="#6c757d">○ Published Material</text>
+  <text x="1090" y="315" font-family="Arial" font-size="11" fill="#6c757d">○ Major Contributions</text>
+  
+  <!-- Score Section -->
+  <text x="1090" y="350" font-family="Arial" font-size="12" fill="#6c757d" font-weight="bold">CURRENT SCORE</text>
+  <rect x="1090" y="360" width="240" height="30" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="4"/>
+  <text x="1210" y="380" font-family="Arial" font-size="20" text-anchor="middle" fill="#007bff" font-weight="bold">42%</text>
+  <text x="1090" y="405" font-family="Arial" font-size="11" fill="#6c757d">Preliminary assessment</text>
+  
+  <!-- Documents Uploaded -->
+  <text x="1090" y="435" font-family="Arial" font-size="12" fill="#6c757d" font-weight="bold">DOCUMENTS</text>
+  <text x="1090" y="455" font-family="Arial" font-size="11" fill="#6c757d">📄 Passport.pdf</text>
+  <text x="1090" y="470" font-family="Arial" font-size="11" fill="#6c757d">📄 Current_visa.pdf</text>
+  <text x="1090" y="485" font-family="Arial" font-size="11" fill="#6c757d">📄 Resume.pdf</text>
+  <text x="1090" y="500" font-family="Arial" font-size="11" fill="#007bff">+ 3 more documents</text>
+  
+  <!-- CTA Button -->
+  <rect x="1090" y="530" width="240" height="40" fill="#28a745" stroke="#28a745" stroke-width="1" rx="4"/>
+  <text x="1210" y="554" font-family="Arial" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Schedule Consultation</text>
+  
+  <!-- AI Insights -->
+  <text x="1090" y="590" font-family="Arial" font-size="12" fill="#6c757d" font-weight="bold">AI INSIGHTS</text>
+  <rect x="1090" y="600" width="240" height="80" fill="#fff3cd" stroke="#ffeaa7" stroke-width="1" rx="4"/>
+  <text x="1100" y="620" font-family="Arial" font-size="10" fill="#856404">💡 Strong evidence in awards category</text>
+  <text x="1100" y="635" font-family="Arial" font-size="10" fill="#856404">⚠️ Need more published materials</text>
+  <text x="1100" y="650" font-family="Arial" font-size="10" fill="#856404">📈 Consider adding collaboration</text>
+  <text x="1100" y="665" font-family="Arial" font-size="10" fill="#856404">evidence</text>
+</svg>

@@ -1,0 +1,117 @@
+<svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="800" fill="#f5f5f5"/>
+  <!-- Main Container -->
+  <rect x="50" y="50" width="900" height="700" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header with AI -->
+  <rect x="50" y="50" width="900" height="60" fill="#f8fafc" stroke="#e2e8f0" rx="8 8 0 0"/>
+  <text x="70" y="85" font-size="16" font-weight="bold">🤖 Smart Comments | 🎤 Voice | 📹 Video</text>
+  
+  <!-- AI Suggestions Panel -->
+  <g transform="translate(70, 130)">
+    <rect x="0" y="0" width="860" height="50" fill="#ecfdf5" stroke="#22c55e" rx="4"/>
+    <text x="10" y="20" font-size="12" font-weight="bold">🤖 AI Suggestions:</text>
+    <text x="10" y="35" font-size="11">• "Ask for award selection statistics"</text>
+    <text x="250" y="35" font-size="11">• "Request judging panel information"</text>
+    
+    <rect x="750" y="15" width="100" height="20" fill="#22c55e" rx="3"/>
+    <text x="780" y="28" fill="white" font-size="10">✨ Use Suggestion</text>
+  </g>
+  
+  <!-- Priority Thread -->
+  <g transform="translate(70, 200)">
+    <rect x="0" y="0" width="860" height="100" fill="#fef7ff" stroke="#a855f7" rx="4"/>
+    <text x="10" y="20" font-size="12" font-weight="bold">🎯 Priority Thread - Award Evidence:</text>
+    <text x="10" y="40" font-size="12">👩‍⚖️ Attorney Sarah 🔴 Live typing...</text>
+    <text x="10" y="55" font-size="12">"The selection criteria needs more..."</text>
+    
+    <!-- Video Response -->
+    <rect x="10" y="65" width="200" height="25" fill="#3b82f6" rx="4"/>
+    <text x="15" y="80" fill="white" font-size="10">📹 Video Response (2:34)</text>
+    
+    <g transform="translate(220, 65)">
+      <rect x="0" y="0" width="40" height="25" fill="#22c55e" rx="3"/>
+      <text x="10" y="17" fill="white" font-size="10">▶️ Play</text>
+      
+      <rect x="50" y="0" width="60" height="25" fill="#f59e0b" rx="3"/>
+      <text x="60" y="17" fill="white" font-size="10">📝 Transcript</text>
+      
+      <rect x="120" y="0" width="40" height="25" fill="#6366f1" rx="3"/>
+      <text x="130" y="17" fill="white" font-size="10">🔗 Share</text>
+    </g>
+  </g>
+  
+  <!-- Auto Follow-up -->
+  <g transform="translate(70, 320)">
+    <rect x="0" y="0" width="860" height="40" fill="#fef3c7" stroke="#f59e0b" rx="4"/>
+    <text x="10" y="20" font-size="11">🤖 Auto-follow-up in 2 days if no</text>
+    <text x="10" y="35" font-size="11">response from applicant</text>
+  </g>
+  
+  <!-- Smart Reply Interface -->
+  <g transform="translate(70, 380)">
+    <text x="0" y="15" font-size="12" font-weight="bold">Smart Reply:</text>
+    
+    <!-- Input Mode Tabs -->
+    <g transform="translate(100, 0)">
+      <rect x="0" y="0" width="60" height="25" fill="#3b82f6" rx="4"/>
+      <text x="15" y="17" fill="white" font-size="10">🎤 Record</text>
+      
+      <rect x="70" y="0" width="60" height="25" fill="#7c3aed" rx="4"/>
+      <text x="85" y="17" fill="white" font-size="10">📹 Video</text>
+      
+      <rect x="140" y="0" width="60" height="25" fill="#e5e7eb" rx="4"/>
+      <text x="160" y="17" font-size="10">✏️ Text</text>
+    </g>
+    
+    <!-- AI Suggested Response -->
+    <rect x="0" y="35" width="860" height="80" fill="#f0f9ff" stroke="#0ea5e9" rx="4"/>
+    <text x="10" y="55" font-size="11" font-weight="bold">🤖 Suggested:</text>
+    <text x="10" y="70" font-size="11">"Thanks for the clarification. I'll upload</text>
+    <text x="10" y="85" font-size="11">the detailed award criteria document and</text>
+    <text x="10" y="100" font-size="11">selection statistics by tomorrow."</text>
+    
+    <!-- Voice Recording Interface -->
+    <g transform="translate(650, 45)">
+      <circle cx="30" cy="25" r="20" fill="#ef4444"/>
+      <text x="23" y="30" fill="white" font-size="12">🎤</text>
+      <text x="10" y="50" font-size="10">Recording: 0:23</text>
+    </g>
+  </g>
+  
+  <!-- Real-time Collaboration -->
+  <g transform="translate(70, 500)">
+    <rect x="0" y="0" width="860" height="60" fill="#f0fdf4" stroke="#22c55e" rx="4"/>
+    <text x="10" y="20" font-size="12" font-weight="bold">🤝 Real-time Collaboration:</text>
+    <text x="10" y="40" font-size="11">👩‍⚖️ Attorney reviewing your draft response...</text>
+    <text x="10" y="55" font-size="11">👨‍⚖️ Paralegal added supporting documentation</text>
+    
+    <!-- Live indicators -->
+    <g transform="translate(600, 10)">
+      <circle cx="10" cy="10" r="4" fill="#22c55e"/>
+      <text x="20" y="15" font-size="10">Sarah online</text>
+      
+      <circle cx="10" cy="25" r="4" fill="#f59e0b"/>
+      <text x="20" y="30" font-size="10">Mike reviewing</text>
+    </g>
+  </g>
+  
+  <!-- Advanced Action Bar -->
+  <g transform="translate(70, 580)">
+    <rect x="0" y="0" width="100" height="30" fill="#7c3aed" rx="4"/>
+    <text x="25" y="20" fill="white" font-size="11">🎤 Voice Note</text>
+    
+    <rect x="110" y="0" width="100" height="30" fill="#ef4444" rx="4"/>
+    <text x="135" y="20" fill="white" font-size="11">📹 Video Call</text>
+    
+    <rect x="220" y="0" width="100" height="30" fill="#22c55e" rx="4"/>
+    <text x="245" y="20" fill="white" font-size="11">🤖 AI Enhance</text>
+    
+    <rect x="330" y="0" width="100" height="30" fill="#f59e0b" rx="4"/>
+    <text x="355" y="20" fill="white" font-size="11">📋 Templates</text>
+    
+    <rect x="740" y="0" width="120" height="30" fill="#3b82f6" rx="4"/>
+    <text x="775" y="20" fill="white" font-size="11">🚀 Smart Send</text>
+  </g>
+</svg>

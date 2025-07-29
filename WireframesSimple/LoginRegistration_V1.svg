@@ -1,0 +1,48 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="80" fill="#343a40"/>
+  <text x="40" y="50" font-family="Arial" font-size="24" fill="white" font-weight="bold">GateO1 - Immigration Platform</text>
+  
+  <!-- Main Container -->
+  <rect x="200" y="120" width="400" height="420" fill="white" stroke="#dee2e6" stroke-width="2" rx="8"/>
+  
+  <!-- Logo/Title Area -->
+  <text x="400" y="160" font-family="Arial" font-size="20" text-anchor="middle" fill="#343a40" font-weight="bold">Welcome</text>
+  <text x="400" y="180" font-family="Arial" font-size="14" text-anchor="middle" fill="#6c757d">Please sign in or create an account</text>
+  
+  <!-- Tab Selection -->
+  <rect x="220" y="200" width="160" height="40" fill="#007bff" stroke="#007bff" stroke-width="1" rx="4"/>
+  <rect x="380" y="200" width="160" height="40" fill="white" stroke="#dee2e6" stroke-width="1" rx="4"/>
+  <text x="300" y="225" font-family="Arial" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Sign In</text>
+  <text x="460" y="225" font-family="Arial" font-size="14" text-anchor="middle" fill="#007bff" font-weight="bold">Register</text>
+  
+  <!-- Form Fields -->
+  <text x="240" y="270" font-family="Arial" font-size="12" fill="#343a40">Email Address</text>
+  <rect x="240" y="275" width="320" height="35" fill="white" stroke="#ced4da" stroke-width="1" rx="4"/>
+  <text x="250" y="297" font-family="Arial" font-size="12" fill="#6c757d">Enter your email</text>
+  
+  <text x="240" y="330" font-family="Arial" font-size="12" fill="#343a40">Password</text>
+  <rect x="240" y="335" width="320" height="35" fill="white" stroke="#ced4da" stroke-width="1" rx="4"/>
+  <text x="250" y="357" font-family="Arial" font-size="12" fill="#6c757d">••••••••</text>
+  
+  <!-- Remember Me & Forgot Password -->
+  <rect x="240" y="385" width="12" height="12" fill="white" stroke="#ced4da" stroke-width="1"/>
+  <text x="260" y="395" font-family="Arial" font-size="12" fill="#343a40">Remember me</text>
+  <text x="520" y="395" font-family="Arial" font-size="12" fill="#007bff" text-anchor="end">Forgot password?</text>
+  
+  <!-- Sign In Button -->
+  <rect x="240" y="420" width="320" height="40" fill="#007bff" stroke="#007bff" stroke-width="1" rx="4"/>
+  <text x="400" y="445" font-family="Arial" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Sign In</text>
+  
+  <!-- Divider -->
+  <line x1="240" y1="480" x2="560" y2="480" stroke="#dee2e6" stroke-width="1"/>
+  <rect x="390" y="475" width="20" height="10" fill="#f8f9fa"/>
+  <text x="400" y="483" font-family="Arial" font-size="10" text-anchor="middle" fill="#6c757d">OR</text>
+  
+  <!-- Social Login -->
+  <rect x="240" y="500" width="320" height="35" fill="white" stroke="#ced4da" stroke-width="1" rx="4"/>
+  <text x="400" y="522" font-family="Arial" font-size="12" text-anchor="middle" fill="#343a40">Continue with Google</text>
+</svg>

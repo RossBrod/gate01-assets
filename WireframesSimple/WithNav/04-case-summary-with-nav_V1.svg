@@ -1,0 +1,199 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Page Background -->
+  <rect width="1200" height="800" fill="#f5f5f5"/>
+  
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#2563eb"/>
+  
+  <!-- Logo and Title -->
+  <text x="20" y="35" font-family="Arial" font-size="18" font-weight="bold" fill="white">GateO1</text>
+  <text x="100" y="35" font-family="Arial" font-size="14" fill="#93c5fd">O-1 Visa Platform</text>
+  
+  <!-- Top Nav Right Section -->
+  <circle cx="1100" cy="30" r="15" fill="none" stroke="white" stroke-width="1.5"/>
+  <text x="1095" y="35" font-family="Arial" font-size="12" fill="white">🔔</text>
+  <circle cx="1080" cy="25" r="8" fill="#ef4444"/>
+  <text x="1077" y="29" font-family="Arial" font-size="10" fill="white">2</text>
+  
+  <circle cx="1150" cy="30" r="15" fill="none" stroke="white" stroke-width="1.5"/>
+  <text x="1145" y="35" font-family="Arial" font-size="12" fill="white">👤</text>
+  <text x="1050" y="35" font-family="Arial" font-size="14" fill="white">John Doe</text>
+  
+  <!-- Left Navigation -->
+  <rect x="0" y="60" width="256" height="740" fill="white" stroke="#e2e8f0"/>
+  
+  <!-- Nav Header -->
+  <text x="24" y="90" font-family="Arial" font-size="16" font-weight="bold" fill="#343a40">Navigation</text>
+  <text x="24" y="110" font-family="Arial" font-size="12" fill="#6b7280">O-1 Visa Application</text>
+  
+  <!-- Nav Items -->
+  <rect x="0" y="140" width="256" height="48" fill="white"/>
+  <text x="24" y="160" font-family="Arial" font-size="12" fill="#6b7280">🏠</text>
+  <text x="54" y="168" font-family="Arial" font-size="14" font-weight="500" fill="#343a40">Dashboard</text>
+  
+  <rect x="0" y="188" width="256" height="48" fill="white"/>
+  <text x="24" y="208" font-family="Arial" font-size="12" fill="#6b7280">📄</text>
+  <text x="54" y="216" font-family="Arial" font-size="14" font-weight="500" fill="#343a40">Questionnaire</text>
+  
+  <rect x="0" y="236" width="256" height="48" fill="white"/>
+  <text x="24" y="256" font-family="Arial" font-size="12" fill="#6b7280">📤</text>
+  <text x="54" y="264" font-family="Arial" font-size="14" font-weight="500" fill="#343a40">Documents</text>
+  
+  <!-- Scoring & Results (Active) -->
+  <rect x="0" y="284" width="256" height="48" fill="#2563eb"/>
+  <text x="24" y="304" font-family="Arial" font-size="12" fill="white">📊</text>
+  <text x="54" y="312" font-family="Arial" font-size="14" font-weight="500" fill="white">Scoring &amp; Results</text>
+  
+  <rect x="0" y="332" width="256" height="48" fill="white"/>
+  <text x="24" y="352" font-family="Arial" font-size="12" fill="#6b7280">👥</text>
+  <text x="54" y="360" font-family="Arial" font-size="14" font-weight="500" fill="#343a40">Attorney Review</text>
+  
+  <!-- Progress Section -->
+  <rect x="0" y="680" width="256" height="120" fill="white" stroke-top="#e2e8f0"/>
+  <text x="24" y="700" font-family="Arial" font-size="14" font-weight="500" fill="#343a40">Application Progress</text>
+  <text x="200" y="700" font-family="Arial" font-size="12" fill="#6b7280">95%</text>
+  
+  <rect x="24" y="710" width="208" height="8" rx="4" fill="#e5e7eb"/>
+  <rect x="24" y="710" width="198" height="8" rx="4" fill="#22c55e"/>
+  
+  <!-- Main Content Area -->
+  <rect x="256" y="60" width="700" height="740" fill="white" stroke="#ddd" rx="8"/>
+  
+  <!-- Case Summary Header -->
+  <rect x="256" y="60" width="700" height="60" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="286" y="95" font-family="Arial" font-size="18" font-weight="bold" fill="white">Case Summary &amp; O-1 Score</text>
+  
+  <!-- Overall Score Card -->
+  <rect x="286" y="140" width="640" height="100" fill="white" stroke="#e2e8f0" rx="8"/>
+  <text x="306" y="165" font-family="Arial" font-size="16" font-weight="bold" fill="#343a40">Overall O-1 Qualification Score</text>
+  
+  <!-- Score Indicator -->
+  <circle cx="800" cy="180" r="35" fill="#22c55e" stroke="#10b981" stroke-width="3"/>
+  <text x="800" y="190" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">78%</text>
+  
+  <text x="306" y="185" font-family="Arial" font-size="14" fill="#22c55e" font-weight="bold">✓ QUALIFIED</text>
+  <text x="306" y="205" font-family="Arial" font-size="13" fill="#6b7280">Your application meets the O-1 visa requirements</text>
+  <text x="306" y="220" font-family="Arial" font-size="13" fill="#6b7280">Threshold: 70% • Your Score: 78%</text>
+  
+  <!-- Criteria Breakdown -->
+  <text x="286" y="270" font-family="Arial" font-size="16" font-weight="bold" fill="#343a40">O-1 Criteria Breakdown</text>
+  
+  <!-- Criteria Grid -->
+  <rect x="286" y="290" width="640" height="300" fill="white" stroke="#e2e8f0" rx="8"/>
+  
+  <!-- Header Row -->
+  <rect x="286" y="290" width="640" height="40" fill="#f8fafc" rx="8 8 0 0"/>
+  <text x="306" y="315" font-family="Arial" font-size="13" font-weight="bold" fill="#343a40">Criterion</text>
+  <text x="600" y="315" font-family="Arial" font-size="13" font-weight="bold" fill="#343a40">Score</text>
+  <text x="700" y="315" font-family="Arial" font-size="13" font-weight="bold" fill="#343a40">Status</text>
+  <text x="800" y="315" font-family="Arial" font-size="13" font-weight="bold" fill="#343a40">Evidence</text>
+  
+  <!-- Criteria Rows -->
+  <rect x="286" y="330" width="640" height="35" fill="white"/>
+  <text x="306" y="350" font-family="Arial" font-size="12" fill="#343a40">Awards &amp; Prizes</text>
+  <text x="600" y="350" font-family="Arial" font-size="12" fill="#22c55e" font-weight="bold">95%</text>
+  <text x="700" y="350" font-family="Arial" font-size="12" fill="#22c55e">✓ Met</text>
+  <text x="800" y="350" font-family="Arial" font-size="12" fill="#2563eb">View (8)</text>
+  
+  <rect x="286" y="365" width="640" height="35" fill="#f9fafb"/>
+  <text x="306" y="385" font-family="Arial" font-size="12" fill="#343a40">Membership</text>
+  <text x="600" y="385" font-family="Arial" font-size="12" fill="#f59e0b" font-weight="bold">65%</text>
+  <text x="700" y="385" font-family="Arial" font-size="12" fill="#f59e0b">~ Partial</text>
+  <text x="800" y="385" font-family="Arial" font-size="12" fill="#2563eb">View (3)</text>
+  
+  <rect x="286" y="400" width="640" height="35" fill="white"/>
+  <text x="306" y="420" font-family="Arial" font-size="12" fill="#343a40">Published Material</text>
+  <text x="600" y="420" font-family="Arial" font-size="12" fill="#22c55e" font-weight="bold">88%</text>
+  <text x="700" y="420" font-family="Arial" font-size="12" fill="#22c55e">✓ Met</text>
+  <text x="800" y="420" font-family="Arial" font-size="12" fill="#2563eb">View (12)</text>
+  
+  <rect x="286" y="435" width="640" height="35" fill="#f9fafb"/>
+  <text x="306" y="455" font-family="Arial" font-size="12" fill="#343a40">Judging</text>
+  <text x="600" y="455" font-family="Arial" font-size="12" fill="#ef4444" font-weight="bold">25%</text>
+  <text x="700" y="455" font-family="Arial" font-size="12" fill="#ef4444">✗ Not Met</text>
+  <text x="800" y="455" font-family="Arial" font-size="12" fill="#2563eb">View (1)</text>
+  
+  <rect x="286" y="470" width="640" height="35" fill="white"/>
+  <text x="306" y="490" font-family="Arial" font-size="12" fill="#343a40">Original Contributions</text>
+  <text x="600" y="490" font-family="Arial" font-size="12" fill="#22c55e" font-weight="bold">92%</text>
+  <text x="700" y="490" font-family="Arial" font-size="12" fill="#22c55e">✓ Met</text>
+  <text x="800" y="490" font-family="Arial" font-size="12" fill="#2563eb">View (15)</text>
+  
+  <rect x="286" y="505" width="640" height="35" fill="#f9fafb"/>
+  <text x="306" y="525" font-family="Arial" font-size="12" fill="#343a40">Authorship</text>
+  <text x="600" y="525" font-family="Arial" font-size="12" fill="#f59e0b" font-weight="bold">72%</text>
+  <text x="700" y="525" font-family="Arial" font-size="12" fill="#22c55e">✓ Met</text>
+  <text x="800" y="525" font-family="Arial" font-size="12" fill="#2563eb">View (6)</text>
+  
+  <rect x="286" y="540" width="640" height="35" fill="white"/>
+  <text x="306" y="560" font-family="Arial" font-size="12" fill="#343a40">Employment</text>
+  <text x="600" y="560" font-family="Arial" font-size="12" fill="#22c55e" font-weight="bold">85%</text>
+  <text x="700" y="560" font-family="Arial" font-size="12" fill="#22c55e">✓ Met</text>
+  <text x="800" y="560" font-family="Arial" font-size="12" fill="#2563eb">View (4)</text>
+  
+  <rect x="286" y="575" width="640" height="35" fill="#f9fafb"/>
+  <text x="306" y="595" font-family="Arial" font-size="12" fill="#343a40">High Remuneration</text>
+  <text x="600" y="595" font-family="Arial" font-size="12" fill="#ef4444" font-weight="bold">40%</text>
+  <text x="700" y="595" font-family="Arial" font-size="12" fill="#ef4444">✗ Not Met</text>
+  <text x="800" y="595" font-family="Arial" font-size="12" fill="#2563eb">View (2)</text>
+  
+  <!-- Summary Section -->
+  <text x="286" y="630" font-family="Arial" font-size="16" font-weight="bold" fill="#343a40">Attorney Review Status</text>
+  
+  <rect x="286" y="650" width="640" height="80" fill="#f0fdf4" stroke="#22c55e" rx="8"/>
+  <text x="306" y="675" font-family="Arial" font-size="14" font-weight="bold" fill="#22c55e">✓ Ready for Attorney Review</text>
+  <text x="306" y="695" font-family="Arial" font-size="13" fill="#343a40">Your case has been assigned to: Maria Rodriguez, Esq.</text>
+  <text x="306" y="710" font-family="Arial" font-size="13" fill="#6b7280">Expected review completion: 3-5 business days</text>
+  
+  <rect x="780" y="665" width="120" height="35" fill="#22c55e" rx="6"/>
+  <text x="840" y="687" font-family="Arial" font-size="14" font-weight="500" fill="white" text-anchor="middle">Contact Attorney</text>
+  
+  <!-- Action Buttons -->
+  <rect x="286" y="750" width="150" height="35" fill="#2563eb" rx="6"/>
+  <text x="361" y="772" font-family="Arial" font-size="14" font-weight="500" fill="white" text-anchor="middle">Download Report</text>
+  
+  <rect x="456" y="750" width="120" height="35" fill="#10b981" rx="6"/>
+  <text x="516" y="772" font-family="Arial" font-size="14" font-weight="500" fill="white" text-anchor="middle">Submit Case</text>
+  
+  <!-- Right Sidebar - Live Score -->
+  <rect x="956" y="60" width="244" height="740" fill="white" stroke="#e2e8f0"/>
+  
+  <!-- Live Score Header -->
+  <rect x="956" y="60" width="244" height="60" fill="#f8fafc" stroke-bottom="#e2e8f0"/>
+  <text x="976" y="85" font-family="Arial" font-size="14" font-weight="bold" fill="#343a40">Live Score Updates</text>
+  <text x="976" y="105" font-family="Arial" font-size="12" fill="#6b7280">Real-time qualification tracking</text>
+  
+  <!-- Score Progress -->
+  <rect x="976" y="140" width="204" height="80" fill="white" stroke="#e2e8f0" rx="8"/>
+  <text x="986" y="160" font-family="Arial" font-size="13" font-weight="bold" fill="#343a40">Current Score</text>
+  <text x="1068" y="185" font-family="Arial" font-size="32" font-weight="bold" fill="#22c55e">78%</text>
+  <text x="986" y="185" font-family="Arial" font-size="12" fill="#6b7280">Target: 70%</text>
+  <text x="986" y="205" font-family="Arial" font-size="12" fill="#22c55e">+8% above threshold</text>
+  
+  <!-- Recent Changes -->
+  <text x="976" y="250" font-family="Arial" font-size="13" font-weight="bold" fill="#343a40">Recent Changes</text>
+  
+  <rect x="976" y="270" width="204" height="30" fill="#f0fdf4" stroke="#22c55e" rx="4"/>
+  <text x="986" y="288" font-family="Arial" font-size="11" fill="#22c55e">+5% Awards criterion improved</text>
+  
+  <rect x="976" y="310" width="204" height="30" fill="#fef3c7" stroke="#f59e0b" rx="4"/>
+  <text x="986" y="328" font-family="Arial" font-size="11" fill="#f59e0b">-2% Membership needs attention</text>
+  
+  <!-- Recommendations -->
+  <text x="976" y="370" font-family="Arial" font-size="13" font-weight="bold" fill="#343a40">Recommendations</text>
+  
+  <rect x="976" y="390" width="204" height="100" fill="white" stroke="#e2e8f0" rx="8"/>
+  <text x="986" y="410" font-family="Arial" font-size="11" fill="#343a40">• Upload judging experience documents</text>
+  <text x="986" y="430" font-family="Arial" font-size="11" fill="#343a40">• Provide salary verification</text>
+  <text x="986" y="450" font-family="Arial" font-size="11" fill="#343a40">• Add more membership evidence</text>
+  <text x="986" y="470" font-family="Arial" font-size="11" fill="#2563eb">View detailed suggestions →</text>
+  
+  <!-- Quick Actions -->
+  <text x="976" y="520" font-family="Arial" font-size="13" font-weight="bold" fill="#343a40">Quick Actions</text>
+  
+  <rect x="976" y="540" width="204" height="30" fill="#2563eb" rx="4"/>
+  <text x="1078" y="558" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Upload More Documents</text>
+  
+  <rect x="976" y="580" width="204" height="30" fill="#f59e0b" rx="4"/>
+  <text x="1078" y="598" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Update Questionnaire</text>
+</svg>

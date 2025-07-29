@@ -1,0 +1,146 @@
+<svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="800" fill="#f5f5f5"/>
+  <!-- Main Container -->
+  <rect x="50" y="50" width="900" height="700" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="900" height="60" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="500" y="85" fill="white" font-size="18" font-weight="bold" text-anchor="middle">Smart Attorney Matching</text>
+  
+  <!-- Matching Algorithm Info -->
+  <g transform="translate(70, 130)">
+    <rect x="0" y="0" width="860" height="60" fill="#f0f9ff" stroke="#0ea5e9" rx="6"/>
+    <text x="15" y="25" font-size="14" font-weight="bold">🎯 AI-Powered Attorney Matching</text>
+    <text x="15" y="45" font-size="12" fill="#0ea5e9">Based on your case profile, language preference, and success rates</text>
+  </g>
+  
+  <!-- Enhanced Attorney Cards -->
+  <g transform="translate(70, 210)">
+    <text x="0" y="20" font-size="16" font-weight="bold">Recommended Attorneys (Ranked by Compatibility):</text>
+    
+    <!-- Attorney 1 - Best Match -->
+    <g transform="translate(0, 40)">
+      <rect x="0" y="0" width="860" height="140" fill="#f0fdf4" stroke="#22c55e" stroke-width="2" rx="6"/>
+      
+      <!-- Best Match Badge -->
+      <rect x="15" y="10" width="80" height="20" fill="#22c55e" rx="10"/>
+      <text x="55" y="23" fill="white" font-size="10" text-anchor="middle">BEST MATCH</text>
+      
+      <!-- Profile Image -->
+      <circle cx="40" cy="80" r="30" fill="#22c55e"/>
+      <text x="40" y="87" font-size="14" text-anchor="middle" fill="white">JS</text>
+      
+      <!-- Attorney Details -->
+      <g transform="translate(90, 25)">
+        <text x="0" y="18" font-size="16" font-weight="bold">Jane Smith, Esq.</text>
+        <text x="0" y="35" font-size="12" fill="#6b7280">Immigration Law Specialist • Top 5% Success Rate</text>
+        <text x="0" y="50" font-size="11" fill="#6b7280">🌐 Languages: English, Spanish • 📍 New York, NY</text>
+        <text x="0" y="65" font-size="11" fill="#22c55e">⭐ 15 years experience • 98% O-1 Success Rate • 247 cases won</text>
+        <text x="0" y="80" font-size="11" fill="#22c55e">🏆 Specializes in Tech & Science cases like yours</text>
+        <text x="0" y="95" font-size="11" fill="#0ea5e9">💡 Match Score: 96% • Avg. Processing: 4.2 months</text>
+      </g>
+      
+      <!-- Rating & Actions -->
+      <g transform="translate(650, 40)">
+        <text x="0" y="15" font-size="12" font-weight="bold">Client Rating:</text>
+        <text x="0" y="30" font-size="20" fill="#f59e0b">★★★★★</text>
+        <text x="0" y="45" font-size="11" fill="#6b7280">4.9/5 (127 reviews)</text>
+        
+        <rect x="0" y="55" width="100" height="30" fill="#22c55e" rx="4"/>
+        <text x="50" y="73" fill="white" font-size="12" text-anchor="middle">Select Attorney</text>
+        
+        <rect x="0" y="90" width="100" height="25" fill="#3b82f6" rx="4"/>
+        <text x="50" y="105" fill="white" font-size="10" text-anchor="middle">View Full Profile</text>
+      </g>
+    </g>
+    
+    <!-- Attorney 2 - Good Match -->
+    <g transform="translate(0, 190)">
+      <rect x="0" y="0" width="860" height="120" fill="#fffbeb" stroke="#f59e0b" rx="6"/>
+      
+      <rect x="15" y="10" width="80" height="20" fill="#f59e0b" rx="10"/>
+      <text x="55" y="23" fill="white" font-size="10" text-anchor="middle">GOOD MATCH</text>
+      
+      <circle cx="40" cy="70" r="25" fill="#f59e0b"/>
+      <text x="40" y="77" font-size="12" text-anchor="middle" fill="white">MD</text>
+      
+      <g transform="translate(80, 25)">
+        <text x="0" y="16" font-size="15" font-weight="bold">Michael Davis, Esq.</text>
+        <text x="0" y="32" font-size="11" fill="#6b7280">Business Immigration Attorney • Tech Industry Focus</text>
+        <text x="0" y="47" font-size="10" fill="#6b7280">🌐 Languages: English, Mandarin • 📍 San Francisco, CA</text>
+        <text x="0" y="62" font-size="10" fill="#f59e0b">⭐ 10 years experience • 94% O-1 Success Rate • 156 cases won</text>
+        <text x="0" y="77" font-size="10" fill="#0ea5e9">💡 Match Score: 87% • Avg. Processing: 5.1 months</text>
+      </g>
+      
+      <g transform="translate(650, 30)">
+        <text x="0" y="12" font-size="11" font-weight="bold">Rating:</text>
+        <text x="0" y="25" font-size="16" fill="#f59e0b">★★★★☆</text>
+        <text x="0" y="38" font-size="10" fill="#6b7280">4.7/5 (89 reviews)</text>
+        
+        <rect x="0" y="45" width="80" height="25" fill="#f59e0b" rx="4"/>
+        <text x="40" y="60" fill="white" font-size="10" text-anchor="middle">Select</text>
+      </g>
+    </g>
+    
+    <!-- Attorney 3 - Alternative -->
+    <g transform="translate(0, 320)">
+      <rect x="0" y="0" width="860" height="120" fill="#f8fafc" stroke="#94a3b8" rx="6"/>
+      
+      <rect x="15" y="10" width="80" height="20" fill="#94a3b8" rx="10"/>
+      <text x="55" y="23" fill="white" font-size="10" text-anchor="middle">ALTERNATIVE</text>
+      
+      <circle cx="40" cy="70" r="25" fill="#94a3b8"/>
+      <text x="40" y="77" font-size="12" text-anchor="middle" fill="white">AR</text>
+      
+      <g transform="translate(80, 25)">
+        <text x="0" y="16" font-size="15" font-weight="bold">Ana Rodriguez, Esq.</text>
+        <text x="0" y="32" font-size="11" fill="#6b7280">Immigration & Employment Law • Bilingual Services</text>
+        <text x="0" y="47" font-size="10" fill="#6b7280">🌐 Languages: English, Spanish, Portuguese • 📍 Miami, FL</text>
+        <text x="0" y="62" font-size="10" fill="#94a3b8">⭐ 18 years experience • 91% O-1 Success Rate • 203 cases won</text>
+        <text x="0" y="77" font-size="10" fill="#0ea5e9">💡 Match Score: 78% • Avg. Processing: 6.3 months</text>
+      </g>
+      
+      <g transform="translate(650, 30)">
+        <text x="0" y="12" font-size="11" font-weight="bold">Rating:</text>
+        <text x="0" y="25" font-size="16" fill="#f59e0b">★★★★☆</text>
+        <text x="0" y="38" font-size="10" fill="#6b7280">4.6/5 (156 reviews)</text>
+        
+        <rect x="0" y="45" width="80" height="25" fill="#94a3b8" rx="4"/>
+        <text x="40" y="60" fill="white" font-size="10" text-anchor="middle">Select</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Enhanced Filtering -->
+  <g transform="translate(70, 670)">
+    <rect x="0" y="0" width="860" height="40" fill="#f1f5f9" stroke="#cbd5e1" rx="4"/>
+    <text x="15" y="15" font-size="12" font-weight="bold">Advanced Filters:</text>
+    
+    <g transform="translate(15, 20)">
+      <rect x="0" y="0" width="80" height="18" fill="#3b82f6" rx="9"/>
+      <text x="25" y="12" fill="white" font-size="9">O-1 Specialist</text>
+      
+      <rect x="90" y="0" width="70" height="18" fill="#22c55e" rx="9"/>
+      <text x="110" y="12" fill="white" font-size="9">Top Rated</text>
+      
+      <rect x="170" y="0" width="80" height="18" fill="#f59e0b" rx="9"/>
+      <text x="200" y="12" fill="white" font-size="9">Tech Industry</text>
+      
+      <rect x="260" y="0" width="70" height="18" fill="#7c3aed" rx="9"/>
+      <text x="285" y="12" fill="white" font-size="9">Bilingual</text>
+    </g>
+  </g>
+  
+  <!-- Action Buttons -->
+  <g transform="translate(70, 720)">
+    <rect x="0" y="0" width="100" height="35" fill="#6b7280" rx="6"/>
+    <text x="50" y="23" fill="white" font-size="12" text-anchor="middle">← Back</text>
+    
+    <rect x="130" y="0" width="120" height="35" fill="#3b82f6" rx="6"/>
+    <text x="190" y="23" fill="white" font-size="12" text-anchor="middle">Schedule Consult</text>
+    
+    <rect x="760" y="0" width="100" height="35" fill="#2563eb" rx="6"/>
+    <text x="810" y="23" fill="white" font-size="12" text-anchor="middle">Continue →</text>
+  </g>
+</svg>

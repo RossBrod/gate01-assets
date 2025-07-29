@@ -1,0 +1,45 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  <!-- Main Container -->
+  <rect x="50" y="50" width="700" height="500" fill="white" stroke="#ddd" stroke-width="2" rx="8"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="700" height="60" fill="#2563eb" rx="8 8 0 0"/>
+  <text x="70" y="85" fill="white" font-size="18" font-weight="bold">Attorney Questionnaire Library</text>
+  
+  <!-- Content Area -->
+  <g transform="translate(70, 130)">
+    <!-- Awards Section - Expanded -->
+    <rect x="0" y="0" width="660" height="40" fill="#f8fafc" stroke="#e2e8f0" rx="4"/>
+    <text x="10" y="25" font-size="16" font-weight="bold">▼ Awards &amp; Recognition (12)</text>
+    
+    <!-- Sub-items -->
+    <g transform="translate(20, 50)">
+      <rect x="0" y="0" width="20" height="20" fill="white" stroke="#ccc"/>
+      <text x="30" y="15" font-size="14">National Awards Questionnaire</text>
+      
+      <rect x="0" y="30" width="20" height="20" fill="white" stroke="#ccc"/>
+      <text x="30" y="45" font-size="14">Industry Recognition Forms</text>
+      
+      <rect x="0" y="60" width="20" height="20" fill="white" stroke="#ccc"/>
+      <text x="30" y="75" font-size="14">Competition Achievement Survey</text>
+    </g>
+    
+    <!-- Membership Section - Collapsed -->
+    <rect x="0" y="140" width="660" height="40" fill="#f8fafc" stroke="#e2e8f0" rx="4"/>
+    <text x="10" y="165" font-size="16" font-weight="bold">► Membership in Associations (8)</text>
+    
+    <!-- Published Materials Section - Collapsed -->
+    <rect x="0" y="190" width="660" height="40" fill="#f8fafc" stroke="#e2e8f0" rx="4"/>
+    <text x="10" y="215" font-size="16" font-weight="bold">► Published Materials (15)</text>
+    
+    <!-- Critical Employment Section - Collapsed -->
+    <rect x="0" y="240" width="660" height="40" fill="#f8fafc" stroke="#e2e8f0" rx="4"/>
+    <text x="10" y="265" font-size="16" font-weight="bold">► Critical Employment (10)</text>
+    
+    <!-- Assign Button -->
+    <rect x="250" y="320" width="160" height="40" fill="#10b981" rx="6"/>
+    <text x="315" y="345" fill="white" font-size="16" font-weight="bold">Assign Selected</text>
+  </g>
+</svg>
